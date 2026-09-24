@@ -99,6 +99,26 @@ class ReliabilityTest(unittest.TestCase):
         result = build_bundle(baseline, self.root / "correct.json", **kwargs)
         self.assertEqual(result["contrast"]["delta_processed_tokens"], 0)
 
+    def test_g1_cached_contrast_rates_match_attached_run(self):
+        scan = self.copy("history", "scan")
+        compare(scan)
+        contrast(scan / "low", scan / "high", self.root / "contrast", "capacity-only")
+        path = self.root / "contrast/contrast.json"
+        original = json.loads(path.read_text())
+        good = build_bundle(scan, self.root / "good.json", contrast_path=path)
+        self.assertEqual(good["contrast"]["baseline"]["summary"]["prefix_query_hit_rate"], 0)
+        for side, domain in (("baseline", None), ("variant", "p0")):
+            with self.subTest(side=side, domain=domain):
+                cached = json.loads(json.dumps(original))
+                summary = cached[side]["summary"]
+                if domain is not None:
+                    summary = summary["per_p"][domain]
+                summary["prefix_query_hit_rate"] = 0.75
+                path.write_text(json.dumps(cached))
+                with self.assertRaisesRegex(ValueError, "prefix_query_hit_rate"):
+                    build_bundle(scan, self.root / "bad.json", contrast_path=path)
+        path.write_text(json.dumps(original))
+
     def test_f2_cached_contrast_cannot_bypass_current_mechanism_check(self):
         baseline = self.copy("two_p", "baseline")
         variant = self.copy("seqs1/1gib", "variant")

@@ -1,0 +1,786 @@
+{
+  "schema": "kvlab-ascend-v31-layout/v1",
+  "capture_sha256": "ed3bf375a54d3a03c794e3aef60a4e58e41849830a56f2dcd926427b36ac8049",
+  "reference_num_blocks": 21146,
+  "scheduler_block_size": 32,
+  "hash_block_size": 2,
+  "lcm_block_size": 4096,
+  "retention_interval": 4096,
+  "hit_alignment": 32,
+  "bytes_per_physical_block": 812416,
+  "kv_cache_groups": [
+    {
+      "layer_names": [
+        "model.layers.2.self_attn.indexer.k_cache",
+        "model.layers.2.self_attn.attn",
+        "model.layers.4.self_attn.indexer.k_cache",
+        "model.layers.4.self_attn.attn",
+        "model.layers.6.self_attn.indexer.k_cache",
+        "model.layers.6.self_attn.attn",
+        "model.layers.8.self_attn.indexer.k_cache",
+        "model.layers.8.self_attn.attn",
+        "model.layers.10.self_attn.indexer.k_cache",
+        "model.layers.10.self_attn.attn",
+        "model.layers.12.self_attn.indexer.k_cache",
+        "model.layers.12.self_attn.attn",
+        "model.layers.14.self_attn.indexer.k_cache",
+        "model.layers.14.self_attn.attn",
+        "model.layers.16.self_attn.indexer.k_cache",
+        "model.layers.16.self_attn.attn",
+        "model.layers.18.self_attn.indexer.k_cache",
+        "model.layers.18.self_attn.attn",
+        "model.layers.20.self_attn.indexer.k_cache",
+        "model.layers.20.self_attn.attn",
+        "model.layers.22.self_attn.indexer.k_cache",
+        "model.layers.22.self_attn.attn",
+        "model.layers.24.self_attn.indexer.k_cache",
+        "model.layers.24.self_attn.attn",
+        "model.layers.26.self_attn.indexer.k_cache",
+        "model.layers.26.self_attn.attn",
+        "model.layers.28.self_attn.indexer.k_cache",
+        "model.layers.28.self_attn.attn",
+        "model.layers.30.self_attn.indexer.k_cache",
+        "model.layers.30.self_attn.attn",
+        "model.layers.32.self_attn.indexer.k_cache",
+        "model.layers.32.self_attn.attn",
+        "model.layers.34.self_attn.indexer.k_cache",
+        "model.layers.34.self_attn.attn",
+        "model.layers.36.self_attn.indexer.k_cache",
+        "model.layers.36.self_attn.attn",
+        "model.layers.38.self_attn.indexer.k_cache",
+        "model.layers.38.self_attn.attn",
+        "model.layers.40.self_attn.indexer.k_cache",
+        "model.layers.40.self_attn.attn",
+        "model.layers.42.self_attn.indexer.k_cache",
+        "model.layers.42.self_attn.attn"
+      ],
+      "kv_cache_spec": {
+        "block_size": 32,
+        "num_kv_heads": 1,
+        "head_size": 128,
+        "dtype": "torch.int8",
+        "kv_quant_mode": 0,
+        "page_size_padded": null,
+        "indexes_kv_by_block_stride": false,
+        "head_size_v": 128,
+        "sliding_window": null,
+        "attention_chunk_size": null,
+        "non_causal": false,
+        "cache_dtype_str": "bfloat16",
+        "alignment": null,
+        "compress_ratio": 4,
+        "model_version": "deepseek_v4",
+        "scale_dim": 1,
+        "scale_dtype": "torch.float16",
+        "cache_sparse_sfa_c8": false
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.3.self_attn.attn",
+        "model.layers.5.self_attn.attn",
+        "model.layers.7.self_attn.attn",
+        "model.layers.9.self_attn.attn",
+        "model.layers.11.self_attn.attn",
+        "model.layers.13.self_attn.attn",
+        "model.layers.15.self_attn.attn",
+        "model.layers.17.self_attn.attn",
+        "model.layers.19.self_attn.attn",
+        "model.layers.21.self_attn.attn",
+        "model.layers.23.self_attn.attn",
+        "model.layers.25.self_attn.attn",
+        "model.layers.27.self_attn.attn",
+        "model.layers.29.self_attn.attn",
+        "model.layers.31.self_attn.attn",
+        "model.layers.33.self_attn.attn",
+        "model.layers.35.self_attn.attn",
+        "model.layers.37.self_attn.attn",
+        "model.layers.39.self_attn.attn",
+        "model.layers.41.self_attn.attn"
+      ],
+      "kv_cache_spec": {
+        "block_size": 32,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.bfloat16",
+        "kv_quant_mode": 0,
+        "page_size_padded": null,
+        "indexes_kv_by_block_stride": false,
+        "head_size_v": 512,
+        "sliding_window": null,
+        "attention_chunk_size": null,
+        "non_causal": false,
+        "cache_dtype_str": "bfloat16",
+        "alignment": null,
+        "compress_ratio": 128,
+        "model_version": "deepseek_v4",
+        "scale_dim": 0,
+        "scale_dtype": "torch.int8",
+        "cache_sparse_sfa_c8": false
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.0.self_attn.swa_cache",
+        "model.layers.2.self_attn.swa_cache",
+        "model.layers.4.self_attn.swa_cache",
+        "model.layers.6.self_attn.swa_cache",
+        "model.layers.8.self_attn.swa_cache",
+        "model.layers.10.self_attn.swa_cache",
+        "model.layers.12.self_attn.swa_cache",
+        "model.layers.14.self_attn.swa_cache",
+        "model.layers.16.self_attn.swa_cache",
+        "model.layers.18.self_attn.swa_cache",
+        "model.layers.20.self_attn.swa_cache",
+        "model.layers.22.self_attn.swa_cache",
+        "model.layers.24.self_attn.swa_cache",
+        "model.layers.26.self_attn.swa_cache",
+        "model.layers.28.self_attn.swa_cache",
+        "model.layers.30.self_attn.swa_cache",
+        "model.layers.32.self_attn.swa_cache",
+        "model.layers.34.self_attn.swa_cache",
+        "model.layers.36.self_attn.swa_cache",
+        "model.layers.38.self_attn.swa_cache",
+        "model.layers.40.self_attn.swa_cache",
+        "model.layers.42.self_attn.swa_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 32,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.bfloat16",
+        "kv_quant_mode": 0,
+        "page_size_padded": null,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": "bfloat16",
+        "alignment": null,
+        "compress_ratio": 1,
+        "model_version": "deepseek_v4"
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.1.self_attn.swa_cache",
+        "model.layers.3.self_attn.swa_cache",
+        "model.layers.5.self_attn.swa_cache",
+        "model.layers.7.self_attn.swa_cache",
+        "model.layers.9.self_attn.swa_cache",
+        "model.layers.11.self_attn.swa_cache",
+        "model.layers.13.self_attn.swa_cache",
+        "model.layers.15.self_attn.swa_cache",
+        "model.layers.17.self_attn.swa_cache",
+        "model.layers.19.self_attn.swa_cache",
+        "model.layers.21.self_attn.swa_cache",
+        "model.layers.23.self_attn.swa_cache",
+        "model.layers.25.self_attn.swa_cache",
+        "model.layers.27.self_attn.swa_cache",
+        "model.layers.29.self_attn.swa_cache",
+        "model.layers.31.self_attn.swa_cache",
+        "model.layers.33.self_attn.swa_cache",
+        "model.layers.35.self_attn.swa_cache",
+        "model.layers.37.self_attn.swa_cache",
+        "model.layers.39.self_attn.swa_cache",
+        "model.layers.41.self_attn.swa_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 32,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.bfloat16",
+        "kv_quant_mode": 0,
+        "page_size_padded": null,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": "bfloat16",
+        "alignment": null,
+        "compress_ratio": 1,
+        "model_version": "deepseek_v4"
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.2.self_attn.compressor.state_cache",
+        "model.layers.2.self_attn.indexer.compressor.state_cache",
+        "model.layers.4.self_attn.compressor.state_cache",
+        "model.layers.4.self_attn.indexer.compressor.state_cache",
+        "model.layers.6.self_attn.compressor.state_cache",
+        "model.layers.6.self_attn.indexer.compressor.state_cache",
+        "model.layers.8.self_attn.compressor.state_cache",
+        "model.layers.8.self_attn.indexer.compressor.state_cache",
+        "model.layers.10.self_attn.compressor.state_cache",
+        "model.layers.10.self_attn.indexer.compressor.state_cache",
+        "model.layers.12.self_attn.compressor.state_cache",
+        "model.layers.12.self_attn.indexer.compressor.state_cache",
+        "model.layers.14.self_attn.compressor.state_cache",
+        "model.layers.14.self_attn.indexer.compressor.state_cache",
+        "model.layers.16.self_attn.compressor.state_cache",
+        "model.layers.16.self_attn.indexer.compressor.state_cache",
+        "model.layers.18.self_attn.compressor.state_cache",
+        "model.layers.18.self_attn.indexer.compressor.state_cache",
+        "model.layers.20.self_attn.compressor.state_cache",
+        "model.layers.20.self_attn.indexer.compressor.state_cache",
+        "model.layers.22.self_attn.compressor.state_cache",
+        "model.layers.22.self_attn.indexer.compressor.state_cache",
+        "model.layers.24.self_attn.compressor.state_cache",
+        "model.layers.24.self_attn.indexer.compressor.state_cache",
+        "model.layers.26.self_attn.compressor.state_cache",
+        "model.layers.26.self_attn.indexer.compressor.state_cache",
+        "model.layers.28.self_attn.compressor.state_cache",
+        "model.layers.28.self_attn.indexer.compressor.state_cache",
+        "model.layers.30.self_attn.compressor.state_cache",
+        "model.layers.30.self_attn.indexer.compressor.state_cache",
+        "model.layers.32.self_attn.compressor.state_cache",
+        "model.layers.32.self_attn.indexer.compressor.state_cache",
+        "model.layers.34.self_attn.compressor.state_cache",
+        "model.layers.34.self_attn.indexer.compressor.state_cache",
+        "model.layers.36.self_attn.compressor.state_cache",
+        "model.layers.36.self_attn.indexer.compressor.state_cache",
+        "model.layers.38.self_attn.compressor.state_cache",
+        "model.layers.38.self_attn.indexer.compressor.state_cache",
+        "model.layers.40.self_attn.compressor.state_cache",
+        "model.layers.40.self_attn.indexer.compressor.state_cache",
+        "model.layers.42.self_attn.compressor.state_cache",
+        "model.layers.42.self_attn.indexer.compressor.state_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 2,
+        "num_kv_heads": 1,
+        "head_size": 2048,
+        "dtype": "torch.float32",
+        "kv_quant_mode": 0,
+        "page_size_padded": 32768,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 8,
+        "head_size_v": null,
+        "cache_dtype_str": null,
+        "alignment": null,
+        "compress_ratio": 1,
+        "model_version": null
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.3.self_attn.compressor.state_cache",
+        "model.layers.5.self_attn.compressor.state_cache",
+        "model.layers.7.self_attn.compressor.state_cache",
+        "model.layers.9.self_attn.compressor.state_cache",
+        "model.layers.11.self_attn.compressor.state_cache",
+        "model.layers.13.self_attn.compressor.state_cache",
+        "model.layers.15.self_attn.compressor.state_cache",
+        "model.layers.17.self_attn.compressor.state_cache",
+        "model.layers.19.self_attn.compressor.state_cache",
+        "model.layers.21.self_attn.compressor.state_cache",
+        "model.layers.23.self_attn.compressor.state_cache",
+        "model.layers.25.self_attn.compressor.state_cache",
+        "model.layers.27.self_attn.compressor.state_cache",
+        "model.layers.29.self_attn.compressor.state_cache",
+        "model.layers.31.self_attn.compressor.state_cache",
+        "model.layers.33.self_attn.compressor.state_cache",
+        "model.layers.35.self_attn.compressor.state_cache",
+        "model.layers.37.self_attn.compressor.state_cache",
+        "model.layers.39.self_attn.compressor.state_cache",
+        "model.layers.41.self_attn.compressor.state_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 8,
+        "num_kv_heads": 1,
+        "head_size": 1024,
+        "dtype": "torch.float32",
+        "kv_quant_mode": 0,
+        "page_size_padded": 32768,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": null,
+        "alignment": null,
+        "compress_ratio": 1,
+        "model_version": null
+      },
+      "is_eagle_group": false
+    }
+  ],
+  "kv_cache_tensors": [
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.2.self_attn.indexer.k_cache",
+        "model.layers.2.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.2.self_attn.attn",
+        "model.layers.3.self_attn.attn",
+        "model.layers.0.self_attn.swa_cache",
+        "model.layers.1.self_attn.swa_cache",
+        "model.layers.2.self_attn.compressor.state_cache",
+        "model.layers.3.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.4.self_attn.indexer.k_cache",
+        "model.layers.4.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.4.self_attn.attn",
+        "model.layers.5.self_attn.attn",
+        "model.layers.2.self_attn.swa_cache",
+        "model.layers.3.self_attn.swa_cache",
+        "model.layers.4.self_attn.compressor.state_cache",
+        "model.layers.5.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.6.self_attn.indexer.k_cache",
+        "model.layers.6.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.6.self_attn.attn",
+        "model.layers.7.self_attn.attn",
+        "model.layers.4.self_attn.swa_cache",
+        "model.layers.5.self_attn.swa_cache",
+        "model.layers.6.self_attn.compressor.state_cache",
+        "model.layers.7.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.8.self_attn.indexer.k_cache",
+        "model.layers.8.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.8.self_attn.attn",
+        "model.layers.9.self_attn.attn",
+        "model.layers.6.self_attn.swa_cache",
+        "model.layers.7.self_attn.swa_cache",
+        "model.layers.8.self_attn.compressor.state_cache",
+        "model.layers.9.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.10.self_attn.indexer.k_cache",
+        "model.layers.10.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.10.self_attn.attn",
+        "model.layers.11.self_attn.attn",
+        "model.layers.8.self_attn.swa_cache",
+        "model.layers.9.self_attn.swa_cache",
+        "model.layers.10.self_attn.compressor.state_cache",
+        "model.layers.11.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.12.self_attn.indexer.k_cache",
+        "model.layers.12.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.12.self_attn.attn",
+        "model.layers.13.self_attn.attn",
+        "model.layers.10.self_attn.swa_cache",
+        "model.layers.11.self_attn.swa_cache",
+        "model.layers.12.self_attn.compressor.state_cache",
+        "model.layers.13.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.14.self_attn.indexer.k_cache",
+        "model.layers.14.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.14.self_attn.attn",
+        "model.layers.15.self_attn.attn",
+        "model.layers.12.self_attn.swa_cache",
+        "model.layers.13.self_attn.swa_cache",
+        "model.layers.14.self_attn.compressor.state_cache",
+        "model.layers.15.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.16.self_attn.indexer.k_cache",
+        "model.layers.16.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.16.self_attn.attn",
+        "model.layers.17.self_attn.attn",
+        "model.layers.14.self_attn.swa_cache",
+        "model.layers.15.self_attn.swa_cache",
+        "model.layers.16.self_attn.compressor.state_cache",
+        "model.layers.17.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.18.self_attn.indexer.k_cache",
+        "model.layers.18.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.18.self_attn.attn",
+        "model.layers.19.self_attn.attn",
+        "model.layers.16.self_attn.swa_cache",
+        "model.layers.17.self_attn.swa_cache",
+        "model.layers.18.self_attn.compressor.state_cache",
+        "model.layers.19.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.20.self_attn.indexer.k_cache",
+        "model.layers.20.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.20.self_attn.attn",
+        "model.layers.21.self_attn.attn",
+        "model.layers.18.self_attn.swa_cache",
+        "model.layers.19.self_attn.swa_cache",
+        "model.layers.20.self_attn.compressor.state_cache",
+        "model.layers.21.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.22.self_attn.indexer.k_cache",
+        "model.layers.22.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.22.self_attn.attn",
+        "model.layers.23.self_attn.attn",
+        "model.layers.20.self_attn.swa_cache",
+        "model.layers.21.self_attn.swa_cache",
+        "model.layers.22.self_attn.compressor.state_cache",
+        "model.layers.23.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.24.self_attn.indexer.k_cache",
+        "model.layers.24.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.24.self_attn.attn",
+        "model.layers.25.self_attn.attn",
+        "model.layers.22.self_attn.swa_cache",
+        "model.layers.23.self_attn.swa_cache",
+        "model.layers.24.self_attn.compressor.state_cache",
+        "model.layers.25.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.26.self_attn.indexer.k_cache",
+        "model.layers.26.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.26.self_attn.attn",
+        "model.layers.27.self_attn.attn",
+        "model.layers.24.self_attn.swa_cache",
+        "model.layers.25.self_attn.swa_cache",
+        "model.layers.26.self_attn.compressor.state_cache",
+        "model.layers.27.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.28.self_attn.indexer.k_cache",
+        "model.layers.28.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.28.self_attn.attn",
+        "model.layers.29.self_attn.attn",
+        "model.layers.26.self_attn.swa_cache",
+        "model.layers.27.self_attn.swa_cache",
+        "model.layers.28.self_attn.compressor.state_cache",
+        "model.layers.29.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.30.self_attn.indexer.k_cache",
+        "model.layers.30.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.30.self_attn.attn",
+        "model.layers.31.self_attn.attn",
+        "model.layers.28.self_attn.swa_cache",
+        "model.layers.29.self_attn.swa_cache",
+        "model.layers.30.self_attn.compressor.state_cache",
+        "model.layers.31.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.32.self_attn.indexer.k_cache",
+        "model.layers.32.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.32.self_attn.attn",
+        "model.layers.33.self_attn.attn",
+        "model.layers.30.self_attn.swa_cache",
+        "model.layers.31.self_attn.swa_cache",
+        "model.layers.32.self_attn.compressor.state_cache",
+        "model.layers.33.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.34.self_attn.indexer.k_cache",
+        "model.layers.34.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.34.self_attn.attn",
+        "model.layers.35.self_attn.attn",
+        "model.layers.32.self_attn.swa_cache",
+        "model.layers.33.self_attn.swa_cache",
+        "model.layers.34.self_attn.compressor.state_cache",
+        "model.layers.35.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.36.self_attn.indexer.k_cache",
+        "model.layers.36.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.36.self_attn.attn",
+        "model.layers.37.self_attn.attn",
+        "model.layers.34.self_attn.swa_cache",
+        "model.layers.35.self_attn.swa_cache",
+        "model.layers.36.self_attn.compressor.state_cache",
+        "model.layers.37.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.38.self_attn.indexer.k_cache",
+        "model.layers.38.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.38.self_attn.attn",
+        "model.layers.39.self_attn.attn",
+        "model.layers.36.self_attn.swa_cache",
+        "model.layers.37.self_attn.swa_cache",
+        "model.layers.38.self_attn.compressor.state_cache",
+        "model.layers.39.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.40.self_attn.indexer.k_cache",
+        "model.layers.40.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.40.self_attn.attn",
+        "model.layers.41.self_attn.attn",
+        "model.layers.38.self_attn.swa_cache",
+        "model.layers.39.self_attn.swa_cache",
+        "model.layers.40.self_attn.compressor.state_cache",
+        "model.layers.41.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [
+        "model.layers.42.self_attn.indexer.k_cache",
+        "model.layers.42.self_attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.42.self_attn.attn",
+        "model.layers.40.self_attn.swa_cache",
+        "model.layers.41.self_attn.swa_cache",
+        "model.layers.42.self_attn.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 4160,
+      "shared_by": [],
+      "offset": 0,
+      "block_stride": 0
+    },
+    {
+      "bytes_per_block": 32768,
+      "shared_by": [
+        "model.layers.42.self_attn.swa_cache"
+      ],
+      "offset": 0,
+      "block_stride": 0
+    }
+  ]
+}

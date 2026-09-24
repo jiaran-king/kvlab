@@ -1,0 +1,438 @@
+{
+  "schema": "kvlab-v31-public-aggregate/v1",
+  "scope": "final v3.1 four-P/4K captured configuration; frozen input and route",
+  "privacy_note": "no token IDs, request IDs, session IDs or raw event rows",
+  "runs": {
+    "cal10-v31-0924-01": {
+      "budget_gib_per_p_rank": 10,
+      "request_count": 1313,
+      "mismatch_count": 0,
+      "global": {
+        "measured": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 12079104,
+          "local_compute": 20281227,
+          "native_queries": 32361644,
+          "native_hits": 12079104
+        },
+        "simulated": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 12079104,
+          "local_compute": 20281227,
+          "native_queries": 32361644,
+          "native_hits": 12079104
+        },
+        "delta": {
+          "adopted": 0,
+          "local_compute": 0,
+          "native_queries": 0,
+          "native_hits": 0
+        },
+        "measured_adoption_fraction": 0.3732688642770681,
+        "simulated_adoption_fraction": 0.3732688642770681,
+        "measured_query_hit_rate": 0.373253719743039,
+        "simulated_query_hit_rate": 0.373253719743039
+      },
+      "per_p": {
+        "p0": {
+          "measured": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 3403776,
+            "local_compute": 5099010,
+            "native_queries": 8503112,
+            "native_hits": 3403776
+          },
+          "simulated": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 3403776,
+            "local_compute": 5099010,
+            "native_queries": 8503112,
+            "native_hits": 3403776
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p1": {
+          "measured": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 2457600,
+            "local_compute": 5022350,
+            "native_queries": 7480271,
+            "native_hits": 2457600
+          },
+          "simulated": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 2457600,
+            "local_compute": 5022350,
+            "native_queries": 7480271,
+            "native_hits": 2457600
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p2": {
+          "measured": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 2912256,
+            "local_compute": 4673545,
+            "native_queries": 7586116,
+            "native_hits": 2912256
+          },
+          "simulated": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 2912256,
+            "local_compute": 4673545,
+            "native_queries": 7586116,
+            "native_hits": 2912256
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p3": {
+          "measured": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 3305472,
+            "local_compute": 5486322,
+            "native_queries": 8792145,
+            "native_hits": 3305472
+          },
+          "simulated": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 3305472,
+            "local_compute": 5486322,
+            "native_queries": 8792145,
+            "native_hits": 3305472
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        }
+      }
+    },
+    "cal16-v31-0924-01": {
+      "budget_gib_per_p_rank": 16,
+      "request_count": 1313,
+      "mismatch_count": 0,
+      "global": {
+        "measured": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 24948736,
+          "local_compute": 7411595,
+          "native_queries": 32361644,
+          "native_hits": 24948736
+        },
+        "simulated": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 24948736,
+          "local_compute": 7411595,
+          "native_queries": 32361644,
+          "native_hits": 24948736
+        },
+        "delta": {
+          "adopted": 0,
+          "local_compute": 0,
+          "native_queries": 0,
+          "native_hits": 0
+        },
+        "measured_adoption_fraction": 0.7709666504956331,
+        "simulated_adoption_fraction": 0.7709666504956331,
+        "measured_query_hit_rate": 0.7709353702797052,
+        "simulated_query_hit_rate": 0.7709353702797052
+      },
+      "per_p": {
+        "p0": {
+          "measured": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 6615040,
+            "local_compute": 1887746,
+            "native_queries": 8503112,
+            "native_hits": 6615040
+          },
+          "simulated": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 6615040,
+            "local_compute": 1887746,
+            "native_queries": 8503112,
+            "native_hits": 6615040
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p1": {
+          "measured": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 5652480,
+            "local_compute": 1827470,
+            "native_queries": 7480271,
+            "native_hits": 5652480
+          },
+          "simulated": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 5652480,
+            "local_compute": 1827470,
+            "native_queries": 7480271,
+            "native_hits": 5652480
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p2": {
+          "measured": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 5853184,
+            "local_compute": 1732617,
+            "native_queries": 7586116,
+            "native_hits": 5853184
+          },
+          "simulated": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 5853184,
+            "local_compute": 1732617,
+            "native_queries": 7586116,
+            "native_hits": 5853184
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p3": {
+          "measured": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 6828032,
+            "local_compute": 1963762,
+            "native_queries": 8792145,
+            "native_hits": 6828032
+          },
+          "simulated": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 6828032,
+            "local_compute": 1963762,
+            "native_queries": 8792145,
+            "native_hits": 6828032
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        }
+      }
+    },
+    "cal24-v31-0924-01": {
+      "budget_gib_per_p_rank": 24,
+      "request_count": 1313,
+      "mismatch_count": 0,
+      "global": {
+        "measured": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 25518080,
+          "local_compute": 6842251,
+          "native_queries": 32361644,
+          "native_hits": 25518080
+        },
+        "simulated": {
+          "requests": 1313,
+          "input_tokens": 32360331,
+          "adopted": 25518080,
+          "local_compute": 6842251,
+          "native_queries": 32361644,
+          "native_hits": 25518080
+        },
+        "delta": {
+          "adopted": 0,
+          "local_compute": 0,
+          "native_queries": 0,
+          "native_hits": 0
+        },
+        "measured_adoption_fraction": 0.7885605372825142,
+        "simulated_adoption_fraction": 0.7885605372825142,
+        "measured_query_hit_rate": 0.7885285432347009,
+        "simulated_query_hit_rate": 0.7885285432347009
+      },
+      "per_p": {
+        "p0": {
+          "measured": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 6782976,
+            "local_compute": 1719810,
+            "native_queries": 8503112,
+            "native_hits": 6782976
+          },
+          "simulated": {
+            "requests": 326,
+            "input_tokens": 8502786,
+            "adopted": 6782976,
+            "local_compute": 1719810,
+            "native_queries": 8503112,
+            "native_hits": 6782976
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p1": {
+          "measured": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 5799936,
+            "local_compute": 1680014,
+            "native_queries": 7480271,
+            "native_hits": 5799936
+          },
+          "simulated": {
+            "requests": 321,
+            "input_tokens": 7479950,
+            "adopted": 5799936,
+            "local_compute": 1680014,
+            "native_queries": 7480271,
+            "native_hits": 5799936
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p2": {
+          "measured": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 5947392,
+            "local_compute": 1638409,
+            "native_queries": 7586116,
+            "native_hits": 5947392
+          },
+          "simulated": {
+            "requests": 315,
+            "input_tokens": 7585801,
+            "adopted": 5947392,
+            "local_compute": 1638409,
+            "native_queries": 7586116,
+            "native_hits": 5947392
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        },
+        "p3": {
+          "measured": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 6987776,
+            "local_compute": 1804018,
+            "native_queries": 8792145,
+            "native_hits": 6987776
+          },
+          "simulated": {
+            "requests": 351,
+            "input_tokens": 8791794,
+            "adopted": 6987776,
+            "local_compute": 1804018,
+            "native_queries": 8792145,
+            "native_hits": 6987776
+          },
+          "delta": {
+            "requests": 0,
+            "input_tokens": 0,
+            "adopted": 0,
+            "local_compute": 0,
+            "native_queries": 0,
+            "native_hits": 0
+          }
+        }
+      }
+    }
+  },
+  "capacity_transitions": {
+    "10_to_16": {
+      "simulated_improved_requests": 537,
+      "measured_improved_requests": 537,
+      "simulated_improved_sessions": 64,
+      "measured_improved_sessions": 64
+    },
+    "16_to_24": {
+      "simulated_improved_requests": 22,
+      "measured_improved_requests": 22,
+      "simulated_improved_sessions": 22,
+      "measured_improved_sessions": 22
+    }
+  }
+}

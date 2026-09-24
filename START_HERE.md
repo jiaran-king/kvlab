@@ -1,6 +1,6 @@
 # KVLab：CLI 与 Agent 使用
 
-本轮交付以CLI、JSON/JSONL和请求/事件证据为主，不依赖HTML。后端为锁定的H20 DeepSeek-V4 TP2五组原生Scheduler/缓存管理；仅研究实际前缀采用、原生查询命中率和累计本地输入处理，不预测TTFT/吞吐，也不支持把H20配置改名当成Ascend。
+本轮交付以 CLI、JSON/JSONL 和请求／事件证据为主，不依赖 HTML。支持锁定的 H20 DeepSeek-V4 TP2 五组原生配置，以及下文限定的 Ascend v3.1 四 P／4K 配置；仅研究实际前缀采用、原生查询命中率和累计本地输入处理，不预测 TTFT／吞吐。
 
 ## 环境与输入入口
 
@@ -105,3 +105,33 @@ python -m unittest kvsim.tests.test_replay_export -v
 ```
 
 历史浏览器/旧内核测试不属于本次CLI交付测试入口，不需要为其补入旧工作区。必需fixture缺失应直接失败，不能用skip掩盖。原生异常路径测试native_partial_round.py需锁定CPU环境，在SLURM内运行；它只在测试内注入p1异常，不增加生产驱动故障开关。
+
+## Ascend v3.1 四 P／4K 原生离线入口
+
+此入口仅支持已核实的 v3.1 四个独立 P 缓存域、DP4×TP4、每 P 一条请求在途、MBT 8192、seqs 2、scheduler block 32、hash block 2、retention 4096 的配置。它调用目标版本的原生 `AsyncScheduler`、缓存管理器和 `AscendHybridKVCacheCoordinator`，不执行模型张量计算，也不模拟 D 侧生成、耗时或通信速度。原有 H20 命令和结果格式不变；不要把此配置当成通用 Ascend profile。
+
+运行环境必须包含目标 vLLM commit `568afb3a13806beb53bb2e6bd518269357b237c0` 和 vllm-ascend commit `3281a5fc44ec344ba304c9161a3959d8649471f4` 的源码及其 Python 依赖。目标源码和实际加载路径需由操作者核对。已验证的 CPU-only 调度环境是 Python 3.12.13；普通 Python 3.10 后处理环境不能运行原生调度。无需启动 P/D 服务或载入模型。
+
+持有原始 v3.1 归档的操作者可用 `scripts/prepare_ascend_v31.py`（传入 `--plan`、`--archive-root`、`--bodies-dir`、`--output-dir`）核对冻结输入、每 P 顺序和 route，生成四份 `v31-p{0..3}-requests.jsonl.gz`。公开仓库不包含完整捕获 token 和逐请求记录。输入必须含真实 token IDs；每条捕获输入末尾的 `128822` 由 P producer 协议删除，原生查询仍包含该 token。三档每 rank 物理块数应为 13216、21146、31719，由 `ascend-v31-layout.json` 中的 44 个张量块大小按预算计算；`ascend_layout.py` 会核对原生六组布局。不要仅给 GiB 字面值后沿用 H20 stride。
+
+在目标原生环境中，从包根目录对每档、每 P 各运行一次，例如：
+
+```sh
+VLLM_PREFIX_CACHE_RETENTION_INTERVAL=4096 python3 -m kvsim.native.run_ascend_v31 \
+  --requests /path/to/v31-p0-requests.jsonl.gz --budget-gib 10 --rank 0 \
+  --output /path/to/results/p0-inflight10-full.jsonl
+```
+
+同理运行 `--budget-gib 10|16|24` 与 `--rank 0|1|2|3` 的其余组合。每份结果逐请求写入输入摘要、P 域、采用量、累计处理量、原生查询／命中及块状态；任何中断或缺行不能视为完整实验。真实 P 服务启用了异步调度。离线驱动按目标 `EngineCore.step_with_batch_queue` 的两批在途顺序推进，再按 producer transfer 完成释放引用；将 `AsyncScheduler` 当作同步单步循环会让 10 GiB 产生错误的高命中。
+
+持有原始归档的操作者可用 `scripts/prepare_ascend_v31_reference.py --archive-root /path/to/archive --output /path/to/prepared-v31/v31-measured-reference.json` 生成实测参考；取得该文件后，可以逐请求对账：
+
+```sh
+python3 -m kvsim.native.compare_ascend_v31 \
+  --prepared /path/to/prepared-v31 --results /path/to/results \
+  --output /path/to/v31-native-comparison.json
+```
+
+对账文件保留三档的全局、各 P、逐请求实测／模拟值及差额，并列出 10→16、16→24 GiB 增益涉及的请求与 session。`v31-measured-reference.json` 只用于事后比较，不被调度器读入。查询命中率以原生 `hits/queries` 计算；采用比例以 P 实际输入 token 为分母，两者不可互换。
+
+公开仓库仅提供无 token、无请求／会话 ID 的汇总结果 `validation/ascend-v31/summary.json`；完整逐请求对账需使用单独保管的捕获资产。

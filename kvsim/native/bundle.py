@@ -7,7 +7,7 @@ import argparse
 from pathlib import Path
 
 from kvsim.native.compare import scan_capacities, read_reference, comparison_pairs
-from kvsim.native.result_validation import load_jsonl, validate_capacity, validate_scan_binding
+from kvsim.native.result_validation import load_jsonl, validate_capacity, validate_rates, validate_scan_binding
 from kvsim.native.activity import activity_by_p
 from kvsim.native.capacity import point_directory
 from kvsim.native.contrast import contrast as checked_contrast
@@ -125,6 +125,10 @@ def build_bundle(root: Path, output: Path,
             actual = matching[0]
             if actual["summary"]["status"] != "complete":
                 raise ValueError(f"contrast {side} is not complete")
+            cached_summary = contrast[side]["summary"]
+            validate_rates(cached_summary, f"contrast {side}", complete=True)
+            for domain, item in cached_summary.get("per_p", {}).items():
+                validate_rates(item, f"contrast {side}/{domain}", complete=True)
             # Derived activity fields can be added to old summaries; core counts
             # and run identity must still be those of the actual attached run.
             for field in ("run_id", "physical_blocks", "requests_planned", "requests_completed",
