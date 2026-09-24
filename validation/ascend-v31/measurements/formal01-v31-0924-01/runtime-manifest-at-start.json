@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "scope": "local_files_only",
+  "remote_deployment_verified": false,
+  "runtime_engine_instrumentation_verified": false,
+  "status": "LOCAL_OFFLINE_QUALIFICATION_REMOTE_PENDING",
+  "files": [
+    {
+      "role": "planner",
+      "path": "materialize_and_check.py",
+      "sha256": "c43ac6d44851119a37bca932723920ea1ddc37f8c81b14ae64b9e89b4d1372f3"
+    },
+    {
+      "role": "admission",
+      "path": "deterministic_runtime.py",
+      "sha256": "f95423d475ba3c3577c24f77c1d4919bf0a50b915b19a1092559b17550541f51"
+    },
+    {
+      "role": "fixed_input",
+      "path": "fixed_input_v31.py",
+      "sha256": "25d2499d31dd03509f0c8a7654308570e10d06d9e6fbd8c5ce7ef28cefa73661"
+    },
+    {
+      "role": "runner",
+      "path": "run_v31.py",
+      "sha256": "51b081e795c81920d711bbaa0ad1ac452a93e86dca0e274e803b16e9edf3c166"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "verify_route_audit.py",
+      "sha256": "f380c88f237a491acc2e8fdd08232a9d3630f3a4313c875cdc2b7e96026c8928"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "readiness.py",
+      "sha256": "afbad6f943f3485ce3589be729198aee74499c941387f1be689d576c5f67e641"
+    },
+    {
+      "role": "support",
+      "path": "PLAN.md",
+      "sha256": "b265ea09e386ea954deee1ef10f5f718ceda0e189f72be95491c1fdbd3db92b5"
+    },
+    {
+      "role": "support",
+      "path": "GOAL-v3.1-EXECUTION.md",
+      "sha256": "f276233769b8ffa503597646d6e36f442c5404cd906e3672cb705f5072e86476"
+    },
+    {
+      "role": "support",
+      "path": "workload-v31/materialized-trace.jsonl",
+      "sha256": "84318699b301ecf0e71fbd251cc90982fc4c3a9c36d0684a78f45165642bbe26"
+    },
+    {
+      "role": "support",
+      "path": "workload-v31/plan-comparison.json",
+      "sha256": "cc3a0e3c307b387576a092999241c194f724218bf90226e73d593af09b6802a7"
+    },
+    {
+      "role": "support",
+      "path": "workload-v31/planner-session-affinity.json",
+      "sha256": "d030e3708b3956f812100dd85239ee6ab6a6fe4be1ba91e8d70c0d4e2e75545b"
+    },
+    {
+      "role": "support",
+      "path": "workload-v31/planner-per-rank-order.json",
+      "sha256": "5fddbb0e2f1a40fb76d6f879310e058188f3750f1b57839b269a55d705a9a457"
+    },
+    {
+      "role": "support",
+      "path": "../ascend-fourp-4k-0922/vendor/agentinfer/agentbench/replay/analyzer.py",
+      "sha256": "246f60e3ed3ed0ed5e44673b7b837372d2dc80efa48364c0080647e0e93d81fa"
+    },
+    {
+      "role": "planner",
+      "path": "../ascend-fourp-4k-0922/vendor/agentinfer/agentbench/replay/planner.py",
+      "sha256": "eb0a6b55f47bcc745f6078da80bbebab8bbbe86dd6e6941ae67c519ccfc991d5"
+    },
+    {
+      "role": "runner",
+      "path": "../ascend-fourp-4k-0922/vendor/agentinfer/agentbench/replay/runner.py",
+      "sha256": "fde494631d9a1bba08d9b830b9854b252c9c97899dca6588c2279dbc6abd18b9"
+    },
+    {
+      "role": "executor",
+      "path": "../ascend-fourp-4k-0922/vendor/agentinfer/agentbench/replay/executor.py",
+      "sha256": "f9b06c8ea1f0f67ce239d64e566b2d2c6f860087493de4c904cc1e4d369802d6"
+    },
+    {
+      "role": "transport",
+      "path": "../ascend-fourp-4k-0922/vendor/agentinfer/agentbench/replay/transport.py",
+      "sha256": "cd20f032bc0ac2fac77cce19237b7d78a7597ffc131ca2cea6f1b34e3e6622ee"
+    },
+    {
+      "role": "support",
+      "path": "../ascend-fourp-4k-0922/deploy/proxy_audited.py",
+      "sha256": "e5a09a6a9f6a7a9d6df05d9349b15afa3fec72d70a40d4d11b390af8e4e7f432"
+    },
+    {
+      "role": "support",
+      "path": "../ascend-fourp-4k-0922/scripts/measurement.py",
+      "sha256": "187be45aa2d9485e278d3032b9904778ba3326f6148ae3b00b33ca809f11060e"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "qualify_full_graph.py",
+      "sha256": "2210b840c770da8c3df193c1ade14a1c138026625ab808696b22ab88d677a092"
+    },
+    {
+      "role": "observation",
+      "path": "audit_all_rank_metrics.py",
+      "sha256": "48d8334bf9fad61757cffbae6658567a0243621b0b9a8ddde32481cb92d4bc7b"
+    },
+    {
+      "role": "observation",
+      "path": "audit_sse_v31.py",
+      "sha256": "27a821e327079891dd14978994adbf3328a0a575c2ac3c2eb1f8677ca4c6cdbc"
+    },
+    {
+      "role": "deployment_config",
+      "path": "../ascend-fourp-4k-0922/deploy/four_dp/p/run_dp_template.sh",
+      "sha256": "a82280fedf331d617e75284ed485b7f793872c093d51145a049a2635862f3f5d"
+    },
+    {
+      "role": "deployment_config",
+      "path": "../ascend-fourp-4k-0922/deploy/four_dp/d/run_dp_template.sh",
+      "sha256": "17ccc646368066c7fc4a44188541fe29abfb37efe1f8a94f95c3d170b2b5e3b0"
+    },
+    {
+      "role": "observation",
+      "path": "run_archive_v31.py",
+      "sha256": "c51640752eab21147555ba6f88c6900b909b0f20a20bd0c197c28f7eacbbdc2d"
+    },
+    {
+      "role": "admission",
+      "path": "run_budget_v31.py",
+      "sha256": "3c5fec72cd94cb23da9f529885b0aace4451ab6882bad88c206bc06b645f8e9c"
+    },
+    {
+      "role": "observation",
+      "path": "progress_watch_v31.py",
+      "sha256": "481c490f8307026c9cde96171b1db41b34a339c84750a871559ec12a9315e279"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "audit_formal_completion_v31.py",
+      "sha256": "38f92ab94364fb90b9b07e58600b9789ef571ca3c634ac407ee4bfca342b320d"
+    },
+    {
+      "role": "observation",
+      "path": "audit_engine_events_v31.py",
+      "sha256": "c6072d556f8bdd1c9dfcc6f76236ec673714a8cbadef7d76022e2b99bd103f3e"
+    },
+    {
+      "role": "support",
+      "path": "workload-v31/materialized-plan.json",
+      "sha256": "9701d15e8cbb821e2d1afe2fd791d465d8106a60d48c0439e009a385218707e4"
+    },
+    {
+      "role": "deployment_config",
+      "path": "../ascend-fourp-4k-0922/scripts/start_side.py",
+      "sha256": "6d98fe47fc57a7560362e9d543dea8e7039635e6e9adefe5b0441b5affb1f76c"
+    },
+    {
+      "role": "observation",
+      "path": "../ascend-fourp-4k-0922/instrumentation/sitecustomize.py",
+      "sha256": "e48342490f6336097dc148e8ae42e8e4a428724de890b86370c7facf91421d43"
+    },
+    {
+      "role": "observation",
+      "path": "../ascend-fourp-4k-0922/instrumentation/engine_events_v31.py",
+      "sha256": "7eff8808d10499579baffbae106de5b537a845caa1842ae2ae51b00dde12ef7c"
+    },
+    {
+      "role": "admission",
+      "path": "launch_control_v31.py",
+      "sha256": "abb226097c1c6f2454e35b7ec3339795db2c6b06991f4e54dd0170b3d8be4aa6"
+    },
+    {
+      "role": "deployment_config",
+      "path": "start_side_v31.py",
+      "sha256": "f109e18289ca8158cbf83a9582eccf9f2b9c248fe62bc49b09fd2ae4cb06e8d8"
+    },
+    {
+      "role": "deployment_config",
+      "path": "start_proxy_v31.py",
+      "sha256": "b42cea8722187a1c2ef4de58d051facc02fa5afe9766f03e6bb90f9443283cc1"
+    },
+    {
+      "role": "observation",
+      "path": "audit_latency_v31.py",
+      "sha256": "66c5b9cab8730b05df47cf8b68e5803f6fd77eb966028c225cb65683a3362254"
+    },
+    {
+      "role": "planner",
+      "path": "build_observation_v31.py",
+      "sha256": "c42f62bc6724289e4f110e8206e9c2bc5e9de800560a1a380025f4204363d7db"
+    },
+    {
+      "role": "support",
+      "path": "observation-v31/materialized-trace.jsonl",
+      "sha256": "dd27e8487a23bdcbe1233934cedb7d33bd69e6a4ed486f518a7b16db0f33abfa"
+    },
+    {
+      "role": "support",
+      "path": "observation-v31/materialized-plan.json",
+      "sha256": "1f7689303161863d7219edac0f5754b67e22702b9526d53be9469ff194be7cbf"
+    },
+    {
+      "role": "support",
+      "path": "observation-v31/plan-comparison.json",
+      "sha256": "caa9e7147a89e7a1530aefee9e3d1de39bebcb13dffe3e9e897473cc6f6950ab"
+    },
+    {
+      "role": "support",
+      "path": "observation-v31/planner-session-affinity.json",
+      "sha256": "409f1067918806ff630418994592340496dea2bfb3fd2e47a4e8a71619cfb6c6"
+    },
+    {
+      "role": "support",
+      "path": "observation-v31/planner-per-rank-order.json",
+      "sha256": "baecc78d38272a5c1d5363371c5dfe6e37a9accb13d15e7fd62d479d98b1e3b1"
+    },
+    {
+      "role": "observation",
+      "path": "audit_observation_v31.py",
+      "sha256": "9097786fa648384ce35d014111dda5c8afbb5201fb98d7bd0326caada986a6ac"
+    },
+    {
+      "role": "support",
+      "path": "analysis/paired_v31.py",
+      "sha256": "99364e584509bad74c5327b8a62a6a83d76a2110da43021a2e4446c777b53031"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "qualify_runner_entry_v31.py",
+      "sha256": "14d4e92e6d4046fd9f2b60665e1e07093bd1420dfbf87947c3f5dcf07761fbdf"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "qualify_offline_v31.py",
+      "sha256": "44c0c14e30ddc6fefe2272e86426a494bacc23017370452f3d92aed1a5ef8b40"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "formal_readiness_v31.py",
+      "sha256": "30e4dadaf348f6794b60cc6c3f7ef763a51b9d10618af8d523f0fb61a1d84d89"
+    },
+    {
+      "role": "qualification_checker",
+      "path": "analyze_diagnostic_v31.py",
+      "sha256": "c5c1717dd5286474bac7391db241e4c692d9f54ab5f7db4c2456185296d6d9dd"
+    }
+  ],
+  "reproduction_commands": [
+    "compressor-prefix-cache-study/.review-venv/bin/python ascend-agentinfer-capacity-v3-plan/materialize_and_check.py",
+    "compressor-prefix-cache-study/.review-venv/bin/python ascend-agentinfer-capacity-v3-plan/run_v31.py --mode check",
+    "compressor-prefix-cache-study/.review-venv/bin/python -m unittest discover -s ascend-agentinfer-capacity-v3-plan -p test_*.py -q",
+    "compressor-prefix-cache-study/.review-venv/bin/python ascend-agentinfer-capacity-v3-plan/qualify_full_graph.py",
+    "compressor-prefix-cache-study/.review-venv/bin/python ascend-agentinfer-capacity-v3-plan/launch_control_v31.py --help"
+  ]
+}

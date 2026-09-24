@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "files": {
+    "launch-ticket.json": "7c41818d500b2fddacc13f6bf5711a4f3cc000c8e6303aae88dd67b1b0d28952",
+    "authorization-record.json": "43cb744d8d204c6088163f6a7840c0fc637d2f04cf943ed4ba161292e17139a7",
+    "stage-gates-at-start.json": "3415b050c1e0c81fd1a6fb10744e6bdd9116c34aa9db3ef426693baf3d99012a",
+    "runtime-manifest-at-start.json": "10bba1ce3304ff8b06c17451632554e2d41c47dbb04f3ad33cb438335d192d82"
+  }
+}

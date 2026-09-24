@@ -47,4 +47,4 @@ Replay 导出测试需 Python 3.12 及 `kvsim/requirements-export.txt` 依赖，
 
 ## 第三方代码
 
-保留各上游源码目录附带的 LICENSE、版权头及版本来源记录。本次上传没有替项目自行选择新的整体开源许可证。当前仓库为公开仓库；本轮捕获的完整请求 token 和逐请求证据未提交到 Git。
+保留各上游源码目录附带的 LICENSE、版权头及版本来源记录。本次上传没有替项目自行选择新的整体开源许可证。当前仓库为公开仓库；经数据所有者授权，v3.1 的冻结请求 token、逐请求模拟结果和实测对账证据已提交到 [`validation/ascend-v31`](validation/ascend-v31)。

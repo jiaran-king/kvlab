@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "ascend-agentinfer-capacity-v3.1-calibration1",
+  "run_id": "cal16-v31-0924-01",
+  "stage": "full_history_diagnostics",
+  "capacity_gib_per_die": 16,
+  "reservation_resource_hours": 8.0,
+  "reserved_at": "2026-09-24T01:51:08.976000+00:00",
+  "prepared_at": "2026-09-24T01:51:08.987844+00:00",
+  "preflight_checker_version": "2-calibration1",
+  "bindings": {
+    "candidate_sha256": "2530f8cb631b92650e8617fd83a6808afc1b60f5e9a510f7c65fdddc45c246ab",
+    "protocol_sha256": "b265ea09e386ea954deee1ef10f5f718ceda0e189f72be95491c1fdbd3db92b5",
+    "runtime_sha256": "900d20150d3835dade38c8dd7ac3b4a5901283834e71f59c6c24840db9ec41e5",
+    "stage_policy_sha256": "4f7e23b03daaa79994c73b55e78877cbcafb54250afe0ebfc59aa32c724c9e1a",
+    "authorization_record_sha256": "43cb744d8d204c6088163f6a7840c0fc637d2f04cf943ed4ba161292e17139a7",
+    "frozen_manifest_sha256": "6b4d2b855f58c790abfe576a01facd335535b64456e205ffc909c4a053b94ad4"
+  }
+}

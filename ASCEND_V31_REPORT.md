@@ -29,7 +29,7 @@
 
 10→16 GiB 增加 12,869,632 adopted token、减少同量 local-compute，涉及 537 个请求／64 个 session；16→24 GiB 增加 569,344，涉及 22 个请求／22 个 session。模拟与实测的受益请求集合相同。总计 3,939 条模拟请求记录均满足采用量为 4,096 的整数倍、每条 `adopted + local_compute = P input`、查询数 `= P input + 1`，没有抢占；每条都有 P producer transfer 完成和引用释放。独立 16 GiB 重复轮的 1,313 条逐请求实测和全局／各 P 计数与校准轮完全相同。
 
-公开的机器可读汇总在 `validation/ascend-v31/summary.json`，包含每档全局、各 P 的实测／模拟／差额与容量增量人数。完整逐请求比较、12 份原生输出、冻结 token 和原始归档保留在本地工作区，未提交到公开仓库；实测参考文件只在运行之后由比较器读取。
+机器可读汇总在 `validation/ascend-v31/summary.json`；完整逐请求比较在 `validation/ascend-v31/v31-native-comparison.json`。四个 P 的冻结输入、12 份原生输出、原始冻结正文归档及四轮实测事件与审计文件均在同目录，见其 README。实测参考文件只在运行之后由比较器读取。
 
 ## 回归与使用边界
 

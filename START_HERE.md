@@ -112,7 +112,7 @@ python -m unittest kvsim.tests.test_replay_export -v
 
 运行环境必须包含目标 vLLM commit `568afb3a13806beb53bb2e6bd518269357b237c0` 和 vllm-ascend commit `3281a5fc44ec344ba304c9161a3959d8649471f4` 的源码及其 Python 依赖。目标源码和实际加载路径需由操作者核对。已验证的 CPU-only 调度环境是 Python 3.12.13；普通 Python 3.10 后处理环境不能运行原生调度。无需启动 P/D 服务或载入模型。
 
-持有原始 v3.1 归档的操作者可用 `scripts/prepare_ascend_v31.py`（传入 `--plan`、`--archive-root`、`--bodies-dir`、`--output-dir`）核对冻结输入、每 P 顺序和 route，生成四份 `v31-p{0..3}-requests.jsonl.gz`。公开仓库不包含完整捕获 token 和逐请求记录。输入必须含真实 token IDs；每条捕获输入末尾的 `128822` 由 P producer 协议删除，原生查询仍包含该 token。三档每 rank 物理块数应为 13216、21146、31719，由 `ascend-v31-layout.json` 中的 44 个张量块大小按预算计算；`ascend_layout.py` 会核对原生六组布局。不要仅给 GiB 字面值后沿用 H20 stride。
+持有原始 v3.1 归档的操作者可用 `scripts/prepare_ascend_v31.py`（传入 `--plan`、`--archive-root`、`--bodies-dir`、`--output-dir`）核对冻结输入、每 P 顺序和 route，生成四份 `v31-p{0..3}-requests.jsonl.gz`。完整捕获 token 和逐请求记录位于 `validation/ascend-v31`；先解压其中的 `frozen-bodies.tar.gz`，详见该目录的 README。输入必须含真实 token IDs；每条捕获输入末尾的 `128822` 由 P producer 协议删除，原生查询仍包含该 token。三档每 rank 物理块数应为 13216、21146、31719，由 `ascend-v31-layout.json` 中的 44 个张量块大小按预算计算；`ascend_layout.py` 会核对原生六组布局。不要仅给 GiB 字面值后沿用 H20 stride。
 
 在目标原生环境中，从包根目录对每档、每 P 各运行一次，例如：
 
@@ -134,4 +134,4 @@ python3 -m kvsim.native.compare_ascend_v31 \
 
 对账文件保留三档的全局、各 P、逐请求实测／模拟值及差额，并列出 10→16、16→24 GiB 增益涉及的请求与 session。`v31-measured-reference.json` 只用于事后比较，不被调度器读入。查询命中率以原生 `hits/queries` 计算；采用比例以 P 实际输入 token 为分母，两者不可互换。
 
-公开仓库仅提供无 token、无请求／会话 ID 的汇总结果 `validation/ascend-v31/summary.json`；完整逐请求对账需使用单独保管的捕获资产。
+仓库同时提供汇总结果 `validation/ascend-v31/summary.json` 和完整逐请求对账 `validation/ascend-v31/v31-native-comparison.json`；冻结输入、12 份原生模拟输出及实测事件也在同一目录。

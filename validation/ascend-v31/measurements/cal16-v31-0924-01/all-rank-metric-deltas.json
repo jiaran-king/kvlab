@@ -1,0 +1,526 @@
+{
+  "status": "SNAPSHOT_DELTAS_VALID",
+  "scope": "all-rank raw counter deltas; no request-level hit/input reconciliation",
+  "ranks": {
+    "p0": {
+      "engine": "0",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214708.31,
+      "deltas": {
+        "prompt_tokens_total": 8502786.0,
+        "request_prefill_time_seconds_count": 326.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 8503112.0,
+        "prefix_cache_hits_total": 6615040.0,
+        "external_prefix_cache_queries_total": 1887746.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 1887746.0,
+          "local_cache_hit": 6615040.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 326.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "p1": {
+      "engine": "1",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214708.31,
+      "deltas": {
+        "prompt_tokens_total": 7479950.0,
+        "request_prefill_time_seconds_count": 321.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 7480271.0,
+        "prefix_cache_hits_total": 5652480.0,
+        "external_prefix_cache_queries_total": 1827470.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 1827470.0,
+          "local_cache_hit": 5652480.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 321.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "p2": {
+      "engine": "2",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214708.31,
+      "deltas": {
+        "prompt_tokens_total": 7585801.0,
+        "request_prefill_time_seconds_count": 315.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 7586116.0,
+        "prefix_cache_hits_total": 5853184.0,
+        "external_prefix_cache_queries_total": 1732617.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 1732617.0,
+          "local_cache_hit": 5853184.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 315.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "p3": {
+      "engine": "3",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214708.31,
+      "deltas": {
+        "prompt_tokens_total": 8791794.0,
+        "request_prefill_time_seconds_count": 351.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 8792145.0,
+        "prefix_cache_hits_total": 6828032.0,
+        "external_prefix_cache_queries_total": 1963762.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 1963762.0,
+          "local_cache_hit": 6828032.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 351.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d0": {
+      "engine": "0",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.65,
+      "deltas": {
+        "prompt_tokens_total": 9080347.0,
+        "request_prefill_time_seconds_count": 343.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 9080347.0,
+        "external_prefix_cache_hits_total": 9080004.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 343.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 9080004.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 343.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d1": {
+      "engine": "1",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.65,
+      "deltas": {
+        "prompt_tokens_total": 7825729.0,
+        "request_prefill_time_seconds_count": 320.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 7825729.0,
+        "external_prefix_cache_hits_total": 7825409.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 320.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 7825409.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 320.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d2": {
+      "engine": "2",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 8154554.0,
+        "request_prefill_time_seconds_count": 336.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 8154554.0,
+        "external_prefix_cache_hits_total": 8154218.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 336.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 8154218.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 336.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d3": {
+      "engine": "3",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 7301014.0,
+        "request_prefill_time_seconds_count": 314.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 7301014.0,
+        "external_prefix_cache_hits_total": 7300700.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 314.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 7300700.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 314.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d4": {
+      "engine": "4",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d5": {
+      "engine": "5",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d6": {
+      "engine": "6",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d7": {
+      "engine": "7",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d8": {
+      "engine": "8",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d9": {
+      "engine": "9",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d10": {
+      "engine": "10",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d11": {
+      "engine": "11",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d12": {
+      "engine": "12",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d13": {
+      "engine": "13",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d14": {
+      "engine": "14",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    },
+    "d15": {
+      "engine": "15",
+      "model": "dsv4-replay",
+      "process_start_time_seconds": 1790214752.66,
+      "deltas": {
+        "prompt_tokens_total": 0.0,
+        "request_prefill_time_seconds_count": 0.0,
+        "num_preemptions_total": 0.0,
+        "prefix_cache_queries_total": 0.0,
+        "prefix_cache_hits_total": 0.0,
+        "external_prefix_cache_queries_total": 0.0,
+        "external_prefix_cache_hits_total": 0.0,
+        "prompt_tokens_by_source": {
+          "local_compute": 0.0,
+          "local_cache_hit": 0.0,
+          "external_kv_transfer": 0.0
+        },
+        "request_success_by_reason": {
+          "abort": 0.0,
+          "error": 0.0,
+          "length": 0.0,
+          "repetition": 0.0,
+          "stop": 0.0
+        }
+      }
+    }
+  }
+}
