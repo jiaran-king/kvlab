@@ -1,0 +1,1823 @@
+{
+  "scope": "One bounded pass for explicitly authorized known Codex version-probe residues; H3425 not held or canceled",
+  "records": [
+    {
+      "pid": 658742,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "658742 (codex) D 658701 658701 658701 0 -1 4194304 1445 0 67 0 23 621 0 0 20 0 1 0 168786893 258478080 1740 18446744073709551615 140026753896448 140026954404342 140724107787776 0 0 0 0 4096 1088 0 0 0 17 1 0 0 232799 0 0 140026999692640 140027004995024 93824992296960 140724107790734 140724107790750 140724107790750 140724107792343 0\n",
+      "parent_pid": 658701,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\176\\042\\016\\261\\077\\105\\057\\202'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 658803,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "658803 (codex) D 658762 658762 658762 0 -1 4194304 1494 0 9 0 25 661 0 0 20 0 1 0 168787224 258478080 1747 18446744073709551615 139811170865152 139811371373046 140720964271376 0 0 0 0 4096 1088 0 0 0 17 0 0 0 258545 0 0 139811416661344 139811421963728 93825016373248 140720964274574 140720964274590 140720964274590 140720964276183 0\n",
+      "parent_pid": 658762,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\203\\264\\117\\251\\057\\140\\022\\043'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 659365,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "659365 (codex) D 659324 659324 659324 0 -1 4194304 1473 0 44 0 17 249 0 0 20 0 1 0 168795253 258478080 1773 18446744073709551615 139999367188480 139999567696374 140730530882256 0 0 0 0 4096 1088 0 0 0 17 1 0 0 286772 0 0 139999612984672 139999618287056 93825002586112 140730530888078 140730530888094 140730530888094 140730530889687 0\n",
+      "parent_pid": 659324,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\104\\231\\134\\111\\175\\315\\232\\110'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 661596,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "661596 (codex) D 661555 661555 661555 0 -1 4194304 1473 0 21 0 15 167 0 0 20 0 1 0 168803635 258478080 1865 18446744073709551615 140616447873024 140616648380918 140731182015440 0 0 0 0 4096 1088 0 0 0 17 0 0 0 240520 0 0 140616693669216 140616698971600 93824994377728 140731182016910 140731182016926 140731182016926 140731182018519 0\n",
+      "parent_pid": 661555,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\335\\006\\345\\162\\151\\225\\117\\356'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 664776,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "664776 (codex) D 664735 664735 664735 0 -1 4194304 1437 0 87 0 18 156 0 0 20 0 1 0 168808630 258478080 1910 18446744073709551615 140254083076096 140254283583990 140726940603200 0 0 0 0 4096 1088 0 0 0 17 1 0 0 267962 0 0 140254328872288 140254334174672 93825024933888 140726940608910 140726940608926 140726940608926 140726940610519 0\n",
+      "parent_pid": 664735,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\303\\167\\070\\130\\015\\032\\027\\247'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 665192,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "665192 (codex) D 665151 665151 665151 0 -1 4194304 1463 0 30 0 15 151 0 0 20 0 1 0 168812079 258478080 1913 18446744073709551615 139784832733184 139785033241078 140730862867088 0 0 0 0 4096 1088 0 0 0 17 1 0 0 254730 0 0 139785078529376 139785083831760 93825016492032 140730862868878 140730862868894 140730862868894 140730862870487 0\n",
+      "parent_pid": 665151,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\305\\207\\030\\363\\104\\176\\370\\375'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 666625,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "666625 (codex) D 666504 666504 666504 0 -1 4194304 1440 0 80 0 10 61 0 0 20 0 1 0 168816706 258478080 1955 18446744073709551615 140680620724224 140680821232118 140729947510192 0 0 0 0 4096 1088 0 0 0 17 0 0 0 223872 0 0 140680866520416 140680871822800 93825004023808 140729947515278 140729947515294 140729947515294 140729947516887 0\n",
+      "parent_pid": 666504,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\250\\375\\063\\341\\277\\154\\354\\116'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 668834,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "668834 (codex) D 668793 668793 668793 0 -1 4194304 1447 0 74 0 9 67 0 0 20 0 1 0 168820466 258478080 2010 18446744073709551615 140506544525312 140506745033206 140733306691744 0 0 0 0 4096 1088 0 0 0 17 1 0 0 245000 0 0 140506790321504 140506795623888 93825021001728 140733306694030 140733306694046 140733306694046 140733306695639 0\n",
+      "parent_pid": 668793,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\073\\301\\004\\170\\313\\106\\146\\337'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 669295,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "669295 (codex) D 669247 669247 669247 0 -1 4194304 1481 0 13 0 9 60 0 0 20 0 1 0 168825113 258478080 2013 18446744073709551615 140626008788992 140626209296886 140736319958128 0 0 0 0 4096 1088 0 0 0 17 1 0 0 230267 0 0 140626254585184 140626259887568 93825023643648 140736319961486 140736319961502 140736319961502 140736319963095 0\n",
+      "parent_pid": 669247,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\064\\142\\316\\350\\215\\076\\377\\320'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 669756,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "669756 (codex) D 669715 669715 669715 0 -1 4194304 1482 0 12 0 11 61 0 0 20 0 1 0 168828753 258478080 2014 18446744073709551615 139717346381824 139717546889718 140728437064304 0 0 0 0 4096 1088 0 0 0 17 1 0 0 234044 0 0 139717592178016 139717597480400 93825025302528 140728437066126 140728437066142 140728437066142 140728437067735 0\n",
+      "parent_pid": 669715,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\103\\170\\165\\357\\333\\341\\166\\340'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 671970,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "671970 (codex) D 671929 671929 671929 0 -1 4194304 1472 0 24 0 10 62 0 0 20 0 1 0 168833587 258478080 2015 18446744073709551615 139706072092672 139706272600566 140729051148144 0 0 0 0 4096 1088 0 0 0 17 1 0 0 233467 0 0 139706317888864 139706323191248 93825017425920 140729051154830 140729051154846 140729051154846 140729051156439 0\n",
+      "parent_pid": 671929,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\230\\350\\173\\106\\075\\214\\311\\063'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 674603,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "674603 (codex) D 674559 674559 674559 0 -1 4194304 1417 0 125 0 11 55 0 0 20 0 1 0 168837157 258478080 2095 18446744073709551615 140178684170240 140178884678134 140724183202304 0 0 0 0 4096 1088 0 0 0 17 1 0 0 227389 0 0 140178929966432 140178935268816 93825004691456 140724183206286 140724183206302 140724183206302 140724183207895 0\n",
+      "parent_pid": 674559,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\247\\055\\175\\111\\012\\236\\302\\216'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 674891,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "674891 (codex) D 674850 674850 674850 0 -1 4194304 1479 0 13 0 11 46 0 0 20 0 1 0 168842008 258478080 2096 18446744073709551615 140693593706496 140693794214390 140730228418992 0 0 0 0 4096 1088 0 0 0 17 0 0 0 209687 0 0 140693839502688 140693844805072 93825008173056 140730228427150 140730228427166 140730228427166 140730228428759 0\n",
+      "parent_pid": 674850,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\135\\176\\212\\062\\175\\261\\054\\077'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 675077,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "675077 (codex) D 675036 675036 675036 0 -1 4194304 1484 0 7 0 9 53 0 0 20 0 1 0 168845670 258478080 2096 18446744073709551615 140083343446016 140083543953910 140721958042192 0 0 0 0 4096 1088 0 0 0 17 1 0 0 201574 0 0 140083589242208 140083594544592 93825021620224 140721958050190 140721958050206 140721958050206 140721958051799 0\n",
+      "parent_pid": 675036,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\322\\160\\072\\327\\100\\267\\135\\356'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 675359,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "675359 (codex) D 675318 675318 675318 0 -1 4194304 1491 0 3 0 10 54 0 0 20 0 1 0 168850430 258478080 2098 18446744073709551615 139792418131968 139792618639862 140723314433456 0 0 0 0 4096 1088 0 0 0 17 1 0 0 199644 0 0 139792663928160 139792669230544 93825004896256 140723314440590 140723314440606 140723314440606 140723314442199 0\n",
+      "parent_pid": 675318,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\166\\277\\050\\043\\243\\203\\154\\220'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 675573,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "675573 (codex) D 675532 675532 675532 0 -1 4194304 1478 0 14 0 9 51 0 0 20 0 1 0 168854052 258478080 2095 18446744073709551615 139747618770944 139747819278838 140723744274032 0 0 0 0 4096 1088 0 0 0 17 1 0 0 196858 0 0 139747864567136 139747869869520 93825021112320 140723744274830 140723744274846 140723744274846 140723744276439 0\n",
+      "parent_pid": 675532,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\263\\015\\271\\140\\204\\150\\133\\265'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 675846,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "675846 (codex) D 675801 675801 675801 0 -1 4194304 1485 0 7 0 9 44 0 0 20 0 1 0 168858901 258478080 2096 18446744073709551615 139669952843776 139670153351670 140724267816928 0 0 0 0 4096 1088 0 0 0 17 1 0 0 205918 0 0 139670198639968 139670203942352 93824994476032 140724267825550 140724267825566 140724267825566 140724267827159 0\n",
+      "parent_pid": 675801,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\366\\042\\130\\376\\367\\265\\127\\213'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 676085,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "676085 (codex) D 676044 676044 676044 0 -1 4194304 1477 0 16 0 9 48 0 0 20 0 1 0 168862200 258478080 2097 18446744073709551615 140379400491008 140379600998902 140734140523808 0 0 0 0 4096 1088 0 0 0 17 0 0 0 215621 0 0 140379646287200 140379651589584 93824998318080 140734140529038 140734140529054 140734140529054 140734140530647 0\n",
+      "parent_pid": 676044,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\137\\100\\320\\154\\110\\355\\143\\376'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 676370,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "676370 (codex) D 676329 676329 676329 0 -1 4194304 1478 0 14 0 10 47 0 0 20 0 1 0 168867248 258478080 2096 18446744073709551615 140283522895872 140283723403766 140733369809008 0 0 0 0 4096 1088 0 0 0 17 1 0 0 195325 0 0 140283768692064 140283773994448 93825022418944 140733369813390 140733369813406 140733369813406 140733369814999 0\n",
+      "parent_pid": 676329,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\357\\323\\036\\064\\056\\271\\103\\125'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 676547,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "676547 (codex) D 676506 676506 676506 0 -1 4194304 1488 0 6 0 10 49 0 0 20 0 1 0 168870629 258478080 2096 18446744073709551615 140602856230912 140603056738806 140721158927872 0 0 0 0 4096 1088 0 0 0 17 0 0 0 211403 0 0 140603102027104 140603107329488 93825001263104 140721158928782 140721158928798 140721158928798 140721158930391 0\n",
+      "parent_pid": 676506,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\036\\146\\214\\246\\261\\204\\176\\173'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 676856,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "676856 (codex) D 676815 676815 676815 0 -1 4194304 1493 0 3 0 9 50 0 0 20 0 1 0 168875668 258478080 2097 18446744073709551615 140066287308800 140066487816694 140724046381568 0 0 0 0 4096 1088 0 0 0 17 1 0 0 199954 0 0 140066533104992 140066538407376 93824992485376 140724046383502 140724046383518 140724046383518 140724046385111 0\n",
+      "parent_pid": 676815,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\206\\377\\057\\362\\232\\026\\015\\102'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 677088,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "677088 (codex) D 677047 677047 677047 0 -1 4194304 1492 0 2 0 9 50 0 0 20 0 1 0 168879320 258478080 2098 18446744073709551615 140140755079168 140140955587062 140725075792192 0 0 0 0 4096 1088 0 0 0 17 1 0 0 193276 0 0 140141000875360 140141006177744 93825003446272 140725075798414 140725075798430 140725075798430 140725075800023 0\n",
+      "parent_pid": 677047,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\236\\374\\270\\031\\235\\124\\071\\272'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 679775,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "679775 (codex) D 679734 679734 679734 0 -1 4194304 1387 0 118 0 11 44 0 0 20 0 1 0 168884057 258478080 2559 18446744073709551615 140716878385152 140717078893046 140724542315232 0 0 0 0 4096 1088 0 0 0 17 1 0 0 176723 0 0 140717124181344 140717129483728 93825005662208 140724542318990 140724542319006 140724542319006 140724542320599 0\n",
+      "parent_pid": 679734,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\233\\265\\056\\162\\126\\303\\304\\124'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 680244,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "680244 (codex) D 680203 680203 680203 0 -1 4194304 1481 0 14 0 9 51 0 0 20 0 1 0 168887438 258478080 2564 18446744073709551615 139630603980800 139630804488694 140721158704704 0 0 0 0 4096 1088 0 0 0 17 1 0 0 175603 0 0 139630849776992 139630855079376 93825024868352 140721158711694 140721158711710 140721158711710 140721158713303 0\n",
+      "parent_pid": 680203,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\126\\267\\153\\317\\017\\013\\152\\166'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 680698,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "680698 (codex) D 680657 680657 680657 0 -1 4194304 1470 0 21 0 9 49 0 0 20 0 1 0 168892469 258478080 2562 18446744073709551615 140194385547264 140194586055158 140722436508448 0 0 0 0 4096 1088 0 0 0 17 1 0 0 170286 0 0 140194631343456 140194636645840 93825023451136 140722436512142 140722436512158 140722436512158 140722436513751 0\n",
+      "parent_pid": 680657,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\126\\021\\325\\133\\211\\155\\154\\010'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 680904,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "680904 (codex) D 680863 680863 680863 0 -1 4194304 1468 0 23 0 8 50 0 0 20 0 1 0 168895859 258478080 2562 18446744073709551615 140471985557504 140472186065398 140728944019232 0 0 0 0 4096 1088 0 0 0 17 1 0 0 193443 0 0 140472231353696 140472236656080 93825021468672 140728944023950 140728944023966 140728944023966 140728944025559 0\n",
+      "parent_pid": 680863,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\337\\325\\310\\346\\124\\310\\376\\036'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 681342,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "681342 (codex) D 681301 681301 681301 0 -1 4194304 1473 0 24 0 8 49 0 0 20 0 1 0 168901112 258478080 2563 18446744073709551615 139817053376512 139817253884406 140723619578448 0 0 0 0 4096 1088 0 0 0 17 1 0 0 190500 0 0 139817299172704 139817304475088 93825024942080 140723619580302 140723619580318 140723619580318 140723619581911 0\n",
+      "parent_pid": 681301,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\147\\177\\272\\103\\020\\166\\053\\345'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 681533,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "681533 (codex) D 681492 681492 681492 0 -1 4194304 1485 0 8 0 11 49 0 0 20 0 1 0 168904277 258478080 2562 18446744073709551615 140072297746432 140072498254326 140725522720896 0 0 0 0 4096 1088 0 0 0 17 0 0 0 177279 0 0 140072543542624 140072548845008 93825016946688 140725522729358 140725522729374 140725522729374 140725522730967 0\n",
+      "parent_pid": 681492,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\032\\131\\133\\123\\250\\262\\052\\015'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 681857,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "681857 (codex) D 681816 681816 681816 0 -1 4194304 1480 0 12 0 9 49 0 0 20 0 1 0 168909529 258478080 2562 18446744073709551615 140572055359488 140572255867382 140730512517600 0 0 0 0 4096 1088 0 0 0 17 1 0 0 202773 0 0 140572301155680 140572306458064 93824996966400 140730512525710 140730512525726 140730512525726 140730512527319 0\n",
+      "parent_pid": 681816,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\364\\037\\134\\013\\347\\345\\170\\112'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 682143,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "682143 (codex) D 682102 682102 682102 0 -1 4194304 1488 0 7 0 9 50 0 0 20 0 1 0 168912742 258478080 2563 18446744073709551615 139813064593408 139813265101302 140721989455856 0 0 0 0 4096 1088 0 0 0 17 1 0 0 175286 0 0 139813310389600 139813315691984 93825021030400 140721989458318 140721989458334 140721989458334 140721989459927 0\n",
+      "parent_pid": 682102,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\302\\020\\325\\154\\040\\363\\226\\051'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 682436,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "682436 (codex) D 682395 682395 682395 0 -1 4194304 1493 0 1 0 8 47 0 0 20 0 1 0 168917989 258478080 2563 18446744073709551615 140300669210624 140300869718518 140726972253632 0 0 0 0 4096 1088 0 0 0 17 1 0 0 161142 0 0 140300915006816 140300920309200 93825013383168 140726972258702 140726972258718 140726972258718 140726972260311 0\n",
+      "parent_pid": 682395,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\343\\045\\024\\350\\275\\351\\322\\240'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 682742,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "682742 (codex) D 682701 682701 682701 0 -1 4194304 1484 0 12 0 10 46 0 0 20 0 1 0 168921198 258478080 2563 18446744073709551615 139857398386688 139857598894582 140734071382544 0 0 0 0 4096 1088 0 0 0 17 0 0 0 179104 0 0 139857644182880 139857649485264 93824995119104 140734071384462 140734071384478 140734071384478 140734071386071 0\n",
+      "parent_pid": 682701,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\253\\061\\065\\327\\213\\111\\065\\176'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 683002,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "683002 (codex) D 682961 682961 682961 0 -1 4194304 1452 0 40 0 9 48 0 0 20 0 1 0 168926415 258478080 2562 18446744073709551615 140131626176512 140131826684406 140734192788672 0 0 0 0 4096 1088 0 0 0 17 0 0 0 186856 0 0 140131871972704 140131877275088 93824999804928 140734192789902 140734192789918 140734192789918 140734192791511 0\n",
+      "parent_pid": 682961,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\144\\135\\247\\046\\313\\051\\354\\127'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 683426,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "683426 (codex) D 683385 683385 683385 0 -1 4194304 1469 0 24 0 8 50 0 0 20 0 1 0 168929502 258478080 2562 18446744073709551615 140671695245312 140671895753206 140734909408640 0 0 0 0 4096 1088 0 0 0 17 0 0 0 185074 0 0 140671941041504 140671946343888 93825022857216 140734909409678 140734909409694 140734909409694 140734909411287 0\n",
+      "parent_pid": 683385,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\236\\204\\377\\035\\127\\357\\267\\065'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 686337,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "686337 (codex) D 686296 686296 686296 0 -1 1078198272 1410 0 101 0 10 52 0 0 20 0 1 0 168934773 258478080 3371 18446744073709551615 139672517660672 139672718168566 140729386926000 0 0 0 0 4096 1088 0 0 0 17 0 0 0 161481 0 0 139672763456864 139672768759248 93825015009280 140729386928526 140729386928542 140729386928542 140729386930135 0\n",
+      "parent_pid": 686296,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\173\\343\\062\\233\\327\\122\\002\\261'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 686644,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "686644 (codex) D 686603 686603 686603 0 -1 4194304 1475 0 18 0 9 45 0 0 20 0 1 0 168937871 258478080 3378 18446744073709551615 140234235629568 140234436137462 140726197362416 0 0 0 0 4096 1088 0 0 0 17 0 0 0 184817 0 0 140234481425760 140234486728144 93825012760576 140726197365134 140726197365150 140726197365150 140726197366743 0\n",
+      "parent_pid": 686603,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\223\\333\\107\\023\\164\\116\\301\\242'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 686947,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "686947 (codex) R 686906 686906 686906 0 -1 4194304 1482 0 11 0 10 45 0 0 20 0 1 0 168943119 258478080 3378 18446744073709551615 139654224203776 139654424711670 140725120438912 0 0 0 0 4096 1088 0 0 0 17 0 0 0 171604 0 0 139654469999968 139654475302352 93824995975168 140725120440718 140725120440734 140725120440734 140725120442327 0\n",
+      "parent_pid": 686906,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\052\\140\\076\\104\\313\\250\\207\\330'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 687278,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "687278 (codex) D 687237 687237 687237 0 -1 4194304 1486 0 6 0 9 47 0 0 20 0 1 0 168946141 258478080 3377 18446744073709551615 140194375061504 140194575569398 140726159133856 0 0 0 0 4096 1088 0 0 0 17 1 0 0 151750 0 0 140194620857696 140194626160080 93825002696704 140726159141262 140726159141278 140726159141278 140726159142871 0\n",
+      "parent_pid": 687237,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\165\\013\\020\\270\\053\\072\\067\\007'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 687726,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "687726 (codex) D 687685 687685 687685 0 -1 4194304 1470 0 23 0 8 48 0 0 20 0 1 0 168951569 258478080 3394 18446744073709551615 140204265230336 140204465738230 140733063975216 0 0 0 0 4096 1088 0 0 0 17 0 0 0 153822 0 0 140204511026528 140204516328912 93825007063040 140733063977358 140733063977374 140733063977374 140733063978967 0\n",
+      "parent_pid": 687685,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\252\\371\\052\\163\\363\\067\\022\\267'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 688159,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "688159 (codex) D 688118 688118 688118 0 -1 4194304 1481 0 9 0 8 50 0 0 20 0 1 0 168954880 258478080 3394 18446744073709551615 140322039189504 140322239697398 140721718956992 0 0 0 0 4096 1088 0 0 0 17 1 0 0 135853 0 0 140322284985696 140322290288080 93824996548608 140721718962574 140721718962590 140721718962590 140721718964183 0\n",
+      "parent_pid": 688118,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\276\\105\\242\\127\\271\\237\\122\\341'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 688413,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "688413 (codex) D 688372 688372 688372 0 -1 4194304 1485 0 4 0 8 46 0 0 20 0 1 0 168960192 258478080 3395 18446744073709551615 140041658355712 140041858863606 140734275100432 0 0 0 0 4096 1088 0 0 0 17 1 0 0 158914 0 0 140041904151904 140041909454288 93825008549888 140734275103118 140734275103134 140734275103134 140734275104727 0\n",
+      "parent_pid": 688372,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\373\\054\\330\\234\\305\\033\\237\\302'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 688581,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "688581 (codex) D 688540 688540 688540 0 -1 4194304 1489 0 0 0 10 47 0 0 20 0 1 0 168963258 258478080 3394 18446744073709551615 139871868735488 139872069243382 140734150457328 0 0 0 0 4096 1088 0 0 0 17 1 0 0 153322 0 0 139872114531680 139872119834064 93825010888704 140734150461838 140734150461854 140734150461854 140734150463447 0\n",
+      "parent_pid": 688540,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\272\\203\\373\\224\\072\\263\\310\\177'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 688873,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "688873 (codex) D 688832 688832 688832 0 -1 4194304 1479 0 9 0 10 43 0 0 20 0 1 0 168968551 258478080 3427 18446744073709551615 140033351536640 140033552044534 140731743780560 0 0 0 0 4096 1088 0 0 0 17 0 0 0 126310 0 0 140033597332832 140033602635216 93825003712512 140731743787406 140731743787422 140731743787422 140731743789015 0\n",
+      "parent_pid": 688832,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\331\\317\\255\\063\\056\\025\\111\\042'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 689044,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "689044 (codex) D 689003 689003 689003 0 -1 4194304 1476 0 13 0 9 43 0 0 20 0 1 0 168971975 258478080 3426 18446744073709551615 140041647869952 140041848377846 140731053715168 0 0 0 0 4096 1088 0 0 0 17 1 0 0 154011 0 0 140041893666144 140041898968528 93825014935552 140731053717902 140731053717918 140731053717918 140731053719511 0\n",
+      "parent_pid": 689003,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\145\\152\\376\\361\\232\\353\\037\\026'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 689321,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "689321 (codex) D 689280 689280 689280 0 -1 4194304 1482 0 5 0 7 35 0 0 20 0 1 0 168977119 258478080 3425 18446744073709551615 140701936177152 140702136685046 140723948836880 0 0 0 0 4096 1088 0 0 0 17 0 0 0 138539 0 0 140702181973344 140702187275728 93825023352832 140723948845454 140723948845470 140723948845470 140723948847063 0\n",
+      "parent_pid": 689280,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\115\\240\\231\\011\\172\\374\\216\\360'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 692078,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "692078 (codex) D 692037 692037 692037 0 -1 4194304 1417 0 111 0 7 44 0 0 20 0 1 0 168980288 258478080 3867 18446744073709551615 139835145506816 139835346014710 140736658345024 0 0 0 0 4096 1088 0 0 0 17 0 0 0 117136 0 0 139835391303008 139835396605392 93824998297600 140736658348430 140736658348446 140736658348446 140736658350039 0\n",
+      "parent_pid": 692037,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\253\\252\\353\\045\\157\\250\\041\\053'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 692419,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "692419 (codex) D 692378 692378 692378 0 -1 4194304 1470 0 18 0 1 7 0 0 20 0 1 0 168985423 258478080 3884 18446744073709551615 139633336569856 139633537077750 140725211465264 0 0 0 0 4096 1088 0 0 0 17 0 0 0 91704 0 0 139633582366048 139633587668432 93824994160640 140725211470222 140725211470238 140725211470238 140725211471831 0\n",
+      "parent_pid": 692378,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\307\\033\\216\\225\\022\\174\\163\\217'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 692859,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "692859 (codex) D 692818 692818 692818 0 -1 4194304 1487 0 2 0 2 6 0 0 20 0 1 0 168988751 258478080 3885 18446744073709551615 140062927671296 140063128179190 140733392039872 0 0 0 0 4096 1088 0 0 0 17 0 0 0 81123 0 0 140063173467488 140063178769872 93825021292544 140733392042382 140733392042398 140733392042398 140733392043991 0\n",
+      "parent_pid": 692818,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\340\\204\\173\\340\\020\\155\\231\\160'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 693212,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "693212 (codex) D 693171 693171 693171 0 -1 4194304 1487 0 4 0 1 5 0 0 20 0 1 0 168993944 258478080 3884 18446744073709551615 139769162813440 139769363321334 140721173222272 0 0 0 0 4096 1088 0 0 0 17 0 0 0 78965 0 0 139769408609632 139769413912016 93825004056576 140721173223822 140721173223838 140721173223838 140721173225431 0\n",
+      "parent_pid": 693171,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\064\\110\\101\\352\\033\\035\\223\\250'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 693449,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "693449 (codex) D 693408 693408 693408 0 -1 4194304 1486 0 2 0 1 5 0 0 20 0 1 0 168996922 258478080 3884 18446744073709551615 139673689968640 139673890476534 140723155004336 0 0 0 0 4096 1088 0 0 0 17 0 0 0 80661 0 0 139673935764832 139673941067216 93824997871616 140723155007886 140723155007902 140723155007902 140723155009495 0\n",
+      "parent_pid": 693408,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\250\\365\\267\\037\\364\\344\\345\\355'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 693980,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "693980 (codex) D 693939 693939 693939 0 -1 4194304 1487 0 2 0 2 5 0 0 20 0 1 0 169002406 258478080 3885 18446744073709551615 140024407183360 140024607691254 140728850735072 0 0 0 0 4096 1088 0 0 0 17 0 0 0 79252 0 0 140024652979552 140024658281936 93825013886976 140728850737550 140728850737566 140728850737566 140728850739159 0\n",
+      "parent_pid": 693939,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\356\\306\\362\\374\\366\\152\\062\\110'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 694482,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "694482 (codex) D 694441 694441 694441 0 -1 4194304 1483 0 4 0 1 5 0 0 20 0 1 0 169005242 258478080 3884 18446744073709551615 139740427636736 139740628144630 140721180939120 0 0 0 0 4096 1088 0 0 0 17 0 0 0 83493 0 0 139740673432928 139740678735312 93824996909056 140721180940686 140721180940702 140721180940702 140721180942295 0\n",
+      "parent_pid": 694441,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\027\\047\\073\\051\\020\\343\\031\\037'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 695277,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "695277 (codex) D 695236 695236 695236 0 -1 4194304 1484 0 3 0 0 6 0 0 20 0 1 0 169010725 258478080 3884 18446744073709551615 140326820696064 140327021203958 140727560566912 0 0 0 0 4096 1088 0 0 0 17 0 0 0 71278 0 0 140327066492256 140327071794640 93824994553856 140727560575374 140727560575390 140727560575390 140727560576983 0\n",
+      "parent_pid": 695236,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\267\\037\\015\\303\\106\\266\\203\\363'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 695766,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "695766 (codex) D 695725 695725 695725 0 -1 4194304 1475 0 14 0 1 5 0 0 20 0 1 0 169013826 258478080 3884 18446744073709551615 139729885253632 139730085761526 140728385002624 0 0 0 0 4096 1088 0 0 0 17 0 0 0 69484 0 0 139730131049824 139730136352208 93825017016320 140728385005966 140728385005982 140728385005982 140728385007575 0\n",
+      "parent_pid": 695725,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\120\\242\\275\\027\\363\\160\\056\\162'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 696455,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "696455 (codex) D 696414 696414 696414 0 -1 4194304 1462 0 26 0 1 5 0 0 20 0 1 0 169019038 258478080 3884 18446744073709551615 140425439268864 140425639776758 140724534606976 0 0 0 0 4096 1088 0 0 0 17 0 0 0 69428 0 0 140425685065056 140425690367440 93825015283712 140724534610318 140724534610334 140724534610334 140724534611927 0\n",
+      "parent_pid": 696414,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\014\\145\\307\\021\\332\\363\\265\\054'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 696850,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "696850 (codex) D 696809 696809 696809 0 -1 4194304 1472 0 15 0 1 5 0 0 20 0 1 0 169022611 258478080 3885 18446744073709551615 140452010184704 140452210692598 140722122486752 0 0 0 0 4096 1088 0 0 0 17 0 0 0 53975 0 0 140452255980896 140452261283280 93824994975744 140722122492302 140722122492318 140722122492318 140722122493911 0\n",
+      "parent_pid": 696809,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\006\\053\\207\\343\\123\\220\\033\\167'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 697631,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "697631 (codex) D 697577 697577 697577 0 -1 4194304 1461 0 27 0 0 6 0 0 20 0 1 0 169027472 258478080 3884 18446744073709551615 139815551815680 139815752323574 140726373939216 0 0 0 0 4096 1088 0 0 0 17 1 0 0 64121 0 0 139815797611872 139815802914256 93824998010880 140726373947790 140726373947806 140726373947806 140726373949399 0\n",
+      "parent_pid": 697577,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\045\\246\\234\\130\\015\\311\\132\\032'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 697953,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "697953 (codex) D 697912 697912 697912 0 -1 4194304 1479 0 8 0 1 5 0 0 20 0 1 0 169030840 258478080 3884 18446744073709551615 140045758287872 140045958795766 140734828239968 0 0 0 0 4096 1088 0 0 0 17 1 0 0 59804 0 0 140046004084064 140046009386448 93824995758080 140734828247438 140734828247454 140734828247454 140734828249047 0\n",
+      "parent_pid": 697912,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\170\\336\\060\\067\\131\\175\\216\\106'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 698261,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "698261 (codex) D 698220 698220 698220 0 -1 4194304 1481 0 8 0 1 5 0 0 20 0 1 0 169036177 258478080 3894 18446744073709551615 139720399835136 139720600343030 140731545909296 0 0 0 0 4096 1088 0 0 0 17 1 0 0 71112 0 0 139720645631328 139720650933712 93825007079424 140731545913742 140731545913758 140731545913758 140731545915351 0\n",
+      "parent_pid": 698220,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\353\\323\\230\\140\\073\\243\\331\\052'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 698458,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "698458 (codex) D 698417 698417 698417 0 -1 4194304 1485 0 1 0 1 5 0 0 20 0 1 0 169039354 258478080 3894 18446744073709551615 139795557568512 139795758076406 140725347068320 0 0 0 0 4096 1088 0 0 0 17 0 0 0 71359 0 0 139795803364704 139795808667088 93825003335680 140725347072398 140725347072414 140725347072414 140725347074007 0\n",
+      "parent_pid": 698417,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\051\\116\\227\\146\\100\\152\\277\\254'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 698746,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "698746 (codex) D 698705 698705 698705 0 -1 4194304 1478 0 8 0 1 5 0 0 20 0 1 0 169044409 258478080 3894 18446744073709551615 139797260455936 139797460963830 140721264688048 0 0 0 0 4096 1088 0 0 0 17 1 0 0 51835 0 0 139797506252128 139797511554512 93825013387264 140721264691598 140721264691614 140721264691614 140721264693207 0\n",
+      "parent_pid": 698705,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\107\\007\\055\\272\\341\\116\\124\\313'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 698941,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "698941 (codex) D 698900 698900 698900 0 -1 4194304 1461 0 24 0 0 6 0 0 20 0 1 0 169047657 258478080 3894 18446744073709551615 140552488931328 140552689439222 140722800179328 0 0 0 0 4096 1088 0 0 0 17 1 0 0 53287 0 0 140552734727520 140552740029904 93825017880576 140722800187790 140722800187806 140722800187806 140722800189399 0\n",
+      "parent_pid": 698900,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\204\\267\\376\\046\\314\\150\\027\\055'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 699182,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "699182 (codex) D 699141 699141 699141 0 -1 4194304 1489 0 0 0 1 4 0 0 20 0 1 0 169052933 258478080 3895 18446744073709551615 140676422225920 140676622733814 140733196505776 0 0 0 0 4096 1088 0 0 0 17 0 0 0 56611 0 0 140676668022112 140676673324496 93824994668544 140733196507534 140733196507550 140733196507550 140733196509143 0\n",
+      "parent_pid": 699141,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\172\\265\\275\\370\\147\\044\\124\\355'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 699384,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "699384 (codex) D 699343 699343 699343 0 -1 4194304 1489 0 0 0 1 5 0 0 20 0 1 0 169055952 258478080 3896 18446744073709551615 139961895276544 139962095784438 140724015558560 0 0 0 0 4096 1088 0 0 0 17 1 0 0 67949 0 0 139962141072736 139962146375120 93824996261888 140724015565198 140724015565214 140724015565214 140724015566807 0\n",
+      "parent_pid": 699343,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\173\\113\\311\\377\\043\\337\\006\\310'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 699689,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "699689 (codex) D 699648 699648 699648 0 -1 4194304 1486 0 2 0 1 5 0 0 20 0 1 0 169061351 258478080 3939 18446744073709551615 139809910476800 139810110984694 140732798423152 0 0 0 0 4096 1088 0 0 0 17 0 0 0 65440 0 0 139810156272992 139810161575376 93825005117440 140732798425486 140732798425502 140732798425502 140732798427095 0\n",
+      "parent_pid": 699648,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\051\\272\\374\\350\\007\\122\\156\\072'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 699885,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "699885 (codex) D 699844 699844 699844 0 -1 4194304 1487 0 0 0 1 4 0 0 20 0 1 0 169064241 258478080 3940 18446744073709551615 139766207926272 139766408434166 140734118735600 0 0 0 0 4096 1088 0 0 0 17 0 0 0 71335 0 0 139766453722464 139766459024848 93825014280192 140734118742414 140734118742430 140734118742430 140734118744023 0\n",
+      "parent_pid": 699844,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\175\\150\\042\\002\\273\\134\\266\\200'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 700132,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "700132 (codex) D 700091 700091 700091 0 -1 4194304 1487 0 0 0 1 5 0 0 20 0 1 0 169069814 258478080 3938 18446744073709551615 140316706131968 140316906639862 140723057421472 0 0 0 0 4096 1088 0 0 0 17 0 0 0 61172 0 0 140316951928160 140316957230544 93824995868672 140723057424782 140723057424798 140723057424798 140723057426391 0\n",
+      "parent_pid": 700091,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\255\\147\\001\\260\\205\\222\\343\\343'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 700335,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "700335 (codex) D 700294 700294 700294 0 -1 4194304 1485 0 0 0 1 4 0 0 20 0 1 0 169072608 258478080 3938 18446744073709551615 140712501628928 140712702136822 140729179232592 0 0 0 0 4096 1088 0 0 0 17 0 0 0 52264 0 0 140712747425120 140712752727504 93825018105856 140729179236750 140729179236766 140729179236766 140729179238359 0\n",
+      "parent_pid": 700294,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\335\\126\\372\\253\\234\\210\\242\\153'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 700585,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "700585 (codex) D 700544 700544 700544 0 -1 4194304 1483 0 4 0 1 5 0 0 20 0 1 0 169078240 258478080 3984 18446744073709551615 139681743032320 139681943540214 140724693502496 0 0 0 0 4096 1088 0 0 0 17 0 0 0 53429 0 0 139681988828512 139681994130896 93825002090496 140724693506446 140724693506462 140724693506462 140724693508055 0\n",
+      "parent_pid": 700544,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\230\\335\\102\\205\\037\\002\\000\\110'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 700795,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "700795 (codex) D 700754 700754 700754 0 -1 4194304 1483 0 0 0 1 5 0 0 20 0 1 0 169081763 258478080 3984 18446744073709551615 140696189980672 140696390488566 140727267265312 0 0 0 0 4096 1088 0 0 0 17 1 0 0 54447 0 0 140696435776864 140696441079248 93825019314176 140727267273102 140727267273118 140727267273118 140727267274711 0\n",
+      "parent_pid": 700754,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\256\\304\\315\\032\\310\\250\\101\\056'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 701065,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "701065 (codex) D 701024 701024 701024 0 -1 4194304 1481 0 3 0 1 5 0 0 20 0 1 0 169086566 258478080 4032 18446744073709551615 140616544342016 140616744849910 140721436508560 0 0 0 0 4096 1088 0 0 0 17 1 0 0 43312 0 0 140616790138208 140616795440592 93824995573760 140721436510606 140721436510622 140721436510622 140721436512215 0\n",
+      "parent_pid": 701024,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\232\\162\\321\\110\\203\\211\\173\\100'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 701328,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "701328 (codex) D 701287 701287 701287 0 -1 4194304 1480 0 2 0 1 4 0 0 20 0 1 0 169089789 258478080 4032 18446744073709551615 140373329235968 140373529743862 140723609467520 0 0 0 0 4096 1088 0 0 0 17 0 0 0 52367 0 0 140373575032160 140373580334544 93825017069568 140723609475470 140723609475486 140723609475486 140723609477079 0\n",
+      "parent_pid": 701287,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\315\\144\\227\\126\\177\\013\\172\\152'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 701561,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "701561 (codex) D 701520 701520 701520 0 -1 4194304 1483 0 0 0 1 5 0 0 20 0 1 0 169095173 258478080 4032 18446744073709551615 140428285104128 140428485612022 140727194240864 0 0 0 0 4096 1088 0 0 0 17 0 0 0 45147 0 0 140428530900320 140428536202704 93825007919104 140727194245518 140727194245534 140727194245534 140727194247127 0\n",
+      "parent_pid": 701520,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\316\\340\\117\\141\\312\\004\\137\\002'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 701744,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "701744 (codex) D 701703 701703 701703 0 -1 4194304 1483 0 0 0 1 4 0 0 20 0 1 0 169098301 258478080 4032 18446744073709551615 140012837195776 140013037703670 140722631865216 0 0 0 0 4096 1088 0 0 0 17 0 0 0 53879 0 0 140013082991968 140013088294352 93825014534144 140722631866766 140722631866782 140722631866782 140722631868375 0\n",
+      "parent_pid": 701703,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\016\\325\\212\\310\\130\\306\\215\\262'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 702017,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "702017 (codex) D 701976 701976 701976 0 -1 4194304 1481 0 1 0 1 4 0 0 20 0 1 0 169103583 258478080 4032 18446744073709551615 140110031802368 140110232310262 140737484724592 0 0 0 0 4096 1088 0 0 0 17 0 0 0 56988 0 0 140110277598560 140110282900944 93825014444032 140737484732814 140737484732830 140737484732830 140737484734423 0\n",
+      "parent_pid": 701976,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\304\\174\\271\\373\\135\\367\\132\\312'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 702247,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "702247 (codex) D 702206 702206 702206 0 -1 4194304 1484 0 1 0 1 4 0 0 20 0 1 0 169106565 258478080 4033 18446744073709551615 139991473508352 139991674016246 140721941105024 0 0 0 0 4096 1088 0 0 0 17 0 0 0 45671 0 0 139991719304544 139991724606928 93824999387136 140721941109134 140721941109150 140721941109150 140721941110743 0\n",
+      "parent_pid": 702206,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\106\\060\\004\\347\\304\\252\\375\\363'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 702495,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "702495 (codex) D 702454 702454 702454 0 -1 4194304 1481 0 0 0 1 4 0 0 20 0 1 0 169111969 258478080 4033 18446744073709551615 139991156838400 139991357346294 140730237065328 0 0 0 0 4096 1088 0 0 0 17 1 0 0 45802 0 0 139991402634592 139991407936976 93825021046784 140730237069710 140730237069726 140730237069726 140730237071319 0\n",
+      "parent_pid": 702454,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\366\\041\\266\\262\\153\\323\\370\\165'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 702809,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "702809 (codex) D 702768 702768 702768 0 -1 4194304 1482 0 2 0 1 4 0 0 20 0 1 0 169114860 258478080 4067 18446744073709551615 140638293905408 140638494413302 140729625206640 0 0 0 0 4096 1088 0 0 0 17 1 0 0 52076 0 0 140638539701600 140638545003984 93825006395392 140729625213326 140729625213342 140729625213342 140729625214935 0\n",
+      "parent_pid": 702768,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\075\\332\\017\\037\\113\\355\\336\\076'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 703062,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "703062 (codex) D 703021 703021 703021 0 -1 4194304 1481 0 0 0 1 4 0 0 20 0 1 0 169120460 258478080 4065 18446744073709551615 139740173881344 139740374389238 140724324433072 0 0 0 0 4096 1088 0 0 0 17 0 0 0 34451 0 0 139740419677536 139740424979920 93825007128576 140724324436366 140724324436382 140724324436382 140724324437975 0\n",
+      "parent_pid": 703021,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\040\\063\\140\\164\\117\\201\\327\\007'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 703255,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "703255 (codex) D 703214 703214 703214 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169123221 258478080 4067 18446744073709551615 139681682214912 139681882722806 140733114782496 0 0 0 0 4096 1088 0 0 0 17 1 0 0 38090 0 0 139681928011104 139681933313488 93825014181888 140733114788238 140733114788254 140733114788254 140733114789847 0\n",
+      "parent_pid": 703214,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\126\\024\\141\\137\\324\\376\\365\\311'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 703521,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "703521 (codex) D 703480 703480 703480 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169129594 258478080 4067 18446744073709551615 139928313581568 139928514089462 140728706781296 0 0 0 0 4096 1088 0 0 0 17 0 0 0 25984 0 0 139928559377760 139928564680144 93825022246912 140728706787726 140728706787742 140728706787742 140728706789335 0\n",
+      "parent_pid": 703480,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\076\\175\\372\\176\\147\\111\\305\\355'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 703734,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "703734 (codex) D 703693 703693 703693 0 -1 4194304 1483 0 0 0 1 4 0 0 20 0 1 0 169131639 258478080 4066 18446744073709551615 140645529079808 140645729587702 140726065427056 0 0 0 0 4096 1088 0 0 0 17 0 0 0 36285 0 0 140645774876000 140645780178384 93824996663296 140726065428878 140726065428894 140726065428894 140726065430487 0\n",
+      "parent_pid": 703693,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\337\\150\\226\\175\\104\\053\\277\\273'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 703993,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "703993 (codex) D 703952 703952 703952 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169137829 258478080 4067 18446744073709551615 140631782248448 140631982756342 140733469814656 0 0 0 0 4096 1088 0 0 0 17 1 0 0 34361 0 0 140632028044640 140632033347024 93825011097600 140733469821326 140733469821342 140733469821342 140733469822935 0\n",
+      "parent_pid": 703952,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\203\\326\\315\\256\\017\\045\\076\\077'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 704175,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "704175 (codex) D 704134 704134 704134 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169139847 258478080 4067 18446744073709551615 140629179682816 140629380190710 140726649307520 0 0 0 0 4096 1088 0 0 0 17 1 0 0 34590 0 0 140629425479008 140629430781392 93825018404864 140726649313678 140726649313694 140726649313694 140726649315287 0\n",
+      "parent_pid": 704134,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\167\\267\\220\\272\\176\\276\\332\\114'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 704523,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "704523 (codex) D 704482 704482 704482 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169146375 258478080 4066 18446744073709551615 140181748109312 140181948617206 140724024419120 0 0 0 0 4096 1088 0 0 0 17 1 0 0 22064 0 0 140181993905504 140181999207888 93824996552704 140724024420750 140724024420766 140724024420766 140724024422359 0\n",
+      "parent_pid": 704482,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\160\\262\\310\\062\\317\\261\\321\\022'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 704678,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "704678 (codex) D 704637 704637 704637 0 -1 4194304 1480 0 0 0 2 3 0 0 20 0 1 0 169147996 258478080 4065 18446744073709551615 139883747004416 139883947512310 140725455526672 0 0 0 0 4096 1088 0 0 0 17 0 0 0 28306 0 0 139883992800608 139883998102992 93825007960064 140725455530382 140725455530398 140725455530398 140725455531991 0\n",
+      "parent_pid": 704637,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\210\\327\\024\\301\\220\\350\\374\\305'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 704981,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "704981 (codex) D 704940 704940 704940 0 -1 4194304 1481 0 0 0 1 4 0 0 20 0 1 0 169154901 258478080 4065 18446744073709551615 139795647746048 139795848253942 140734602472160 0 0 0 0 4096 1088 0 0 0 17 0 0 0 27017 0 0 139795893542240 139795898844624 93825023168512 140734602480014 140734602480030 140734602480030 140734602481623 0\n",
+      "parent_pid": 704940,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\063\\321\\235\\214\\325\\021\\014\\134'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 705122,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "705122 (codex) D 705081 705081 705081 0 -1 4194304 1484 0 0 0 1 4 0 0 20 0 1 0 169156334 258478080 4066 18446744073709551615 139877166141440 139877366649334 140727813825104 0 0 0 0 4096 1088 0 0 0 17 0 0 0 28579 0 0 139877411937632 139877417240016 93825005461504 140727813826958 140727813826974 140727813826974 140727813828567 0\n",
+      "parent_pid": 705081,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\046\\013\\041\\265\\060\\256\\026\\030'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 705401,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "705401 (codex) D 705360 705360 705360 0 -1 4194304 1482 0 0 0 1 4 0 0 20 0 1 0 169163379 258478080 4065 18446744073709551615 139843834007552 139844034515446 140734179432000 0 0 0 0 4096 1088 0 0 0 17 1 0 0 16123 0 0 139844079803744 139844085106128 93824993603584 140734179436942 140734179436958 140734179436958 140734179438551 0\n",
+      "parent_pid": 705360,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\312\\074\\326\\331\\314\\241\\132\\015'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 705534,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "705534 (codex) D 705493 705493 705493 0 -1 4194304 1481 0 0 0 1 4 0 0 20 0 1 0 169164627 258478080 4066 18446744073709551615 140156817166336 140157017674230 140721172775856 0 0 0 0 4096 1088 0 0 0 17 0 0 0 23407 0 0 140157062962528 140157068264912 93824993673216 140721172781454 140721172781470 140721172781470 140721172783063 0\n",
+      "parent_pid": 705493,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\127\\075\\122\\172\\177\\141\\022\\357'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 705904,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "705904 (codex) D 705863 705863 705863 0 -1 4194304 1482 0 0 0 1 3 0 0 20 0 1 0 169171823 258478080 4065 18446744073709551615 140520228442112 140520428950006 140728677432288 0 0 0 0 4096 1088 0 0 0 17 0 0 0 19735 0 0 140520474238304 140520479540688 93825000759296 140728677439886 140728677439902 140728677439902 140728677441495 0\n",
+      "parent_pid": 705863,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\016\\000\\305\\356\\144\\356\\240\\144'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 706057,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "706057 (codex) D 706016 706016 706016 0 -1 4194304 1482 0 0 0 1 3 0 0 20 0 1 0 169172886 258478080 4066 18446744073709551615 140280813375488 140281013883382 140731568885920 0 0 0 0 4096 1088 0 0 0 17 0 0 0 10799 0 0 140281059171680 140281064474064 93825003642880 140731568888206 140731568888222 140731568888222 140731568889815 0\n",
+      "parent_pid": 706016,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\236\\031\\142\\051\\214\\064\\111\\370'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 706353,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "706353 (codex) D 706312 706312 706312 0 -1 4194304 1484 0 0 0 1 3 0 0 20 0 1 0 169180292 258478080 4066 18446744073709551615 139911152586752 139911353094646 140736919134416 0 0 0 0 4096 1088 0 0 0 17 0 0 0 9777 0 0 139911398382944 139911403685328 93825007591424 140736919136654 140736919136670 140736919136670 140736919138263 0\n",
+      "parent_pid": 706312,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\326\\256\\026\\027\\216\\001\\043\\130'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 706479,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "706479 (codex) D 706438 706438 706438 0 -1 4194304 1483 0 0 0 1 4 0 0 20 0 1 0 169181222 258478080 4067 18446744073709551615 140351344791552 140351545299446 140727626129248 0 0 0 0 4096 1088 0 0 0 17 0 0 0 14707 0 0 140351590587744 140351595890128 93825020878848 140727626135950 140727626135966 140727626135966 140727626137559 0\n",
+      "parent_pid": 706438,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\223\\323\\313\\220\\222\\324\\335\\306'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 706822,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "706822 (codex) D 706781 706781 706781 0 -1 4194304 1483 0 0 0 1 4 0 0 20 0 1 0 169188716 258478080 4066 18446744073709551615 140688581513216 140688782021110 140735192882912 0 0 0 0 4096 1088 0 0 0 17 0 0 0 20121 0 0 140688827309408 140688832611792 93825022472192 140735192885646 140735192885662 140735192885662 140735192887255 0\n",
+      "parent_pid": 706781,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\253\\155\\073\\216\\155\\204\\203\\011'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 706939,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "706939 (codex) D 706898 706898 706898 0 -1 4194304 1482 0 0 0 0 4 0 0 20 0 1 0 169189489 258478080 4066 18446744073709551615 140335471448064 140335671955958 140725411550192 0 0 0 0 4096 1088 0 0 0 17 1 0 0 14721 0 0 140335717244256 140335722546640 93825007030272 140725411555726 140725411555742 140725411555742 140725411557335 0\n",
+      "parent_pid": 706898,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\064\\342\\336\\257\\245\\320\\267\\335'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 707342,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "707342 (codex) D 707301 707301 707301 0 -1 4194304 1482 0 0 0 0 3 0 0 20 0 1 0 169197408 258478080 4065 18446744073709551615 140330322939904 140330523447798 140720429525568 0 0 0 0 4096 1088 0 0 0 17 1 0 0 6491 0 0 140330568736096 140330574038480 93825016635392 140720429533582 140720429533598 140720429533598 140720429535191 0\n",
+      "parent_pid": 707301,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\024\\066\\300\\256\\374\\050\\257\\310'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 707449,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "707449 (codex) D 707408 707408 707408 0 -1 4194304 1483 0 0 0 0 3 0 0 20 0 1 0 169197906 258478080 4067 18446744073709551615 139988042567680 139988243075574 140733572133232 0 0 0 0 4096 1088 0 0 0 17 1 0 0 6492 0 0 139988288363872 139988293666256 93825005436928 140733572139406 140733572139422 140733572139422 140733572141015 0\n",
+      "parent_pid": 707408,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\214\\263\\365\\070\\132\\372\\353\\042'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 708016,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "708016 (codex) D 707975 707975 707975 0 -1 4194304 1484 0 0 0 0 2 0 0 20 0 1 0 169206422 258478080 4067 18446744073709551615 139748138864640 139748339372534 140735813074624 0 0 0 0 4096 1088 0 0 0 17 0 0 0 2762 0 0 139748384660832 139748389963216 93825007804416 140735813081486 140735813081502 140735813081502 140735813083095 0\n",
+      "parent_pid": 707975,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\227\\334\\071\\215\\330\\367\\242\\336'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 708410,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "708410 (codex) D 708369 708369 708369 0 -1 4194304 1481 0 0 0 0 2 0 0 20 0 1 0 169214754 258478080 4065 18446744073709551615 139904806604800 139905007112694 140736884025424 0 0 0 0 4096 1088 0 0 0 17 1 0 0 2762 0 0 139905052400992 139905057703376 93825011318784 140736884033934 140736884033950 140736884033950 140736884035543 0\n",
+      "parent_pid": 708369,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\224\\127\\155\\311\\272\\177\\376\\324'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    },
+    {
+      "pid": 708890,
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "708890 (codex) D 708849 708849 708849 0 -1 4194304 1480 0 0 0 0 2 0 0 20 0 1 0 169223218 258478080 4065 18446744073709551615 140018518380544 140018718888438 140732217038432 0 0 0 0 4096 1088 0 0 0 17 1 0 0 1978 0 0 140018764176736 140018769479120 93824998023168 140732217043342 140732217043358 140732217043358 140732217044951 0\n",
+      "parent_pid": 708849,
+      "parent_argv": [
+        "/bin/sh",
+        "-c",
+        "printf '%b' '\\042\\061\\006\\354\\104\\153\\221\\177'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version"
+      ],
+      "action": "TERM sent; D state may remain, removal not claimed",
+      "parent_action": "exact version-probe shell TERM sent"
+    }
+  ]
+}

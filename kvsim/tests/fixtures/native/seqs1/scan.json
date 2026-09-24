@@ -1,0 +1,24 @@
+{
+  "schema": "kvlab-native-scan/v1",
+  "capacities_gib": [
+    1
+  ],
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "workload": "/home/david_cwq/zhouziheng/kvlab-native/v2/assets/parallel-workload.json",
+  "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+  "routing": {
+    "source": "policy_generated",
+    "method": "explicit hand fixture: alternating domains",
+    "reference_config": {
+      "purpose": "verify simultaneous P progression and scheduler knobs"
+    },
+    "timestamp_semantics": null,
+    "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+    "domains": [
+      "p0",
+      "p1"
+    ],
+    "path": "/home/david_cwq/zhouziheng/kvlab-native/v2/assets/parallel-route.json",
+    "routing_sha256": "fe3ca6af700cd57b6e530889506bef1ba296186da9b89885a666e39bef4e024f"
+  }
+}

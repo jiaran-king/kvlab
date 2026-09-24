@@ -1,0 +1,8 @@
+{
+  "requests": 425,
+  "six_sessions": true,
+  "source_lengths_actors_context_and_send_dependencies_equal": true,
+  "selection": "exact source IDs of successful L outcomes",
+  "whole_session_timeout_seconds": 5400,
+  "http_timeout_seconds": 900
+}

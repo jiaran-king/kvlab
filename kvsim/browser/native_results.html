@@ -1,0 +1,23 @@
+<style>
+.native-shell{max-width:1640px;margin:22px auto;padding:0 22px}.native-shell .native-import{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.native-shell .native-import input{max-width:420px}.native-shell .native-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.native-shell .native-summary{max-height:230px}.native-shell .native-requests{max-height:470px}.native-shell .native-split{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.native-shell .native-split select,.native-shell .native-split input{max-width:300px}.native-shell .native-muted{font-size:12px;color:var(--muted);line-height:1.6}.native-shell .native-diff button{margin:5px 6px 5px 0}.native-analysis{white-space:pre-line;line-height:1.7;margin:12px 0}.legacy-section{max-width:1640px;margin:20px auto 40px;border-top:1px solid var(--line)}.legacy-section>summary{padding:18px 22px;font-size:15px;font-weight:600;color:var(--ink)}.native-shell tr.selected{background:#e6f4f1}.native-shell .cards{grid-template-columns:repeat(4,1fr)}@media(max-width:1000px){.native-shell .native-grid{grid-template-columns:1fr}.native-shell .cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.native-shell .cards{grid-template-columns:1fr}}
+</style>
+<section class="native-shell" aria-label="原生离线结果查看">
+  <div class="topline"><div><h2>原生 vLLM 离线结果</h2><p class="native-muted">导入 Python CLI 生成的结果包，按容量与请求查看缓存行为。逻辑步不是毫秒。</p></div><span class="status">只读结果</span></div>
+  <section class="panel">
+    <div class="native-import"><label for="nativeFile">导入 native-results.json</label><input id="nativeFile" type="file" accept=".json,application/json"><span id="nativeStatus" class="native-muted" role="status" aria-live="polite">请选择离线结果包。</span></div>
+  </section>
+  <div id="nativeBody" class="hidden">
+    <div class="cards" id="nativeCards"></div>
+    <div class="native-grid">
+      <section class="panel"><h2>受控容量对照</h2><div class="scroll native-summary"><table><thead><tr><th>运行点 / 预算</th><th>完成</th><th>查询命中</th><th>输入缓存采用</th><th>累计输入处理</th><th>移除 hash 条目</th></tr></thead><tbody id="nativeSummary"></tbody></table></div></section>
+      <section class="panel" id="nativeHistoricalSection"><h2>历史 H20 参考</h2><p class="native-muted">历史记录是独立运行，不参与模拟决策；其 local compute 与累计输入处理口径不同。</p><div class="scroll native-summary"><table><thead><tr><th>KV GiB/rank</th><th>查询命中</th><th>local compute</th><th>移除 hash 条目</th></tr></thead><tbody id="nativeHistorical"></tbody></table></div></section>
+    </div>
+    <section class="panel" id="nativePerPSection"><h2>当前容量的各 P 缓存域</h2><p class="native-muted">各 P 使用独立缓存池；全局比例由分子和分母求和。逻辑轮次占用峰值在同一轮次求和。</p><div class="scroll native-summary"><table><thead><tr><th>P</th><th>完成</th><th>输入 token</th><th>采用 token</th><th>累计处理</th><th>查询命中</th><th>等待请求步</th><th>抢占／恢复</th><th>活跃块峰值</th><th>可回收缓存块峰值</th><th>移除 hash 条目</th></tr></thead><tbody id="nativePerP"></tbody></table></div><p id="nativeGlobalPeak" class="native-muted"></p></section>
+    <section class="panel" id="nativeContrastSection"><h2>条件对照与证据级别</h2><div id="nativeContrast" class="native-analysis"></div><div id="nativeContrastRequests" class="native-diff"></div></section>
+    <section class="panel" id="nativeFrozenSection"><h2>同一 C12 捕获输入的历史固定配对</h2><p class="native-muted">F12/F24 使用与本次扫描相同的 P 输入内容；历史到达、调度及释放顺序仍不同。</p><div class="scroll native-summary"><table><thead><tr><th>运行</th><th>KV GiB/rank</th><th>查询命中</th><th>输入缓存采用</th><th>local compute</th><th>移除 hash 条目</th></tr></thead><tbody id="nativeFrozenPair"></tbody></table></div></section>
+    <section class="panel native-diff"><h2>首次请求差异</h2><div id="nativeDiff"></div></section>
+    <section class="panel"><div class="panelhead"><h2>逐请求结果</h2><div class="native-split"><label for="nativeCapacity">容量</label><select id="nativeCapacity"></select><input id="nativeFilter" placeholder="搜索请求 ID、session、actor 或 P" aria-label="搜索请求"></div></div><p id="nativeCoverage" class="native-muted"></p><div class="scroll native-requests"><table><thead><tr><th>序号</th><th>P</th><th>请求</th><th>session</th><th>输入</th><th>采用前缀</th><th>累计处理</th><th>等待步</th><th>抢占</th></tr></thead><tbody id="nativeRequests"></tbody></table></div></section>
+    <section class="panel"><details><summary>有效配置、来源和解释范围</summary><pre id="nativeProvenance"></pre></details></section>
+  </div>
+</section>
+<dialog id="nativeDetail"><button id="nativeDetailClose" class="close">关闭</button><h2>请求证据</h2><div id="nativeDetailSummary" class="native-analysis"></div><details><summary>原始记录与覆盖范围</summary><pre id="nativeDetailText"></pre></details></dialog>

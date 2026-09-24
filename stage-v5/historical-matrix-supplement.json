@@ -1,0 +1,16 @@
+{
+  "L3_removed_by_group": {
+    "0": 8873,
+    "1": 18680,
+    "2": 18680,
+    "3": 18682,
+    "4": 148670
+  },
+  "total_removed": 213585,
+  "continuation_ttft_p50": 0.7345867529511452,
+  "e2e_p95": 66.0200091402977,
+  "sources": [
+    "stage-v4/diagnostic-12g/cause-review/cpu-3448/event-window-summary.json",
+    "stage-v4/diagnostic-12g/formal-3442/requests-enriched.csv"
+  ]
+}

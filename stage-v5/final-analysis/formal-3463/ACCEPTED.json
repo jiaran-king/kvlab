@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "requests": 425,
+  "input_tokens": 13707996,
+  "adopted": 12449536,
+  "frozen_input_verified": true,
+  "query_calls": 425
+}

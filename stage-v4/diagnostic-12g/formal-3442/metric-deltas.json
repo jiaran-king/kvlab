@@ -1,0 +1,152 @@
+{
+  "P": [
+    {
+      "metric": "vllm:prefix_cache_queries_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 8338.0,
+      "after": 14063124.0,
+      "delta": 14054786.0
+    },
+    {
+      "metric": "vllm:prefix_cache_hits_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 4096.0,
+      "after": 11173632.0,
+      "delta": 11169536.0
+    },
+    {
+      "metric": "vllm:external_prefix_cache_hits_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:num_preemptions_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "local_compute"
+      },
+      "before": 4242.0,
+      "after": 2542702.0,
+      "delta": 2538460.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "local_cache_hit"
+      },
+      "before": 4096.0,
+      "after": 11173632.0,
+      "delta": 11169536.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "external_kv_transfer"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    }
+  ],
+  "D": [
+    {
+      "metric": "vllm:prefix_cache_queries_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:prefix_cache_hits_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:external_prefix_cache_hits_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 8338.0,
+      "after": 13716334.0,
+      "delta": 13707996.0
+    },
+    {
+      "metric": "vllm:num_preemptions_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "local_compute"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "local_cache_hit"
+      },
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:prompt_tokens_by_source_total",
+      "labels": {
+        "engine": "0",
+        "model_name": "dsv4-replay",
+        "source": "external_kv_transfer"
+      },
+      "before": 8338.0,
+      "after": 13716334.0,
+      "delta": 13707996.0
+    }
+  ]
+}

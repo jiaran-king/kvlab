@@ -1,0 +1,21 @@
+{
+  "tracked_pids_still_present": [],
+  "shm_added": [],
+  "shm_removed_count": 0,
+  "shm_changed": [
+    "check_log.pid",
+    "hwinfo",
+    "gpuinfo.log",
+    "hwinfo_cache_memory",
+    "file_bindroot-a8bd9-842NSXGe",
+    "fh_bindroot-a8bd9-842NSXGe",
+    "rdma.log",
+    "check_log.runtime",
+    "hwinfo_cache_smartlog"
+  ],
+  "ports_unchanged": true,
+  "ipc_unchanged": true,
+  "after_D_Z": [
+    "root      212504  212317 Z    4963470 [dmesg] <defunct>"
+  ]
+}

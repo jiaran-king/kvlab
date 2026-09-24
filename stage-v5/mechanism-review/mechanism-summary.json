@@ -1,0 +1,90 @@
+{
+  "source": {
+    "F12_requests": 425,
+    "F24_requests": 425,
+    "paired_requests": 425,
+    "paired_net_adopted_gain": 1313280,
+    "positive_requests": 41,
+    "zero_requests": 384,
+    "negative_requests": 0,
+    "positive_gain": 1313280
+  },
+  "classification": {
+    "group0_only_requests": 36,
+    "group0_only_gain": 1176320,
+    "joint_contraction_requests": 5,
+    "joint_contraction_gain": 136960,
+    "group0_only_fraction_of_net": 0.8957115009746589,
+    "joint_fraction_of_net": 0.10428849902534112
+  },
+  "targets": {
+    "group0_return_boundary": {
+      "source_key": "r00000083-815560ad32e534f4",
+      "delta": 50688,
+      "selection": "largest positive delta among requests whose later group calls do not shrink the candidate"
+    },
+    "joint_group_1_2_contraction": {
+      "source_key": "r00000183-d01c855532666b44",
+      "delta": 41472,
+      "selection": "documented clean example: nonzero group-0 candidate is reduced to zero by joint [1,2] in F12"
+    }
+  },
+  "effective_cache_config": {
+    "num_blocks": 12393,
+    "scheduler_block_size": 256,
+    "hash_block_size": 4,
+    "retention_interval": null,
+    "groups": [
+      {
+        "group": 0,
+        "manager": "FullAttentionManager",
+        "block_size": 256,
+        "sliding_window": null
+      },
+      {
+        "group": 1,
+        "manager": "SlidingWindowManager",
+        "block_size": 64,
+        "sliding_window": 128
+      },
+      {
+        "group": 2,
+        "manager": "SlidingWindowManager",
+        "block_size": 64,
+        "sliding_window": 128
+      },
+      {
+        "group": 3,
+        "manager": "SlidingWindowManager",
+        "block_size": 4,
+        "sliding_window": 8
+      },
+      {
+        "group": 4,
+        "manager": "SlidingWindowManager",
+        "block_size": 8,
+        "sliding_window": 128
+      }
+    ],
+    "evidence": "stage-v5/formal-3454/query-diagnostic-1271803.jsonl effective_cache_config; the same source identity/configuration was accepted for C12/F12/F24"
+  },
+  "event_window": {
+    "C12": {
+      "formal_start_last_sequence": 0,
+      "clear_sequence": 1,
+      "formal_end_last_sequence": 591
+    },
+    "F12": {
+      "formal_start_last_sequence": 1,
+      "clear_sequence": 3,
+      "formal_end_last_sequence": 537
+    },
+    "F24": {
+      "formal_start_last_sequence": 2,
+      "clear_sequence": 3,
+      "formal_end_last_sequence": 418
+    },
+    "counting_rule": "count only BlockStored/BlockRemoved after the single AllBlocksCleared event and through the formal end sequence; explicitly require formal_start_last_sequence < sequence <= formal_end_last_sequence",
+    "raw_event_limitation": "stage-v5 retains boundary summaries, not the full C12/F12/F24 kv-events.jsonl; the existing CPU run performed the full stream analysis"
+  }
+}

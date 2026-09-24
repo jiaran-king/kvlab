@@ -1,0 +1,383 @@
+{
+  "H": [
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826894.0,
+      "end_epoch": 1789826903.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:14+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826911.0,
+      "end_epoch": 1789826920.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:31+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826924.0,
+      "end_epoch": 1789826933.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:44+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826936.0,
+      "end_epoch": 1789826945.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:56+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826957.0,
+      "end_epoch": 1789826966.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:17+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826969.0,
+      "end_epoch": 1789826979.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:09:29+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826983.0,
+      "end_epoch": 1789826992.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:43+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826995.0,
+      "end_epoch": 1789827004.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:55+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827008.0,
+      "end_epoch": 1789827017.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:10:08+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827034.0,
+      "end_epoch": 1789827044.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:10:34+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827047.0,
+      "end_epoch": 1789827056.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:10:47+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827067.0,
+      "end_epoch": 1789827076.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:11:07+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827079.0,
+      "end_epoch": 1789827089.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:11:19+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827116.0,
+      "end_epoch": 1789827125.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:11:56+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827190.0,
+      "end_epoch": 1789827200.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:13:10+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827203.0,
+      "end_epoch": 1789827212.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:13:23+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827219.0,
+      "end_epoch": 1789827229.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:13:39+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827232.0,
+      "end_epoch": 1789827241.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:13:52+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827303.0,
+      "end_epoch": 1789827312.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:15:03+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827810.0,
+      "end_epoch": 1789827819.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:23:30+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601579",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789828140.0,
+      "end_epoch": 1789828149.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:29:00+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826894.0,
+      "end_epoch": 1789826903.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:14+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826911.0,
+      "end_epoch": 1789826920.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:31+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826924.0,
+      "end_epoch": 1789826933.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:08:44+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826936.0,
+      "end_epoch": 1789826946.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:08:56+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826957.0,
+      "end_epoch": 1789826966.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:17+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826969.0,
+      "end_epoch": 1789826978.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:29+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789826983.0,
+      "end_epoch": 1789826993.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:09:43+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789826996.0,
+      "end_epoch": 1789827005.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:09:56+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827008.0,
+      "end_epoch": 1789827017.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:10:08+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827034.0,
+      "end_epoch": 1789827044.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:10:34+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827047.0,
+      "end_epoch": 1789827056.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:10:47+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827067.0,
+      "end_epoch": 1789827076.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:11:07+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827080.0,
+      "end_epoch": 1789827089.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:11:20+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827116.0,
+      "end_epoch": 1789827125.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:11:56+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827190.0,
+      "end_epoch": 1789827200.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:13:10+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827203.0,
+      "end_epoch": 1789827212.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:13:23+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827219.0,
+      "end_epoch": 1789827229.0,
+      "duration_s": 10.0,
+      "start_utc": "2026-09-19T14:13:39+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827232.0,
+      "end_epoch": 1789827241.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:13:52+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_broadcast_with_norm_tilelang",
+      "start_epoch": 1789827303.0,
+      "end_epoch": 1789827312.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:15:03+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789827810.0,
+      "end_epoch": 1789827819.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:23:30+00:00"
+    },
+    {
+      "role": "P",
+      "pid": "2601582",
+      "kernel": "mhc_pre_big_fuse_with_norm_tilelang",
+      "start_epoch": 1789828140.0,
+      "end_epoch": 1789828149.0,
+      "duration_s": 9.0,
+      "start_utc": "2026-09-19T14:29:00+00:00"
+    }
+  ],
+  "L": []
+}

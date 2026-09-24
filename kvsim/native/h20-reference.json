@@ -1,0 +1,62 @@
+{
+  "schema": "kvlab-h20-historical-reference/v1",
+  "provenance": "stage-v4 formal-3430/3429/3425 and stage-v5 cpu-3468, extracted 2026-09-23",
+  "runs": [
+    {
+      "name": "formal-3430",
+      "capacity_gib_per_rank": 12,
+      "requests": 425,
+      "actual_input_tokens": 13707996,
+      "query_hit_rate": 0.4216296182060836,
+      "actual_input_cache_fraction": 0.48185832560791525,
+      "local_compute_tokens": 7102684.0,
+      "removed_hash_entries": 623629
+    },
+    {
+      "name": "formal-3429",
+      "capacity_gib_per_rank": 24,
+      "requests": 425,
+      "actual_input_tokens": 13707996,
+      "query_hit_rate": 0.9081951876846185,
+      "actual_input_cache_fraction": 0.9081951876846185,
+      "local_compute_tokens": 1258460.0,
+      "removed_hash_entries": 86238
+    },
+    {
+      "name": "formal-3425",
+      "capacity_gib_per_rank": 48,
+      "requests": 425,
+      "actual_input_tokens": 13707996,
+      "query_hit_rate": 0.9214172516537064,
+      "actual_input_cache_fraction": 0.9214172516537064,
+      "local_compute_tokens": 1077212.0,
+      "removed_hash_entries": 44984
+    }
+  ],
+  "frozen_pair": [
+    {
+      "label": "F12",
+      "job": 3462,
+      "capacity_gib_per_rank": 12,
+      "requests": 425,
+      "actual_input_tokens": 13707996,
+      "query_hit_rate": 0.7716023778077741,
+      "actual_input_cache_fraction": 0.812391249603516,
+      "adopted_tokens": 11136256,
+      "local_compute_tokens": 2571740,
+      "removed_hash_entries": 217750
+    },
+    {
+      "label": "F24",
+      "job": 3463,
+      "capacity_gib_per_rank": 24,
+      "requests": 425,
+      "actual_input_tokens": 13707996,
+      "query_hit_rate": 0.9081951876846185,
+      "actual_input_cache_fraction": 0.9081951876846185,
+      "adopted_tokens": 12449536,
+      "local_compute_tokens": 1258460,
+      "removed_hash_entries": 85939
+    }
+  ]
+}

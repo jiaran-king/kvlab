@@ -1,0 +1,36 @@
+{
+  "active_directory": "stage-v5/retry-1",
+  "jobs": {
+    "C12": "3458",
+    "F12": "3462",
+    "F24": "3463",
+    "terminal": "3464"
+  },
+  "current_fix": "Only startup shell adds confirmed-TIME_WAIT wait (120 s max); experiment controller, service, client, hook unchanged",
+  "validation": [
+    "retry-1/flush-validation.txt",
+    "retry-1/cpu-validation.txt",
+    "retry-1/test_wait_ports.py"
+  ],
+  "followup_repair_cycles_used": 1,
+  "followup_repair_cycle_limit": 4,
+  "gpu_start_limit_since_current_authorization": 10,
+  "last_new_gpu_submission_beijing": "2026-09-21 09:30:00",
+  "status": "C12/F12/F24 accepted; final 425-request paired analysis and report complete",
+  "last_check_beijing": "2026-09-21T09:21:39.223899+08:00",
+  "latest_observation": {
+    "F24_job": "3463",
+    "F24_state": "COMPLETED",
+    "completed_request_records": 425,
+    "final_cpu_analysis_job": "3468",
+    "pair_net_adopted_gain": 1313280,
+    "report": "stage-v5/REPORT.md"
+  },
+  "gpu_jobs_started_since_authorization": [
+    "3458",
+    "3459",
+    "3462",
+    "3463"
+  ],
+  "reused_capture": "stage-v5/retry-1/formal-3458"
+}

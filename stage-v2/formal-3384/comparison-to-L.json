@@ -1,0 +1,18 @@
+{
+  "P_command_differences": [
+    {
+      "index": 38,
+      "L": "12884901888",
+      "H2": "51539607552"
+    }
+  ],
+  "P_command_lengths_equal": true,
+  "P_same_device_properties": true,
+  "P_same_physical_uuids": false,
+  "D_command_differences": [],
+  "D_command_lengths_equal": true,
+  "D_same_device_properties": true,
+  "D_same_physical_uuids": false,
+  "replay_config_equal_except_output": true,
+  "plan_equal": true
+}

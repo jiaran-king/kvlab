@@ -1,0 +1,10 @@
+{
+  "P": {
+    "same_devices": true,
+    "same_command": true
+  },
+  "D": {
+    "same_devices": true,
+    "same_command": true
+  }
+}

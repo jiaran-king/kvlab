@@ -1,0 +1,31 @@
+{
+  "P_remaining": [],
+  "D_remaining": [],
+  "controller_remaining": [],
+  "tracked_pids_remaining": [],
+  "owned_gpu_applications": [],
+  "owned_listeners_remaining": [],
+  "owned_shm_remaining": [],
+  "ipc_unchanged": true,
+  "scheduler_completed_zero": true,
+  "resource_cleanup_passed": true,
+  "host_health_requires_review": [
+    "memory-before.txt",
+    "memory-after.txt",
+    "load-before.txt",
+    "load-after.txt",
+    "storage-before.txt",
+    "storage-after.txt",
+    "processes-before.txt",
+    "processes-after.txt"
+  ],
+  "host_health_review": {
+    "load1_after": 8.96,
+    "cpu_count": 192,
+    "available_memory_MiB_after": 1699190,
+    "storage_free": "4.9T",
+    "known_baseline_zombie": "root dmesg PID212504 unchanged",
+    "transient_root_sh": "1-second root sh child in exit snapshot; subsequent M health gate found no new persistent D/Z",
+    "conclusion": "No attributable resource residue or host-health regression found; scheduler terminal preserved"
+  }
+}

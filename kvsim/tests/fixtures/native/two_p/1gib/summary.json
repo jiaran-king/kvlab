@@ -1,0 +1,92 @@
+{
+  "run_id": "native-37773a9c706da122d1e0",
+  "scenario_id": "h20-controlled",
+  "budget_provenance": {
+    "source": "assumed",
+    "authority": "gib_per_rank",
+    "value": 1,
+    "evidence": null,
+    "assumptions": "User-selected KV budget; no AFD memory ledger supplied"
+  },
+  "status": "complete",
+  "failure_reason": null,
+  "failure_type": null,
+  "capacity_gib_per_rank": 1,
+  "physical_blocks": 1032,
+  "p_domains": 2,
+  "per_p": {
+    "p0": {
+      "requests_planned": 2,
+      "requests_completed": 2,
+      "actual_input_tokens": 2048,
+      "initial_adopted_cache_tokens": 0,
+      "actual_input_cache_fraction": 0.0,
+      "cumulative_input_processing_tokens": 2048,
+      "prefix_queries": 2048,
+      "prefix_hits": 0,
+      "prefix_query_hit_rate": 0.0,
+      "preempted_queries": 0,
+      "preempted_hits": 0,
+      "native_event_counts": {
+        "BlockStored": 20
+      },
+      "removed_hash_entries_by_group": {},
+      "peak_active_blocks": 340,
+      "peak_reusable_cached_blocks": 184
+    },
+    "p1": {
+      "requests_planned": 2,
+      "requests_completed": 2,
+      "actual_input_tokens": 2048,
+      "initial_adopted_cache_tokens": 0,
+      "actual_input_cache_fraction": 0.0,
+      "cumulative_input_processing_tokens": 2048,
+      "prefix_queries": 2048,
+      "prefix_hits": 0,
+      "prefix_query_hit_rate": 0.0,
+      "preempted_queries": 0,
+      "preempted_hits": 0,
+      "native_event_counts": {
+        "BlockStored": 20
+      },
+      "removed_hash_entries_by_group": {},
+      "peak_active_blocks": 340,
+      "peak_reusable_cached_blocks": 184
+    }
+  },
+  "peak_active_blocks_global": 680,
+  "capacity_budget": {
+    "budget_gib_per_rank": 1,
+    "budget_bytes_per_rank": 1073741824,
+    "bytes_per_physical_block_per_rank": 1039680,
+    "physical_blocks": 1032,
+    "effective_kv_bytes_per_rank": 1072949760,
+    "unused_budget_bytes_per_rank": 792064,
+    "reserved_null_blocks": 1,
+    "rounding": "floor(budget_bytes_per_rank / bytes_per_physical_block_per_rank)",
+    "layout_source": "stage-v5/formal-3454/query-diagnostic-1271803.jsonl effective_cache_config"
+  },
+  "requests_planned": 4,
+  "requests_completed": 4,
+  "requests_unfinished": 0,
+  "logical_steps": 5,
+  "actual_input_tokens": 4096,
+  "initial_adopted_cache_tokens": 0,
+  "actual_input_cache_fraction": 0.0,
+  "cumulative_input_processing_tokens": 4096,
+  "prefix_queries": 4096,
+  "prefix_hits": 0,
+  "prefix_query_hit_rate": 0.0,
+  "preempted_queries": 0,
+  "preempted_hits": 0,
+  "native_event_counts": {
+    "BlockStored": 40
+  },
+  "removed_hash_entries_by_group": {},
+  "events_written": 40,
+  "events_native_total": 40,
+  "events_coverage": "all",
+  "content_source": "trace_driven_synthetic",
+  "metric_scope": "all requests",
+  "execution_protocol": "transfer-next-step-client-following-step"
+}

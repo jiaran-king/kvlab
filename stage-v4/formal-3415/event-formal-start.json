@@ -1,0 +1,1 @@
+{"time": 1789872052.3247635, "batches": 1, "last_sequence": 0, "gaps": [], "counts": {"BlockStored": 5}, "errors": [], "raw_bytes": 3394, "replay_pending": false, "last_clear_sequence": null, "replay_rounds": 2, "last_batch_received": 1789872052.3245165, "reset_success": true, "reset_time": 1789872052.5920517, "clears_before": 0, "reset_event_may_be_deferred": true}

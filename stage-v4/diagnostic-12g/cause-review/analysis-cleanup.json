@@ -1,0 +1,9 @@
+{
+  "job": 3448,
+  "gpu_requested": false,
+  "completed_zero": true,
+  "worker_absent": true,
+  "ipc_unchanged": true,
+  "exit_code": 0,
+  "no_services_or_listeners_created": true
+}

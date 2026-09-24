@@ -1,0 +1,130 @@
+{
+  "status": "candidate; actual prompt prefix inspection and runtime interleaving not yet verified",
+  "source": "Installed client tests/agentbench/replay/claude_trace_8session_requests.jsonl; downloaded bytes exactly match evidence/source-trace.jsonl",
+  "client_commit": "7f304555a8bc504c2c2257db2662e896eeeb5c30",
+  "sessions": [
+    {
+      "session_id": "b7b3a0fd-4f2f-4161-b479-ba8fec778d4c",
+      "requests": 76,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 39639,
+      "input_tokens": 1787612,
+      "output_tokens": 13610,
+      "source_status_counts": {
+        "success": 76
+      }
+    },
+    {
+      "session_id": "a8988a82-1da3-4f4f-9493-8f11e2aaa094",
+      "requests": 74,
+      "selected": false,
+      "excluded_reasons": [
+        "missing input/output length in original session"
+      ],
+      "max_input_output_tokens": 36788,
+      "input_tokens": 1438897,
+      "output_tokens": 13113,
+      "source_status_counts": {
+        "success": 73,
+        "error": 1
+      }
+    },
+    {
+      "session_id": "7aefcc2d-844d-4445-b575-350f065a0a52",
+      "requests": 34,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 58018,
+      "input_tokens": 1385083,
+      "output_tokens": 6370,
+      "source_status_counts": {
+        "success": 34
+      }
+    },
+    {
+      "session_id": "c4d23e13-7f6c-4998-af37-d6a3e8b4067f",
+      "requests": 75,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 75768,
+      "input_tokens": 2891982,
+      "output_tokens": 11915,
+      "source_status_counts": {
+        "success": 75
+      }
+    },
+    {
+      "session_id": "e01aea97-d725-4a51-998b-867a6fcbf808",
+      "requests": 139,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 73203,
+      "input_tokens": 4372075,
+      "output_tokens": 50459,
+      "source_status_counts": {
+        "success": 139
+      }
+    },
+    {
+      "session_id": "10cba3c1-a4b1-4e3b-af75-e96a5a272554",
+      "requests": 78,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 56383,
+      "input_tokens": 2201698,
+      "output_tokens": 17265,
+      "source_status_counts": {
+        "success": 78
+      }
+    },
+    {
+      "session_id": "66fd0455-0715-4b7b-ab93-d2aeb4323268",
+      "requests": 65,
+      "selected": true,
+      "excluded_reasons": [],
+      "max_input_output_tokens": 67237,
+      "input_tokens": 2700553,
+      "output_tokens": 10131,
+      "source_status_counts": {
+        "success": 65
+      }
+    },
+    {
+      "session_id": "c5ec1c2f-21aa-4297-afce-bbd340165857",
+      "requests": 56,
+      "selected": false,
+      "excluded_reasons": [
+        "original request input+output exceeds 81920"
+      ],
+      "max_input_output_tokens": 82982,
+      "input_tokens": 2103281,
+      "output_tokens": 11962,
+      "source_status_counts": {
+        "success": 56
+      }
+    }
+  ],
+  "planned_requests": 467,
+  "parameters": {
+    "request_max_concurrency": 3,
+    "seed": 0,
+    "actor_gap_scale": 0.1,
+    "context_adjustment": "adaptive",
+    "formatter": "claude_code_minimal_v1"
+  },
+  "input_tokens": 15339003,
+  "output_tokens": 109750,
+  "input_tokens_distribution": {
+    "min": 352,
+    "p50": 31681,
+    "p95_nearest_rank": 64916,
+    "max": 75340
+  },
+  "output_tokens_distribution": {
+    "min": 12,
+    "p50": 96,
+    "p95_nearest_rank": 630,
+    "max": 32000
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "jobs": [
+    {
+      "label": "C12",
+      "job_id": "3458",
+      "run": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3458",
+      "submitted_at": 1789911538.3041718,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=v5-C12",
+        "--export=ALL,CAPACITY_LABEL=C12,P_KV_BYTES=12884901888,D_KV_BYTES=51539607552",
+        "--kill-on-invalid-dep=yes",
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/pd_formal.slurm"
+      ]
+    },
+    {
+      "label": "F12",
+      "job_id": "3459",
+      "run": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3459",
+      "submitted_at": 1789911538.3172793,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=v5-F12",
+        "--export=ALL,CAPACITY_LABEL=F12,P_KV_BYTES=12884901888,D_KV_BYTES=51539607552,PREVIOUS_RUN=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3458,FROZEN_RUN=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3458",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:3458",
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/pd_formal.slurm"
+      ]
+    },
+    {
+      "label": "F24",
+      "job_id": "3460",
+      "run": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3460",
+      "submitted_at": 1789911538.3252058,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=v5-F24",
+        "--export=ALL,CAPACITY_LABEL=F24,P_KV_BYTES=25769803776,D_KV_BYTES=51539607552,PREVIOUS_RUN=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3459,FROZEN_RUN=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3458",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:3459",
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/pd_formal.slurm"
+      ]
+    }
+  ],
+  "terminal_job": "3461",
+  "complete": true
+}

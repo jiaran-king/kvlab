@@ -1,0 +1,23 @@
+{
+  "H": {
+    "job": "3343",
+    "requests": 174,
+    "resets": 0,
+    "exact_calibrations": 174,
+    "e2e_all_p50": 12.237704911269248,
+    "e2e_all_p95": 64.7935903840698,
+    "paired_compile_intervals": 42,
+    "compile_intervals_sum_rank_seconds": 388.0
+  },
+  "L": {
+    "job": "3353",
+    "requests": 174,
+    "resets": 0,
+    "exact_calibrations": 174,
+    "e2e_all_p50": 11.590430922340602,
+    "e2e_all_p95": 62.96703198780304,
+    "paired_compile_intervals": 0,
+    "compile_intervals_sum_rank_seconds": 0
+  },
+  "time_basis": "Client ISO UTC; worker explicit date timestamps interpreted UTC+8, consistent with startup/SLURM local timestamps and services-ready Unix time. Whole-second compile log precision; line order can be buffered. No cross-host subsecond precision claim."
+}

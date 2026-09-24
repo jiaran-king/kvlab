@@ -1,0 +1,30 @@
+{
+  "P_remaining": [],
+  "D_remaining": [],
+  "controller_remaining": [],
+  "tracked_pids_remaining": [],
+  "owned_gpu_applications": [],
+  "owned_listeners_remaining": [],
+  "owned_shm_remaining": [],
+  "ipc_unchanged": true,
+  "scheduler_completed_zero": true,
+  "resource_cleanup_passed": true,
+  "host_health_requires_review": [
+    "memory-before.txt",
+    "memory-after.txt",
+    "load-before.txt",
+    "load-after.txt",
+    "storage-before.txt",
+    "storage-after.txt",
+    "processes-before.txt",
+    "processes-after.txt"
+  ],
+  "host_health_review": {
+    "load1_after": 5.94,
+    "cpu_count": 192,
+    "available_memory_MiB_after": 1694639,
+    "storage_free": "4.9T",
+    "D_Z_review": "Only unchanged baseline root dmesg PID212504 in before/after snapshots",
+    "conclusion": "No attributable resource residue or host-health regression; scheduler completed and terminal preserved"
+  }
+}

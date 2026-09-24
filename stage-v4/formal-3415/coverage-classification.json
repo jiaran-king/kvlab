@@ -1,0 +1,12 @@
+{
+  "planned": 467,
+  "successful": 425,
+  "http_error_outcomes": 0,
+  "admitted": 426,
+  "admitted_without_outcome": [
+    "e863d430-b197-5d5e-a1ad-d6caac2386b7"
+  ],
+  "not_admitted": 41,
+  "cause": "one session canceled by3600s task TimeoutError; not900s HTTP ReadTimeout",
+  "user_decision": "no12GiB rerun; reuse425successful source requests for new H/M series"
+}

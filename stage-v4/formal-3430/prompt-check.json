@@ -1,0 +1,99 @@
+{
+  "six_distinct_long_prefixes": true,
+  "pairs": [
+    {
+      "i": 1,
+      "j": 0,
+      "common_prefix_tokens": 254,
+      "shorter_input": 22550
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "common_prefix_tokens": 254,
+      "shorter_input": 21183
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "common_prefix_tokens": 255,
+      "shorter_input": 21183
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "common_prefix_tokens": 254,
+      "shorter_input": 23006
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "common_prefix_tokens": 254,
+      "shorter_input": 22550
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "common_prefix_tokens": 254,
+      "shorter_input": 21183
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "common_prefix_tokens": 254,
+      "shorter_input": 29858
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "common_prefix_tokens": 255,
+      "shorter_input": 22550
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "common_prefix_tokens": 255,
+      "shorter_input": 21183
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "common_prefix_tokens": 254,
+      "shorter_input": 23006
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "common_prefix_tokens": 256,
+      "shorter_input": 22786
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "common_prefix_tokens": 254,
+      "shorter_input": 22550
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "common_prefix_tokens": 254,
+      "shorter_input": 21183
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "common_prefix_tokens": 254,
+      "shorter_input": 22786
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "common_prefix_tokens": 254,
+      "shorter_input": 22786
+    }
+  ],
+  "continuation_common_tokens": 32479,
+  "previous_tokens": 32479,
+  "inference_requests": 0,
+  "planned_requests": 425
+}

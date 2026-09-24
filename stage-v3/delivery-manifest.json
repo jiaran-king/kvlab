@@ -1,0 +1,610 @@
+[
+  {
+    "path": "evidence/formal-3343/metric-deltas.json",
+    "size": 3298
+  },
+  {
+    "path": "evidence/formal-3343/point-summary.json",
+    "size": 1251
+  },
+  {
+    "path": "evidence/formal-3343/replay/replay-execution.json",
+    "size": 203490
+  },
+  {
+    "path": "evidence/formal-3343/replay/requests.jsonl",
+    "size": 105336
+  },
+  {
+    "path": "evidence/formal-3343/requests-enriched.csv",
+    "size": 70446
+  },
+  {
+    "path": "evidence/formal-3353/metric-deltas.json",
+    "size": 3298
+  },
+  {
+    "path": "evidence/formal-3353/point-summary.json",
+    "size": 1250
+  },
+  {
+    "path": "evidence/formal-3353/replay/replay-execution.json",
+    "size": 203415
+  },
+  {
+    "path": "evidence/formal-3353/replay/requests.jsonl",
+    "size": 105339
+  },
+  {
+    "path": "evidence/formal-3353/requests-enriched.csv",
+    "size": 70451
+  },
+  {
+    "path": "evidence/selected-trace.jsonl",
+    "size": 99280
+  },
+  {
+    "path": "scripts/cleanup_previous_shm.py",
+    "size": 1599
+  },
+  {
+    "path": "scripts/enrich_requests.py",
+    "size": 4087
+  },
+  {
+    "path": "scripts/metric_delta.py",
+    "size": 1621
+  },
+  {
+    "path": "scripts/mooncake_connector_proxy.py",
+    "size": 11831
+  },
+  {
+    "path": "scripts/pd_controller.py",
+    "size": 3250
+  },
+  {
+    "path": "scripts/pd_entrypoint.py",
+    "size": 337
+  },
+  {
+    "path": "scripts/pd_formal_controller.py",
+    "size": 4647
+  },
+  {
+    "path": "scripts/pd_service.py",
+    "size": 7099
+  },
+  {
+    "path": "scripts/pd_smoke.py",
+    "size": 3721
+  },
+  {
+    "path": "scripts/pd_transport_probe.py",
+    "size": 500
+  },
+  {
+    "path": "scripts/plot_capacity.py",
+    "size": 2402
+  },
+  {
+    "path": "scripts/replay_selected.py",
+    "size": 1653
+  },
+  {
+    "path": "scripts/summarize_point.py",
+    "size": 5263
+  },
+  {
+    "path": "stage-v2/REPORT.md",
+    "size": 13688
+  },
+  {
+    "path": "stage-v2/formal-3384/metric-deltas.json",
+    "size": 3298
+  },
+  {
+    "path": "stage-v2/formal-3384/point-summary.json",
+    "size": 1255
+  },
+  {
+    "path": "stage-v2/formal-3384/replay/replay-execution.json",
+    "size": 203521
+  },
+  {
+    "path": "stage-v2/formal-3384/replay/requests.jsonl",
+    "size": 105367
+  },
+  {
+    "path": "stage-v2/formal-3384/requests-enriched.csv",
+    "size": 70491
+  },
+  {
+    "path": "stage-v2/formal-3391/metric-deltas.json",
+    "size": 3298
+  },
+  {
+    "path": "stage-v2/formal-3391/point-summary.json",
+    "size": 1252
+  },
+  {
+    "path": "stage-v2/formal-3391/replay/replay-execution.json",
+    "size": 195953
+  },
+  {
+    "path": "stage-v2/formal-3391/replay/requests.jsonl",
+    "size": 97377
+  },
+  {
+    "path": "stage-v2/formal-3391/requests-enriched.csv",
+    "size": 69941
+  },
+  {
+    "path": "stage-v3/DECISION.md",
+    "size": 3215
+  },
+  {
+    "path": "stage-v3/H-supplement.json",
+    "size": 62546
+  },
+  {
+    "path": "stage-v3/H2-supplement.json",
+    "size": 50501
+  },
+  {
+    "path": "stage-v3/L-supplement.json",
+    "size": 49177
+  },
+  {
+    "path": "stage-v3/M-supplement.json",
+    "size": 50277
+  },
+  {
+    "path": "stage-v3/M2-supplement.json",
+    "size": 50480
+  },
+  {
+    "path": "stage-v3/REPORT.md",
+    "size": 11131
+  },
+  {
+    "path": "stage-v3/SCOPE.md",
+    "size": 1029
+  },
+  {
+    "path": "stage-v3/STATUS.md",
+    "size": 2815
+  },
+  {
+    "path": "stage-v3/attribute_other_shm.py",
+    "size": 1202
+  },
+  {
+    "path": "stage-v3/build_results.py",
+    "size": 4189
+  },
+  {
+    "path": "stage-v3/capacity-increments.json",
+    "size": 708
+  },
+  {
+    "path": "stage-v3/cleanup-check-final.txt",
+    "size": 1127
+  },
+  {
+    "path": "stage-v3/completion-audit.json",
+    "size": 515
+  },
+  {
+    "path": "stage-v3/formal-3406/D-cleanup.json",
+    "size": 524
+  },
+  {
+    "path": "stage-v3/formal-3406/D-config.json",
+    "size": 1544
+  },
+  {
+    "path": "stage-v3/formal-3406/D-io-waits.jsonl",
+    "size": 15929
+  },
+  {
+    "path": "stage-v3/formal-3406/D-memlock.json",
+    "size": 42
+  },
+  {
+    "path": "stage-v3/formal-3406/D-step.log",
+    "size": 0
+  },
+  {
+    "path": "stage-v3/formal-3406/D-tracked.json",
+    "size": 234
+  },
+  {
+    "path": "stage-v3/formal-3406/D-transport-probe.log",
+    "size": 2990
+  },
+  {
+    "path": "stage-v3/formal-3406/D.log",
+    "size": 91791
+  },
+  {
+    "path": "stage-v3/formal-3406/P-cleanup.json",
+    "size": 553
+  },
+  {
+    "path": "stage-v3/formal-3406/P-config.json",
+    "size": 1541
+  },
+  {
+    "path": "stage-v3/formal-3406/P-io-waits.jsonl",
+    "size": 14892
+  },
+  {
+    "path": "stage-v3/formal-3406/P-memlock.json",
+    "size": 42
+  },
+  {
+    "path": "stage-v3/formal-3406/P-step.log",
+    "size": 0
+  },
+  {
+    "path": "stage-v3/formal-3406/P-tracked.json",
+    "size": 259
+  },
+  {
+    "path": "stage-v3/formal-3406/P-transport-probe.log",
+    "size": 2990
+  },
+  {
+    "path": "stage-v3/formal-3406/P.log",
+    "size": 216595
+  },
+  {
+    "path": "stage-v3/formal-3406/cache-reset.json",
+    "size": 47
+  },
+  {
+    "path": "stage-v3/formal-3406/cleanup-audit.json",
+    "size": 4216
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-after-D.prom",
+    "size": 51055
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-after-P.prom",
+    "size": 52174
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-before-D.prom",
+    "size": 48852
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-before-P.prom",
+    "size": 50769
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-result.json",
+    "size": 4262
+  },
+  {
+    "path": "stage-v3/formal-3406/cold-tokenized.json",
+    "size": 24699
+  },
+  {
+    "path": "stage-v3/formal-3406/comparison-to-L.json",
+    "size": 287
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-after-D.prom",
+    "size": 51093
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-after-P.prom",
+    "size": 52197
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-before-D.prom",
+    "size": 51055
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-before-P.prom",
+    "size": 52175
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-result.json",
+    "size": 4348
+  },
+  {
+    "path": "stage-v3/formal-3406/continuation-tokenized.json",
+    "size": 25467
+  },
+  {
+    "path": "stage-v3/formal-3406/controller-cleanup.json",
+    "size": 437
+  },
+  {
+    "path": "stage-v3/formal-3406/devices.csv",
+    "size": 386
+  },
+  {
+    "path": "stage-v3/formal-3406/exit-code.txt",
+    "size": 2
+  },
+  {
+    "path": "stage-v3/formal-3406/formal-after-D.prom",
+    "size": 51628
+  },
+  {
+    "path": "stage-v3/formal-3406/formal-after-P.prom",
+    "size": 55311
+  },
+  {
+    "path": "stage-v3/formal-3406/formal-before-D.prom",
+    "size": 51093
+  },
+  {
+    "path": "stage-v3/formal-3406/formal-before-P.prom",
+    "size": 53471
+  },
+  {
+    "path": "stage-v3/formal-3406/gpu-apps-after.csv",
+    "size": 51
+  },
+  {
+    "path": "stage-v3/formal-3406/gpu-apps-before.csv",
+    "size": 51
+  },
+  {
+    "path": "stage-v3/formal-3406/health-gate.json",
+    "size": 409
+  },
+  {
+    "path": "stage-v3/formal-3406/ipc-after.txt",
+    "size": 120
+  },
+  {
+    "path": "stage-v3/formal-3406/ipc-before.txt",
+    "size": 120
+  },
+  {
+    "path": "stage-v3/formal-3406/job-after.txt",
+    "size": 1516
+  },
+  {
+    "path": "stage-v3/formal-3406/job-before.txt",
+    "size": 1516
+  },
+  {
+    "path": "stage-v3/formal-3406/load-after.txt",
+    "size": 71
+  },
+  {
+    "path": "stage-v3/formal-3406/load-before.txt",
+    "size": 71
+  },
+  {
+    "path": "stage-v3/formal-3406/memory-after.txt",
+    "size": 204
+  },
+  {
+    "path": "stage-v3/formal-3406/memory-before.txt",
+    "size": 204
+  },
+  {
+    "path": "stage-v3/formal-3406/metric-deltas.json",
+    "size": 3298
+  },
+  {
+    "path": "stage-v3/formal-3406/point-summary.json",
+    "size": 1254
+  },
+  {
+    "path": "stage-v3/formal-3406/ports-after.txt",
+    "size": 8372
+  },
+  {
+    "path": "stage-v3/formal-3406/ports-before.txt",
+    "size": 8372
+  },
+  {
+    "path": "stage-v3/formal-3406/pre-reset-18401.prom",
+    "size": 52184
+  },
+  {
+    "path": "stage-v3/formal-3406/pre-reset-18402.prom",
+    "size": 51093
+  },
+  {
+    "path": "stage-v3/formal-3406/previous-job-shm-cleanup.json",
+    "size": 782
+  },
+  {
+    "path": "stage-v3/formal-3406/processes-after.txt",
+    "size": 119749
+  },
+  {
+    "path": "stage-v3/formal-3406/processes-before.txt",
+    "size": 118824
+  },
+  {
+    "path": "stage-v3/formal-3406/proxy-phase-summary.json",
+    "size": 447
+  },
+  {
+    "path": "stage-v3/formal-3406/proxy-phases.csv",
+    "size": 65840
+  },
+  {
+    "path": "stage-v3/formal-3406/proxy-step.log",
+    "size": 171195
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/evidence/vllm_metrics_end.prom",
+    "size": 55311
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/evidence/vllm_metrics_start.prom",
+    "size": 53469
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/manifest.json",
+    "size": 3972
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/replay-execution.json",
+    "size": 203517
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/replay-plan.json",
+    "size": 126282
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/replay-source-analysis.json",
+    "size": 210583
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/requests.jsonl",
+    "size": 105362
+  },
+  {
+    "path": "stage-v3/formal-3406/replay/summary.json",
+    "size": 6538
+  },
+  {
+    "path": "stage-v3/formal-3406/replay-config.json",
+    "size": 1883
+  },
+  {
+    "path": "stage-v3/formal-3406/replay-step.log",
+    "size": 107
+  },
+  {
+    "path": "stage-v3/formal-3406/requests-enriched.csv",
+    "size": 70482
+  },
+  {
+    "path": "stage-v3/formal-3406/scheduler-final.txt",
+    "size": 1518
+  },
+  {
+    "path": "stage-v3/formal-3406/services-ready.json",
+    "size": 28
+  },
+  {
+    "path": "stage-v3/formal-3406/shm-after.txt",
+    "size": 131677
+  },
+  {
+    "path": "stage-v3/formal-3406/shm-before.txt",
+    "size": 131677
+  },
+  {
+    "path": "stage-v3/formal-3406/stop-services",
+    "size": 0
+  },
+  {
+    "path": "stage-v3/formal-3406/storage-after.txt",
+    "size": 368
+  },
+  {
+    "path": "stage-v3/formal-3406/storage-before.txt",
+    "size": 368
+  },
+  {
+    "path": "stage-v3/formal-3406/topology.txt",
+    "size": 1133
+  },
+  {
+    "path": "stage-v3/formal-3406/warmup-completed.json",
+    "size": 15
+  },
+  {
+    "path": "stage-v3/formal-3406/warmup-step.log",
+    "size": 565
+  },
+  {
+    "path": "stage-v3/formal-runs.jsonl",
+    "size": 197
+  },
+  {
+    "path": "stage-v3/head-after-M2.txt",
+    "size": 434
+  },
+  {
+    "path": "stage-v3/head-before.txt",
+    "size": 3051
+  },
+  {
+    "path": "stage-v3/join_proxy_phases.py",
+    "size": 2773
+  },
+  {
+    "path": "stage-v3/mooncake_connector.py",
+    "size": 85883
+  },
+  {
+    "path": "stage-v3/mooncake_connector_proxy.py",
+    "size": 12935
+  },
+  {
+    "path": "stage-v3/other-resource-attribution.jsonl",
+    "size": 7709
+  },
+  {
+    "path": "stage-v3/pd_m2.slurm",
+    "size": 2527
+  },
+  {
+    "path": "stage-v3/pd_m2_controller.py",
+    "size": 4659
+  },
+  {
+    "path": "stage-v3/planner.py",
+    "size": 16764
+  },
+  {
+    "path": "stage-v3/replay_m2.py",
+    "size": 1721
+  },
+  {
+    "path": "stage-v3/results/capacity-hit-rate.png",
+    "size": 77413
+  },
+  {
+    "path": "stage-v3/results/capacity-ttft.png",
+    "size": 85689
+  },
+  {
+    "path": "stage-v3/results/stage-means.csv",
+    "size": 4028
+  },
+  {
+    "path": "stage-v3/results/summary.csv",
+    "size": 4866
+  },
+  {
+    "path": "stage-v3/run-selection.json",
+    "size": 1625
+  },
+  {
+    "path": "stage-v3/runner.py",
+    "size": 17791
+  },
+  {
+    "path": "stage-v3/runtime-and-scheduler.txt",
+    "size": 3143
+  },
+  {
+    "path": "stage-v3/sampler.py",
+    "size": 2191
+  },
+  {
+    "path": "stage-v3/supplement_run.py",
+    "size": 3374
+  },
+  {
+    "path": "stage-v3/transport.py",
+    "size": 8958
+  }
+]

@@ -1,0 +1,526 @@
+{
+  "L2": {
+    "run": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3430",
+    "window": {
+      "start": 1789885834.308113,
+      "end": 1789885901.994496,
+      "definition": "publisher timestamp within min target P_http_start .. max target P_http_response; may include other concurrent requests"
+    },
+    "stream": {
+      "lines": 629295,
+      "sequences": 978,
+      "min_sequence": 0,
+      "max_sequence": 977,
+      "missing_sequences": [],
+      "capture_sequence_backtracks": 0,
+      "observer_errors": [],
+      "clears": [
+        {
+          "sequence": 1,
+          "time": 1789885180.141181,
+          "line": 6
+        }
+      ]
+    },
+    "event_fields": {
+      "BlockStored": [
+        "type",
+        "block_hashes",
+        "parent_block_hash",
+        "block_size",
+        "lora_id",
+        "medium",
+        "lora_name",
+        "extra_keys",
+        "group_idx",
+        "kv_cache_spec_kind",
+        "token_ids_count"
+      ],
+      "AllBlocksCleared": [
+        "type"
+      ],
+      "BlockRemoved": [
+        "type",
+        "block_hashes",
+        "medium",
+        "group_idx"
+      ]
+    },
+    "group_specs": {
+      "0": {
+        "block_size": 256,
+        "kv_cache_spec_kind": "mla_attention",
+        "kv_cache_spec_sliding_window": null
+      },
+      "1": {
+        "block_size": 64,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      },
+      "2": {
+        "block_size": 64,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      },
+      "3": {
+        "block_size": 4,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 8
+      },
+      "4": {
+        "block_size": 8,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      }
+    },
+    "window_counts": [
+      {
+        "group": "0",
+        "kind": "BlockRemoved",
+        "entries": 1044
+      },
+      {
+        "group": "0",
+        "kind": "BlockStored",
+        "entries": 981
+      },
+      {
+        "group": "1",
+        "kind": "BlockRemoved",
+        "entries": 2206
+      },
+      {
+        "group": "1",
+        "kind": "BlockStored",
+        "entries": 1962
+      },
+      {
+        "group": "2",
+        "kind": "BlockRemoved",
+        "entries": 2206
+      },
+      {
+        "group": "2",
+        "kind": "BlockStored",
+        "entries": 1962
+      },
+      {
+        "group": "3",
+        "kind": "BlockRemoved",
+        "entries": 2208
+      },
+      {
+        "group": "3",
+        "kind": "BlockStored",
+        "entries": 1962
+      },
+      {
+        "group": "4",
+        "kind": "BlockRemoved",
+        "entries": 17874
+      },
+      {
+        "group": "4",
+        "kind": "BlockStored",
+        "entries": 15696
+      }
+    ],
+    "formal_counts": [
+      {
+        "group": "0",
+        "kind": "BlockRemoved",
+        "entries": 26563
+      },
+      {
+        "group": "0",
+        "kind": "BlockStored",
+        "entries": 27537
+      },
+      {
+        "group": "1",
+        "kind": "BlockRemoved",
+        "entries": 54330
+      },
+      {
+        "group": "1",
+        "kind": "BlockStored",
+        "entries": 55074
+      },
+      {
+        "group": "2",
+        "kind": "BlockRemoved",
+        "entries": 54330
+      },
+      {
+        "group": "2",
+        "kind": "BlockStored",
+        "entries": 55074
+      },
+      {
+        "group": "3",
+        "kind": "BlockRemoved",
+        "entries": 54332
+      },
+      {
+        "group": "3",
+        "kind": "BlockStored",
+        "entries": 55074
+      },
+      {
+        "group": "4",
+        "kind": "BlockRemoved",
+        "entries": 434074
+      },
+      {
+        "group": "4",
+        "kind": "BlockStored",
+        "entries": 440592
+      }
+    ],
+    "window_bounds": {
+      "0": {
+        "first_sequence": 237,
+        "first_line": 129387,
+        "last_sequence": 267,
+        "last_line": 155110
+      },
+      "1": {
+        "first_sequence": 237,
+        "first_line": 129388,
+        "last_sequence": 267,
+        "last_line": 155111
+      },
+      "2": {
+        "first_sequence": 237,
+        "first_line": 129389,
+        "last_sequence": 267,
+        "last_line": 155112
+      },
+      "3": {
+        "first_sequence": 237,
+        "first_line": 129390,
+        "last_sequence": 267,
+        "last_line": 155113
+      },
+      "4": {
+        "first_sequence": 237,
+        "first_line": 129391,
+        "last_sequence": 267,
+        "last_line": 155114
+      }
+    },
+    "first_window_removal_by_group": {
+      "4": {
+        "sequence": 240,
+        "timestamp": 1789885851.0518196,
+        "line": 129407,
+        "first_hash": 3266190654563272350,
+        "association": "not attributed to target request"
+      },
+      "0": {
+        "sequence": 240,
+        "timestamp": 1789885851.0518196,
+        "line": 129832,
+        "first_hash": 18294301945574724843,
+        "association": "not attributed to target request"
+      },
+      "1": {
+        "sequence": 240,
+        "timestamp": 1789885851.0518196,
+        "line": 129863,
+        "first_hash": 6850927871113512007,
+        "association": "not attributed to target request"
+      },
+      "2": {
+        "sequence": 240,
+        "timestamp": 1789885851.0518196,
+        "line": 129925,
+        "first_hash": 6850927871113512007,
+        "association": "not attributed to target request"
+      },
+      "3": {
+        "sequence": 240,
+        "timestamp": 1789885851.0518196,
+        "line": 129987,
+        "first_hash": 6850927871113512007,
+        "association": "not attributed to target request"
+      }
+    },
+    "metric_interval": {
+      "start": 1789885832.9659445,
+      "end": 1789885904.0070033,
+      "deltas": {
+        "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"dsv4-replay\"}": 333286.0,
+        "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"dsv4-replay\"}": 41728.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"local_compute\"}": 252601.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"local_cache_hit\"}": 41728.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"external_kv_transfer\"}": 0.0,
+        "vllm:request_prefill_time_seconds_count{engine=\"0\",model_name=\"dsv4-replay\"}": 11.0,
+        "vllm:request_prefill_time_seconds_sum{engine=\"0\",model_name=\"dsv4-replay\"}": 53.22574086487293
+      },
+      "scope": "bracketing time interval, not exact per-target-request attribution"
+    }
+  },
+  "L3": {
+    "run": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442",
+    "window": {
+      "start": 1789896125.7520907,
+      "end": 1789896262.2262495,
+      "definition": "publisher timestamp within min target P_http_start .. max target P_http_response; may include other concurrent requests"
+    },
+    "stream": {
+      "lines": 216541,
+      "sequences": 520,
+      "min_sequence": 0,
+      "max_sequence": 519,
+      "missing_sequences": [],
+      "capture_sequence_backtracks": 0,
+      "observer_errors": [],
+      "clears": [
+        {
+          "sequence": 1,
+          "time": 1789895533.0607934,
+          "line": 6
+        }
+      ]
+    },
+    "event_fields": {
+      "BlockStored": [
+        "type",
+        "block_hashes",
+        "parent_block_hash",
+        "block_size",
+        "lora_id",
+        "medium",
+        "lora_name",
+        "extra_keys",
+        "group_idx",
+        "kv_cache_spec_kind",
+        "token_ids_count"
+      ],
+      "AllBlocksCleared": [
+        "type"
+      ],
+      "BlockRemoved": [
+        "type",
+        "block_hashes",
+        "medium",
+        "group_idx"
+      ]
+    },
+    "group_specs": {
+      "0": {
+        "block_size": 256,
+        "kv_cache_spec_kind": "mla_attention",
+        "kv_cache_spec_sliding_window": null
+      },
+      "1": {
+        "block_size": 64,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      },
+      "2": {
+        "block_size": 64,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      },
+      "3": {
+        "block_size": 4,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 8
+      },
+      "4": {
+        "block_size": 8,
+        "kv_cache_spec_kind": "sliding_window_mla",
+        "kv_cache_spec_sliding_window": 128
+      }
+    },
+    "window_counts": [
+      {
+        "group": "0",
+        "kind": "BlockRemoved",
+        "entries": 643
+      },
+      {
+        "group": "0",
+        "kind": "BlockStored",
+        "entries": 849
+      },
+      {
+        "group": "1",
+        "kind": "BlockRemoved",
+        "entries": 1602
+      },
+      {
+        "group": "1",
+        "kind": "BlockStored",
+        "entries": 1698
+      },
+      {
+        "group": "2",
+        "kind": "BlockRemoved",
+        "entries": 1602
+      },
+      {
+        "group": "2",
+        "kind": "BlockStored",
+        "entries": 1698
+      },
+      {
+        "group": "3",
+        "kind": "BlockRemoved",
+        "entries": 1600
+      },
+      {
+        "group": "3",
+        "kind": "BlockStored",
+        "entries": 1698
+      },
+      {
+        "group": "4",
+        "kind": "BlockRemoved",
+        "entries": 13316
+      },
+      {
+        "group": "4",
+        "kind": "BlockStored",
+        "entries": 13584
+      }
+    ],
+    "formal_counts": [
+      {
+        "group": "0",
+        "kind": "BlockRemoved",
+        "entries": 8873
+      },
+      {
+        "group": "0",
+        "kind": "BlockStored",
+        "entries": 9708
+      },
+      {
+        "group": "1",
+        "kind": "BlockRemoved",
+        "entries": 18680
+      },
+      {
+        "group": "1",
+        "kind": "BlockStored",
+        "entries": 19416
+      },
+      {
+        "group": "2",
+        "kind": "BlockRemoved",
+        "entries": 18680
+      },
+      {
+        "group": "2",
+        "kind": "BlockStored",
+        "entries": 19416
+      },
+      {
+        "group": "3",
+        "kind": "BlockRemoved",
+        "entries": 18682
+      },
+      {
+        "group": "3",
+        "kind": "BlockStored",
+        "entries": 19416
+      },
+      {
+        "group": "4",
+        "kind": "BlockRemoved",
+        "entries": 148670
+      },
+      {
+        "group": "4",
+        "kind": "BlockStored",
+        "entries": 155328
+      }
+    ],
+    "window_bounds": {
+      "4": {
+        "first_sequence": 201,
+        "first_line": 102494,
+        "last_sequence": 228,
+        "last_line": 121436
+      },
+      "0": {
+        "first_sequence": 201,
+        "first_line": 102808,
+        "last_sequence": 228,
+        "last_line": 121432
+      },
+      "1": {
+        "first_sequence": 201,
+        "first_line": 102809,
+        "last_sequence": 228,
+        "last_line": 121433
+      },
+      "2": {
+        "first_sequence": 201,
+        "first_line": 102810,
+        "last_sequence": 228,
+        "last_line": 121434
+      },
+      "3": {
+        "first_sequence": 201,
+        "first_line": 102811,
+        "last_sequence": 228,
+        "last_line": 121435
+      }
+    },
+    "first_window_removal_by_group": {
+      "4": {
+        "sequence": 201,
+        "timestamp": 1789896125.7567947,
+        "line": 102494,
+        "first_hash": 6720406832764395801,
+        "association": "not attributed to target request"
+      },
+      "0": {
+        "sequence": 203,
+        "timestamp": 1789896128.4165425,
+        "line": 103173,
+        "first_hash": 9596689713313532348,
+        "association": "not attributed to target request"
+      },
+      "1": {
+        "sequence": 203,
+        "timestamp": 1789896128.4165425,
+        "line": 103322,
+        "first_hash": 9596689713313532348,
+        "association": "not attributed to target request"
+      },
+      "2": {
+        "sequence": 203,
+        "timestamp": 1789896128.4165425,
+        "line": 103324,
+        "first_hash": 9596689713313532348,
+        "association": "not attributed to target request"
+      },
+      "3": {
+        "sequence": 203,
+        "timestamp": 1789896128.4165425,
+        "line": 103465,
+        "first_hash": 16631735457795600296,
+        "association": "not attributed to target request"
+      }
+    },
+    "metric_interval": {
+      "start": 1789896124.7231245,
+      "end": 1789896262.3040075,
+      "deltas": {
+        "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"dsv4-replay\"}": 374453.0,
+        "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"dsv4-replay\"}": 169216.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"local_compute\"}": 256086.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"local_cache_hit\"}": 169216.0,
+        "vllm:prompt_tokens_by_source_total{engine=\"0\",model_name=\"dsv4-replay\",source=\"external_kv_transfer\"}": 0.0,
+        "vllm:request_prefill_time_seconds_count{engine=\"0\",model_name=\"dsv4-replay\"}": 16.0,
+        "vllm:request_prefill_time_seconds_sum{engine=\"0\",model_name=\"dsv4-replay\"}": 50.78366762585938
+      },
+      "scope": "bracketing time interval, not exact per-target-request attribution"
+    }
+  }
+}

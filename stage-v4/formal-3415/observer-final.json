@@ -1,0 +1,17 @@
+{
+  "time": 1789875667.3669138,
+  "batches": 564,
+  "last_sequence": 563,
+  "gaps": [],
+  "counts": {
+    "BlockStored": 3230,
+    "AllBlocksCleared": 1,
+    "BlockRemoved": 249304
+  },
+  "errors": [],
+  "raw_bytes": 5182746,
+  "replay_pending": false,
+  "last_clear_sequence": 1,
+  "replay_rounds": 718,
+  "last_batch_received": 1789874940.2882564
+}

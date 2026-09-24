@@ -1,0 +1,147 @@
+{
+  "cleanup": {
+    "P": {
+      "remaining": [],
+      "returncode": 0,
+      "mapped_shm": {
+        "/dev/shm/psm_d1124895": 5737552,
+        "/dev/shm/psm_e9b7b109": 5737577,
+        "/dev/shm/psm_112e63d0": 5737964,
+        "/dev/shm/psm_d4999c16": 5737963
+      }
+    },
+    "D": {
+      "remaining": [],
+      "returncode": 0,
+      "mapped_shm": {
+        "/dev/shm/psm_06f21d35": 5737553,
+        "/dev/shm/psm_ac1489cd": 5737580,
+        "/dev/shm/psm_2b026daf": 5737966,
+        "/dev/shm/psm_6dd662bf": 5737965
+      }
+    },
+    "controller": {
+      "children": [
+        {
+          "name": "P",
+          "pid": 1781887,
+          "returncode": 0
+        },
+        {
+          "name": "D",
+          "pid": 1781888,
+          "returncode": 0
+        },
+        {
+          "name": "proxy",
+          "pid": 1902382,
+          "returncode": -15
+        },
+        {
+          "name": "warmup",
+          "pid": 1905397,
+          "returncode": 0
+        },
+        {
+          "name": "replay",
+          "pid": 1906930,
+          "returncode": 0
+        }
+      ],
+      "remaining": []
+    }
+  },
+  "tracked_pids_still_present": [],
+  "shm_added": [
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 09:52 sem.mp-l746xbrd",
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 09:54 psm_67fbf33b",
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 09:52 sem.mp-p5p828gj",
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 09:54 psm_afabd325",
+    "-rw-------  1 david_cwq   david_cwq      167772190 Sep 20 09:54 psm_98c89fe6",
+    "-rw-------  1 david_cwq   david_cwq       25165836 Sep 20 09:52 psm_5f7d81f7"
+  ],
+  "shm_removed_count": 6,
+  "shm_changed": [
+    "check_log.runtime",
+    "gpuinfo.log",
+    "file_bindroot-a8bd9-842NSXGe",
+    "fh_bindroot-a8bd9-842NSXGe",
+    "hwinfo",
+    "check_log.pid",
+    "hwinfo_cache_memory",
+    "rdma.log"
+  ],
+  "ports_unchanged": false,
+  "our_service_ports_absent": true,
+  "ipc_unchanged": true,
+  "after_D_Z": [
+    "root      212504  212317 Z    4994162 [dmesg] <defunct>",
+    "root     2283418  221253 Z          1 [sh] <defunct>"
+  ],
+  "shm_added_attribution": {
+    "sem.mp-l746xbrd": [
+      {
+        "pid": 2236492,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_67fbf33b": [
+      {
+        "pid": 2232098,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2236491,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ],
+    "sem.mp-p5p828gj": [
+      {
+        "pid": 2236491,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_afabd325": [
+      {
+        "pid": 2232098,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2236492,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_98c89fe6": [
+      {
+        "pid": 2232098,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2236491,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2236492,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_5f7d81f7": [
+      {
+        "pid": 2236491,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2236492,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3398/step_batch/user/task_0\n"
+      }
+    ]
+  },
+  "transient_root_pid_recheck": "ROOT_TRANSIENT_PID [Errno 2] No such file or directory: '/proc/2283418/stat'",
+  "other_resource_evidence": "../other-resource-attribution.jsonl",
+  "after_ports_owned_by_other_job_pids": [
+    2225276,
+    2232098,
+    2236491,
+    2236492
+  ]
+}

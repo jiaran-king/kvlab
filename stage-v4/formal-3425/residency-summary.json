@@ -1,0 +1,511 @@
+{
+  "sampling": 0.01,
+  "available": true,
+  "series": [
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.001\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.002\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.005\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.01\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.02\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.05\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.1\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.2\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2.0,
+      "delta": 2.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.5\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 28.0,
+      "delta": 28.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 63.0,
+      "delta": 63.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"2.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 455.0,
+      "delta": 455.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"5.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 1207.0,
+      "delta": 1207.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"10.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 1799.0,
+      "delta": 1799.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"20.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2484.0,
+      "delta": 2484.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"30.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2763.0,
+      "delta": 2763.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"60.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3184.0,
+      "delta": 3184.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"120.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3424.0,
+      "delta": 3424.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"300.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3502.0,
+      "delta": 3502.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"600.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3510.0,
+      "delta": 3510.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1200.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3745.0,
+      "delta": 3745.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1800.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3939.0,
+      "delta": 3939.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_bucket",
+      "labels": "engine=\"0\",le=\"+Inf\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3941.0,
+      "delta": 3941.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_count",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3941.0,
+      "delta": 3941.0
+    },
+    {
+      "metric": "vllm:kv_block_lifetime_seconds_sum",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 574764.3033922928,
+      "delta": 574764.3033922928
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.001\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.002\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.005\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.01\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.02\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.05\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.1\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.2\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2.0,
+      "delta": 2.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.5\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 28.0,
+      "delta": 28.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 63.0,
+      "delta": 63.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"2.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 455.0,
+      "delta": 455.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"5.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 1207.0,
+      "delta": 1207.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"10.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 1799.0,
+      "delta": 1799.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"20.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2484.0,
+      "delta": 2484.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"30.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 2763.0,
+      "delta": 2763.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"60.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3184.0,
+      "delta": 3184.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"120.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3424.0,
+      "delta": 3424.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"300.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3502.0,
+      "delta": 3502.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"600.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3510.0,
+      "delta": 3510.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1200.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3745.0,
+      "delta": 3745.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1800.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3941.0,
+      "delta": 3941.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_bucket",
+      "labels": "engine=\"0\",le=\"+Inf\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3941.0,
+      "delta": 3941.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_count",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 3941.0,
+      "delta": 3941.0
+    },
+    {
+      "metric": "vllm:kv_block_idle_before_evict_seconds_sum",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 571427.2490298711,
+      "delta": 571427.2490298711
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.001\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.002\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.005\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.01\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.02\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.05\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.1\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.2\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"0.5\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"2.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"5.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"10.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"20.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 8.0,
+      "delta": 8.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"30.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 37.0,
+      "delta": 37.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"60.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 42.0,
+      "delta": 42.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"120.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 44.0,
+      "delta": 44.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"300.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 44.0,
+      "delta": 44.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"600.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 45.0,
+      "delta": 45.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1200.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 45.0,
+      "delta": 45.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"1800.0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 45.0,
+      "delta": 45.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_bucket",
+      "labels": "engine=\"0\",le=\"+Inf\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 45.0,
+      "delta": 45.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_count",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 45.0,
+      "delta": 45.0
+    },
+    {
+      "metric": "vllm:kv_block_reuse_gap_seconds_sum",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "before": 0.0,
+      "after": 1740.6267852849996,
+      "delta": 1740.6267852849996
+    }
+  ],
+  "limitation": "Marginal sampled histograms cannot establish per-block eviction before its next reuse; absent initial series is missing, not assumed zero."
+}

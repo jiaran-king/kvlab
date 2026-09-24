@@ -1,0 +1,9 @@
+{
+  "time": 1789894728.3720107,
+  "known_residues": [],
+  "scheduler": "PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST\nh20*         up   infinite      1   mix- vllm-h20-01\nh20*         up   infinite      1    mix vllm-h20-02\n",
+  "jobs": "             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)\n              3440       h20     bash david_cw  R       1:17      1 vllm-h20-02\n              3433       h20 ai-bindi david_cw  R    2:37:18      1 vllm-h20-02\n              3432       h20 ai-bindi david_cw  R    2:37:23      1 vllm-h20-02\n              3431       h20 ai-bindi david_cw  R    2:40:13      1 vllm-h20-02\n",
+  "memory": "              total        used        free      shared  buff/cache   available\nMem:           3563        1748        1567           1         770        1815\nSwap:          4095         191        3904\n",
+  "load": " 16:58:48 up 19 days, 19:07,  5 users,  load average: 1.29, 14.98, 38.95\n",
+  "storage": "Filesystem                Size  Used Avail Use% Mounted on\nvllm-h20-01:/cpfs01/home   10T  5.2T  4.9T  52% /home\n"
+}

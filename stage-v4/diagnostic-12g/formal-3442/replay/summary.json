@@ -1,0 +1,225 @@
+{
+  "schema_version": "1",
+  "run_id": "replay",
+  "tasks": {
+    "completed": 6,
+    "failed": 0,
+    "with_patch": 0,
+    "duration_seconds": {
+      "mean": 2297.730475608725,
+      "p50": 2475.2093119733036,
+      "p95": 2791.6211386227515,
+      "p99": 2844.6958519216164
+    }
+  },
+  "requests": {
+    "requests": 425,
+    "successful_requests": 425,
+    "failed_requests": 0,
+    "input_tokens": 13707996,
+    "output_tokens": 70195,
+    "cache_creation_input_tokens": null,
+    "cached_input_tokens": 13707996,
+    "prefix_cache_hit_rate": null,
+    "latency_seconds": {
+      "mean": 18.86532272127183,
+      "p50": 11.585391624830663,
+      "p95": 66.0200091402977,
+      "p99": 104.36406707197425
+    },
+    "ttft_seconds": {
+      "mean": 1.9079519191603451,
+      "p50": 0.7403784841299057,
+      "p95": 7.8344627583399395,
+      "p99": 9.821791406050322
+    }
+  },
+  "router": {
+    "applicable": false,
+    "events": {}
+  },
+  "vllm": {
+    "available": true,
+    "reason": null,
+    "counter_reset_detected": false,
+    "lifecycle_verified": true,
+    "latency_breakdown_seconds": {
+      "queue_time": {
+        "count": 425,
+        "sum": 46.71252560708672,
+        "mean": 0.1099118249578511
+      },
+      "prefill_time": {
+        "count": 425,
+        "sum": 530.2442409228534,
+        "mean": 1.2476335080537726
+      },
+      "decode_time": {
+        "count": 425,
+        "sum": 0.0,
+        "mean": 0.0
+      },
+      "inference_time": {
+        "count": 425,
+        "sum": 530.2442409228534,
+        "mean": 1.2476335080537726
+      },
+      "ttft": {
+        "count": 425,
+        "sum": 644.0528342723846,
+        "mean": 1.5154184335820815
+      },
+      "e2e_latency": {
+        "count": 425,
+        "sum": 644.0528342723846,
+        "mean": 1.5154184335820815
+      }
+    },
+    "counters": {
+      "vllm:prefix_cache_hits_total": 11169536.0,
+      "vllm:prefix_cache_queries_total": 14054786.0,
+      "vllm:prompt_tokens_total": 13707996.0,
+      "vllm:prompt_tokens_cached_total": 11169536.0
+    },
+    "request_finished_by_reason": {
+      "stop": 0,
+      "length": 425,
+      "abort": 0,
+      "error": 0,
+      "repetition": 0
+    },
+    "prefix_cache_hit_rate": 0.7947140568344477,
+    "prompt_token_hit_rate": 0.8148190297108344
+  },
+  "correctness": {
+    "available": false,
+    "reason": "not applicable to Replay",
+    "metadata": {}
+  },
+  "source_health": {
+    "available": 6,
+    "unavailable": 0,
+    "not_applicable": 0,
+    "reasons": [],
+    "sources": {
+      "request_trace": [
+        {
+          "source": "request_trace",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/requests.jsonl",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_source_analysis": [
+        {
+          "source": "replay_source_analysis",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/replay-source-analysis.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_plan": [
+        {
+          "source": "replay_plan",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/replay-plan.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "vllm_start": [
+        {
+          "source": "vllm_start",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/evidence/vllm_metrics_start.prom",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_execution": [
+        {
+          "source": "replay_execution",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/replay-execution.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "vllm_end": [
+        {
+          "source": "vllm_end",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/diagnostic-12g/formal-3442/replay/evidence/vllm_metrics_end.prom",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ]
+    }
+  },
+  "lifecycle": {
+    "status": "completed",
+    "error": null,
+    "finalization_errors": [],
+    "proxy_close": null
+  },
+  "run_wall_time_seconds": 2858.267209,
+  "request_throughput_per_second": 0.14869148645787092,
+  "input_token_throughput_per_second": 4795.911297878938,
+  "output_token_throughput_per_second": 24.558585628024115,
+  "execution": {
+    "available": true,
+    "reason": null,
+    "metadata": {
+      "workload_fingerprint": "002311d091d215311b466356419b92ba18d708ecc4cf845801df835c7b5f4fbf",
+      "planned_tasks": 6,
+      "completed_tasks": 6,
+      "failed_tasks": 0,
+      "planned_requests": 425,
+      "planned_timing_dependency_nodes": 0,
+      "materialized_request_nodes": 425,
+      "attempted_requests": 425,
+      "successful_requests": 425,
+      "failed_requests": 0,
+      "pre_send_failed_requests": 0,
+      "dependency_skipped_requests": 0,
+      "timing_dependency_nodes": 0,
+      "lead_title_requests": 6,
+      "lead_name_requests": 1,
+      "lead_main_requests": 6,
+      "planned_context_modes": {
+        "none": 0,
+        "independent": 30,
+        "append": 389,
+        "trim": 6,
+        "reset": 0
+      },
+      "prompt_calibration_adjustments": {
+        "pad": 419,
+        "trim": 6,
+        "trim_and_pad": 0,
+        "reset": 0,
+        "reset_and_pad": 0
+      },
+      "prompt_calibration_exact_requests": 425,
+      "prompt_calibration_tolerated_requests": 0,
+      "prompt_calibration_repair_attempts": 18,
+      "prompt_calibration_signed_residual_tokens": 0,
+      "prompt_calibration_absolute_residual_tokens": 0,
+      "prompt_calibration_max_absolute_residual_tokens": 0,
+      "prompt_calibration_mean_absolute_residual_tokens": 0.0,
+      "prompt_calibration_requests_over_tolerance": 0,
+      "requested_filler_tokens": 962748,
+      "actual_prompt_token_gain": 962472,
+      "trimmed_filler_tokens": 69
+    }
+  },
+  "cli": null
+}

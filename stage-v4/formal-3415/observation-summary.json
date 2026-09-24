@@ -1,0 +1,111 @@
+{
+  "request_admissions": 426,
+  "http_peak_inflight": 3,
+  "session_intervals": {
+    "489696e4-57f1-5051-b73f-a8f26f14c576": [
+      4997220.160568169,
+      4998540.965985365
+    ],
+    "d7016596-1529-5ebf-af14-7081ae197330": [
+      4997220.287249127,
+      4999816.865433756
+    ],
+    "693ea535-3660-5757-a79d-f72998e3519c": [
+      4997227.72113838,
+      4999399.463390701
+    ],
+    "25f6d533-6485-5127-9744-b06368a40d8b": [
+      4997232.733376416,
+      5000819.432483912
+    ],
+    "ea44b20b-d67c-5e4c-8e8a-8583aa0b358f": [
+      4997238.609766005,
+      5000177.515145291
+    ],
+    "f9fba6ff-0066-5b12-a827-a81c75767e3b": [
+      4997243.430057724,
+      4999703.445812917
+    ]
+  },
+  "all_six_started_before_any_session_finished": true,
+  "admission_wait_mean": 14.098648135239879,
+  "admission_wait_p95": 30.451822137692943,
+  "gauges": [
+    {
+      "role": "P",
+      "metric": "vllm:num_requests_running",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 0.10830527497194165,
+      "sample_peak": 2.0
+    },
+    {
+      "role": "P",
+      "metric": "vllm:num_requests_waiting",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 0.015712682379349047,
+      "sample_peak": 2.0
+    },
+    {
+      "role": "P",
+      "metric": "vllm:kv_cache_usage_perc",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 0.05030145077487442,
+      "sample_peak": 0.564557779212395
+    },
+    {
+      "role": "D",
+      "metric": "vllm:num_requests_running",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 2.301907968574635,
+      "sample_peak": 3.0
+    },
+    {
+      "role": "D",
+      "metric": "vllm:num_requests_waiting",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 0.2149270482603816,
+      "sample_peak": 3.0
+    },
+    {
+      "role": "D",
+      "metric": "vllm:kv_cache_usage_perc",
+      "labels": "engine=\"0\",model_name=\"dsv4-replay\"",
+      "samples": 1782,
+      "sample_mean": 0.009022236830162162,
+      "sample_peak": 0.016501583587178015
+    }
+  ],
+  "metrics_scrape_errors": [],
+  "scrape_max_gap_seconds": {
+    "P": 2.0711236000061035,
+    "D": 2.070866107940674
+  },
+  "ttft_cohorts": {
+    "first_actor_request": {
+      "n": 23,
+      "p50": 1.7806426221504807,
+      "p95": 6.478654846269637
+    },
+    "independent": {
+      "n": 7,
+      "p50": 5.5659075090661645,
+      "p95": 8.936319163907319
+    },
+    "reset": {
+      "n": 0,
+      "p50": null,
+      "p95": null
+    },
+    "continuation": {
+      "n": 395,
+      "p50": 0.7514554942026734,
+      "p95": 8.52038350990041
+    }
+  },
+  "timing_note": "HTTP TTFT excludes admission wait; original executor send offset is before admission, so admission log is authoritative for actual HTTP concurrency."
+}

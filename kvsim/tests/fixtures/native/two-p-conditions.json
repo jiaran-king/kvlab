@@ -1,0 +1,19 @@
+{
+  "schema": "kvlab-native-conditions/v1",
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "p_domains": 2,
+  "routing": "trace",
+  "p_max_num_seqs": 2,
+  "p_max_num_batched_tokens": 768,
+  "full_sequence_must_fit": true,
+  "client_max_in_flight": 4,
+  "arrival_protocol": "stable-ready-order-no-wall-time",
+  "release_protocol": "transfer-next-step-client-following-step",
+  "transfer_delay_steps": 1,
+  "capacities_gib": [
+    1
+  ],
+  "max_steps": 20000,
+  "event_limit": 20000,
+  "routing_trace": "parallel-route.json"
+}

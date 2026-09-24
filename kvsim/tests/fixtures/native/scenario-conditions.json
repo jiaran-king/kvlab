@@ -1,0 +1,52 @@
+{
+  "schema": "kvlab-native-conditions/v1",
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "p_domains": 2,
+  "routing": "trace",
+  "p_max_num_seqs": 2,
+  "p_max_num_batched_tokens": 8192,
+  "full_sequence_must_fit": true,
+  "client_max_in_flight": 3,
+  "arrival_protocol": "stable-ready-order-no-wall-time",
+  "release_protocol": "transfer-next-step-client-following-step",
+  "transfer_delay_steps": 1,
+  "capacities_gib": [
+    16,
+    24
+  ],
+  "max_steps": 20000,
+  "event_limit": 20000,
+  "routing_trace": "route-76-actor-affinity.json",
+  "scenario_id": "assumed-2p-kv-16-24",
+  "scenario": {
+    "schema": "kvlab-native-scenario/v1",
+    "scenario_id": "assumed-2p-kv-16-24",
+    "target_profile": "h20-dsv4-tp2-fp8-5group",
+    "p_domains": 2,
+    "topology": {
+      "p": 2,
+      "attention": null,
+      "ffn": null,
+      "d": null,
+      "tp": 2,
+      "dp": null,
+      "ep": null
+    },
+    "budgets": {
+      "16": {
+        "source": "assumed",
+        "authority": "bytes_per_rank",
+        "value": 17179869184,
+        "evidence": null,
+        "assumptions": "Illustrative per-rank P KV budget; no AFD/non-AFD memory ledger is available"
+      },
+      "24": {
+        "source": "assumed",
+        "authority": "bytes_per_rank",
+        "value": 25769803776,
+        "evidence": null,
+        "assumptions": "Illustrative per-rank P KV budget; no AFD/non-AFD memory ledger is available"
+      }
+    }
+  }
+}

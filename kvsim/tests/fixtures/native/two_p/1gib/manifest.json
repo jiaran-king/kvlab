@@ -1,0 +1,139 @@
+{
+  "run_id": "native-37773a9c706da122d1e0",
+  "scenario_id": "h20-controlled",
+  "scenario": {
+    "schema": "kvlab-native-scenario/v1",
+    "scenario_id": "h20-controlled",
+    "target_profile": "h20-dsv4-tp2-fp8-5group",
+    "p_domains": 2,
+    "topology": null,
+    "budgets": {
+      "1": {
+        "source": "assumed",
+        "authority": "gib_per_rank",
+        "value": 1,
+        "evidence": null,
+        "assumptions": "User-selected KV budget; no AFD memory ledger supplied"
+      }
+    }
+  },
+  "workload_path": "/home/david_cwq/zhouziheng/kvlab-native/v2/assets/parallel-workload.json",
+  "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+  "workload_content_source": "trace_driven_synthetic",
+  "workload_execution_profile": "request-admission",
+  "workload_order_source": {},
+  "workload_capture_provenance": {},
+  "conditions": {
+    "schema": "kvlab-native-conditions/v1",
+    "profile": "h20-dsv4-tp2-fp8-5group",
+    "p_domains": 2,
+    "routing": "trace",
+    "p_max_num_seqs": 2,
+    "p_max_num_batched_tokens": 768,
+    "full_sequence_must_fit": true,
+    "client_max_in_flight": 4,
+    "arrival_protocol": "stable-ready-order-no-wall-time",
+    "release_protocol": "transfer-next-step-client-following-step",
+    "transfer_delay_steps": 1,
+    "capacities_gib": [
+      1
+    ],
+    "max_steps": 20000,
+    "event_limit": 20000,
+    "routing_trace": "parallel-route.json"
+  },
+  "routing": {
+    "source": "policy_generated",
+    "method": "explicit hand fixture: alternating domains",
+    "reference_config": {
+      "purpose": "verify simultaneous P progression and scheduler knobs"
+    },
+    "timestamp_semantics": null,
+    "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+    "domains": [
+      "p0",
+      "p1"
+    ],
+    "path": "/home/david_cwq/zhouziheng/kvlab-native/v2/assets/parallel-route.json",
+    "routing_sha256": "fe3ca6af700cd57b6e530889506bef1ba296186da9b89885a666e39bef4e024f"
+  },
+  "logical_round_order": "due P releases; client completions; global stable-ready submissions; one native schedule and completion per P in domain order",
+  "capacity_budget": {
+    "budget_gib_per_rank": 1,
+    "budget_bytes_per_rank": 1073741824,
+    "bytes_per_physical_block_per_rank": 1039680,
+    "physical_blocks": 1032,
+    "effective_kv_bytes_per_rank": 1072949760,
+    "unused_budget_bytes_per_rank": 792064,
+    "reserved_null_blocks": 1,
+    "rounding": "floor(budget_bytes_per_rank / bytes_per_physical_block_per_rank)",
+    "layout_source": "stage-v5/formal-3454/query-diagnostic-1271803.jsonl effective_cache_config"
+  },
+  "effective_native_profile": {
+    "retention_interval": null,
+    "scheduler_block_size": 256,
+    "hash_block_size": 4,
+    "max_model_len": 81920,
+    "max_num_seqs": 2,
+    "max_num_batched_tokens": 768,
+    "full_sequence_must_fit": true,
+    "prefix_caching": true
+  },
+  "effective_native_profile_by_p": {
+    "p0": {
+      "retention_interval": null,
+      "scheduler_block_size": 256,
+      "hash_block_size": 4,
+      "max_model_len": 81920,
+      "max_num_seqs": 2,
+      "max_num_batched_tokens": 768,
+      "full_sequence_must_fit": true,
+      "prefix_caching": true
+    },
+    "p1": {
+      "retention_interval": null,
+      "scheduler_block_size": 256,
+      "hash_block_size": 4,
+      "max_model_len": 81920,
+      "max_num_seqs": 2,
+      "max_num_batched_tokens": 768,
+      "full_sequence_must_fit": true,
+      "prefix_caching": true
+    }
+  },
+  "model_execution": "synthetic one-token completion; no tensor computation",
+  "arrival_semantics": "stable ready order; effective_interval_seconds deliberately not used",
+  "transfer_semantics": "transfer completes after each request's declared positive logical-step delay following P completion; client completes one step after transfer",
+  "declared_output_semantics": "Replay output length and frozen successor token content are retained as workload provenance; this P-only logical driver synthesizes one completion token and does not simulate D decoding time",
+  "prefix_hash_seed": "0",
+  "native_source_identity": {
+    "vllm_version": "0.26.0",
+    "classes": {
+      "Scheduler": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/sched/scheduler.py",
+        "sha256": "2ed2a550b6558b2495eda845a97ae38bcf0225027b9e25fbf00fc3880c1d3941"
+      },
+      "KVCacheManager": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/kv_cache_manager.py",
+        "sha256": "3f4af8d247f3fe9570b0132818b832b66ae6a2ac12942588828f899f6ff77ccf"
+      },
+      "HybridKVCacheCoordinator": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/kv_cache_coordinator.py",
+        "sha256": "4c8fbb341f0bd3714eff54ce633f534c1475220decb17c0caed40cbd02b352a2"
+      },
+      "FullAttentionManager": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/single_type_kv_cache_manager.py",
+        "sha256": "bcb27e38895332bf6a4c55608f2917eb9fd941ec5a629c14b88358f00aadeba8"
+      },
+      "BlockPool": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/block_pool.py",
+        "sha256": "202a13cb129174849d798019aaedc04c59775ec2a4b9dfcc7c1e3c563a43a661"
+      },
+      "KVCacheConfig": {
+        "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/kv_cache_interface.py",
+        "sha256": "73b5967f23ff2d4526b984cf90c1203e550575e5f329650c8899269b8f78edcf"
+      }
+    }
+  },
+  "group_layout_provenance": "stage-v5/formal-3454 effective_cache_config: exact five group specs/layer names and 63 tensor offsets/strides; tensor sizes scaled by physical block count; no worker tensor allocation"
+}

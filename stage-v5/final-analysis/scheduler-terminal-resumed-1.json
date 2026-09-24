@@ -1,0 +1,23 @@
+{
+  "time": 1789921692.98772,
+  "states": [
+    {
+      "job_id": "3458",
+      "label": "C12",
+      "scontrol": "slurm_load_jobs error: Invalid job id specified\n",
+      "sacct": "Slurm accounting storage is disabled\n"
+    },
+    {
+      "job_id": "3462",
+      "label": "F12",
+      "scontrol": "slurm_load_jobs error: Invalid job id specified\n",
+      "sacct": "Slurm accounting storage is disabled\n"
+    },
+    {
+      "job_id": "3463",
+      "label": "F24",
+      "scontrol": "JobId=3463 JobName=v5-F24\n   UserId=david_cwq(2001) GroupId=david_cwq(2001) MCS_label=N/A\n   Priority=1 Nice=0 Account=(null) QOS=(null)\n   JobState=COMPLETED Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=00:51:59 TimeLimit=02:00:00 TimeMin=N/A\n   SubmitTime=2026-09-20T22:43:35 EligibleTime=2026-09-20T23:36:12\n   AccrueTime=Unknown\n   StartTime=2026-09-20T23:36:12 EndTime=2026-09-21T00:28:11 Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-20T23:36:12 Scheduler=Main\n   Partition=h20 AllocNode:Sid=vllm-h20-head:956116\n   ReqNodeList=vllm-h20-01 ExcNodeList=(null)\n   NodeList=vllm-h20-01\n   BatchHost=vllm-h20-01\n   NumNodes=1 NumCPUs=32 NumTasks=1 CPUs/Task=32 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=32,mem=512G,node=1,billing=32\n   AllocTRES=cpu=32,node=1,billing=32\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=32 MinMemoryNode=512G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/pd_formal.slurm\n   WorkDir=/home/david_cwq\n   StdErr=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3463.err\n   StdIn=/dev/null\n   StdOut=/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v5/retry-1/formal-3463.out\n   KillOInInvalidDependent=Yes\n   TresPerNode=gres/gpu:h20:4\n   TresPerTask=cpu=32\n   \n\n",
+      "sacct": "Slurm accounting storage is disabled\n"
+    }
+  ]
+}

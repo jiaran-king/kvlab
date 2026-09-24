@@ -1,0 +1,110 @@
+{
+  "schema_version": "1",
+  "run_id": "replay",
+  "status": "completed",
+  "created_at": "2026-09-20T04:55:12.282865+00:00",
+  "finished_at": "2026-09-20T05:40:33.214337+00:00",
+  "config": {
+    "experiment": {
+      "task_num": null,
+      "result_dir": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay",
+      "max_concurrency": 3,
+      "task_timeout_seconds": 5400,
+      "run_timeout_seconds": 5700
+    },
+    "backend": {
+      "type": "vllm",
+      "base_url": "http://127.0.0.1:18400",
+      "metrics_url": "http://127.0.0.1:18401/metrics",
+      "tokenizer_base_url": "http://127.0.0.1:18401",
+      "model": "dsv4-replay",
+      "endpoint": "/v1/chat/completions",
+      "api_key_env": null,
+      "dp_rank_count": null,
+      "tool_choice": "none"
+    },
+    "replay": {
+      "trace_type": "agentinfer",
+      "trace_path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/successful-425-trace.jsonl",
+      "trace_same_agent_gap_scale": 0.1,
+      "trace_same_agent_gap_offset_seconds": 0.0,
+      "interval_mode": "trace",
+      "interval_lognormal": null,
+      "sample_seed": 0,
+      "prompt_shape": "claude_code_minimal_v1",
+      "lead_title_sys_shared_prefix": 0,
+      "lead_name_sys_shared_prefix": 0,
+      "lead_1st_sys_shared_prefix": 0,
+      "lead_1st_sys_session_prefix": 0,
+      "lead_1st_tool_shared_prefix": 0,
+      "lead_1st_msg_shared_prefix": 0,
+      "lead_1st_trailing_system_prefix": 0,
+      "subagent_tool_1st_shared_prefix": 0,
+      "subagent_1st_sys_shared_prefix": 0,
+      "subagent_1st_sys_session_prefix": 0,
+      "subagent_1st_msg_shared_prefix": 0,
+      "lead_continuation_extra_system_ratio": 0.0,
+      "subagent_continuation_extra_system_ratio": 0.0,
+      "lead_continuation_system_tokens": 0,
+      "subagent_continuation_system_tokens": 0,
+      "max_input_tokens": null,
+      "max_output_tokens": null,
+      "context_adjustment_mode": "adaptive",
+      "context_micro_trim_max_tokens": 64,
+      "context_micro_trim_max_ratio": 0.005,
+      "prompt_calibration_tolerance_tokens": 1,
+      "request_timeout_seconds": 900
+    },
+    "implementation_stage": "executable"
+  },
+  "evidence": [
+    {
+      "source": "request_trace",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/requests.jsonl",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    },
+    {
+      "source": "replay_source_analysis",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/replay-source-analysis.json",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    },
+    {
+      "source": "replay_plan",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/replay-plan.json",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    },
+    {
+      "source": "vllm_start",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/evidence/vllm_metrics_start.prom",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    },
+    {
+      "source": "replay_execution",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/replay-execution.json",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    },
+    {
+      "source": "vllm_end",
+      "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v4/formal-3429/replay/evidence/vllm_metrics_end.prom",
+      "available": true,
+      "reason": null,
+      "metadata": {},
+      "applicable": true
+    }
+  ]
+}

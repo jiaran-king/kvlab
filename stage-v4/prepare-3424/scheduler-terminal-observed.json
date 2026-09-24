@@ -1,0 +1,10 @@
+{
+  "job_id": 3424,
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "start": "2026-09-20T11:52:04",
+  "end": "2026-09-20T11:52:05",
+  "runtime": "00:00:01",
+  "evidence_source": "Actual scontrol show job3424 tool response captured earlier in this conversation (before purge); values transcribed without alteration.",
+  "later_requery": "Invalid job id specified: purged from controller; sacct storage disabled. No retry or new allocation needed."
+}

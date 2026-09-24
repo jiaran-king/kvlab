@@ -1,0 +1,21 @@
+{
+  "available_memory_bytes": 2102991011840,
+  "free_storage_bytes": 5292465061888,
+  "load": [
+    2.23,
+    2.37,
+    2.51
+  ],
+  "cpu_count": 192,
+  "D_or_Z": [],
+  "first_D_or_Z_snapshot": [
+    "Z     212504 dmesg <defunct>"
+  ],
+  "second_D_or_Z_snapshot": [
+    "Z     212504 dmesg <defunct>",
+    "Z     947024 sh <defunct>"
+  ],
+  "known_baseline_zombies": [
+    "Z     212504 dmesg <defunct>"
+  ]
+}

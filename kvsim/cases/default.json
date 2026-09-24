@@ -1,0 +1,1 @@
+{"workload":"synthetic","config":{"kv_gib":16,"block_size":128},"p_domains":4,"synthetic":{"chains":4,"rounds":4,"first_tokens":20000,"increment":2048,"output_tokens":256,"competitors":0}}

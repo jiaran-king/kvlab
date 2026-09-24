@@ -1,0 +1,16 @@
+{
+  "planned_rows": 174,
+  "unique_seed_proxy_matches": 174,
+  "P_http_200": 174,
+  "P_http_errors": 0,
+  "D_stream_ends": 174,
+  "all_log_phase_counts": {
+    "proxy_received": 176,
+    "P_http_start": 176,
+    "D_http_headers": 176,
+    "P_http_response": 176,
+    "D_first_chunk": 176,
+    "D_stream_end": 176
+  },
+  "timing_note": "P_http_seconds includes HTTP/queue/inference; D_first_chunk is raw stream data, not client valid-token TTFT."
+}

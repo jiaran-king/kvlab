@@ -1,0 +1,20 @@
+{
+  "requests": 425,
+  "lookup_calls": 437,
+  "query_tokens": 14054786,
+  "query_hits": 11169536,
+  "extra_query_tokens": 346790,
+  "repeat_request_count": 7,
+  "repeat_attempt_count": 12,
+  "defer_reasons": {
+    "scheduled": 425,
+    "allocation_none": 12
+  },
+  "failed_attempt_hits": 0,
+  "sum_lookup_seconds": 0.11899402923882008,
+  "max_lookup_to_admit_seconds": 2.729214668273926,
+  "scheduled_tokens": 2538460,
+  "per_request_scheduled_tokens_equal_input_minus_adopted_cache": true,
+  "query_and_hit_match_formal_counters": true,
+  "caveat": "Scheduled token totals measure scheduler output, not GPU FLOPs. Allocation failure sub-branch (full-sequence admission gate vs chunk allocation) was not instrumented."
+}

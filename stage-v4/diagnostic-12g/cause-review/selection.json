@@ -1,0 +1,87 @@
+{
+  "rule": "10 consecutive continuations; earliest start with windows i,i+10,i+20 each mean delta>2s and >=6/10 delta>1s; diagnostic selection, not causal onset",
+  "continuation_start_index_zero": 116,
+  "target_L2_submission_ranks": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "target_ids": [
+    "edb044b1-0eed-5ba9-acbe-4feca61e6d7c",
+    "64edf328-6f8f-56a2-b46d-24c49d8b3e64",
+    "21165c28-8b21-50b6-a25a-ee803783b960",
+    "e66ea0fb-25ef-5525-9e53-835595026631",
+    "0171528d-0e71-523d-aff8-d4319a70841a",
+    "8c848634-e3d5-525a-8439-6c2b00cad0ba",
+    "f536ee77-017c-56c2-a7cf-04bcdccd0b26",
+    "22310eed-6385-5f02-8b88-048020042328",
+    "dfab9ce8-60c9-5f15-9620-ef91495d31ef",
+    "01ce9068-6a8d-5b66-8694-af89ca1cb579"
+  ],
+  "core_request_count": 22,
+  "core_ids": [
+    "85dabdfc-6ff8-507d-957b-0c2c2239b715",
+    "165f0e75-e09e-51bb-8117-38d9667cc033",
+    "d22fb0ee-a7c7-5c41-81ae-5fa06451288d",
+    "a95909e4-c88f-5df0-b6bc-2a7252fad5d9",
+    "7c7a5716-7c23-5185-8a8a-22e8c8ba7643",
+    "2fd94540-add3-5f9d-b8a6-8afe5c4de978",
+    "3b67843f-f748-5f57-b99c-a627e8e9dcfb",
+    "edb044b1-0eed-5ba9-acbe-4feca61e6d7c",
+    "64edf328-6f8f-56a2-b46d-24c49d8b3e64",
+    "21165c28-8b21-50b6-a25a-ee803783b960",
+    "e66ea0fb-25ef-5525-9e53-835595026631",
+    "0171528d-0e71-523d-aff8-d4319a70841a",
+    "8c848634-e3d5-525a-8439-6c2b00cad0ba",
+    "f536ee77-017c-56c2-a7cf-04bcdccd0b26",
+    "22310eed-6385-5f02-8b88-048020042328",
+    "dfab9ce8-60c9-5f15-9620-ef91495d31ef",
+    "01ce9068-6a8d-5b66-8694-af89ca1cb579",
+    "c2be209c-3605-55f6-b13f-5d1ce66004f2",
+    "bfafa570-9363-5c25-8eb3-4270c4fef72d",
+    "25c68870-4c7f-59fb-9f91-997d5bd0b2a2",
+    "6e4323fe-6685-51d9-b368-7ad84d530639",
+    "a4582ec8-6844-58cd-8eaa-0b2ca5d24e40"
+  ],
+  "windows": {
+    "L2": {
+      "start": 1789885253.9126306,
+      "end": 1789885934.346667,
+      "target_start": 1789885834.308113,
+      "target_end": 1789885901.994496
+    },
+    "L3": {
+      "start": 1789895616.2721288,
+      "end": 1789896317.2144153,
+      "target_start": 1789896125.7520907,
+      "target_end": 1789896262.2262495
+    }
+  },
+  "qualifying_windows": [
+    {
+      "i": 116,
+      "mean_difference_seconds": 2.682519169896841,
+      "above_1s": 6,
+      "first_source_key": "r00000298-1a6134222072504b"
+    },
+    {
+      "i": 126,
+      "mean_difference_seconds": 4.146052396576851,
+      "above_1s": 8,
+      "first_source_key": "r00000303-1622edd3bb298a2b"
+    },
+    {
+      "i": 136,
+      "mean_difference_seconds": 2.8330740494653583,
+      "above_1s": 6,
+      "first_source_key": "r00000079-3206ce3f63e2d91b"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "kvlab-native-scan/v1",
+  "point_ids": [
+    "low",
+    "high"
+  ],
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "workload": "/home/david_cwq/zhouziheng/kvlab-native/v2/assets/parallel-workload.json",
+  "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+  "routing": {
+    "source": "policy_generated",
+    "method": "all-p0",
+    "domains": [
+      "p0"
+    ],
+    "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+    "routing_sha256": null
+  }
+}

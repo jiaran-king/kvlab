@@ -1,0 +1,91 @@
+{
+  "L2": {
+    "cache_config": {
+      "_block_size_resolved": "True",
+      "block_size": "4",
+      "cache_dtype": "fp8",
+      "calculate_kv_scales": "False",
+      "enable_prefix_caching": "True",
+      "engine": "0",
+      "gpu_memory_utilization": "0.9",
+      "is_attention_free": "False",
+      "kv_cache_dtype_skip_layers": "[]",
+      "kv_cache_max_concurrency": "0.7938124519600307",
+      "kv_cache_memory_bytes": "12884901888",
+      "kv_cache_size_tokens": "65029",
+      "kv_offloading_backend": "native",
+      "kv_offloading_size": "None",
+      "kv_sharing_fast_prefill": "False",
+      "mamba_block_size": "None",
+      "mamba_cache_dtype": "auto",
+      "mamba_cache_mode": "none",
+      "mamba_page_size_padded": "None",
+      "mamba_ssm_cache_dtype": "auto",
+      "num_cpu_blocks": "None",
+      "num_gpu_blocks": "12393",
+      "num_gpu_blocks_override": "None",
+      "prefix_caching_hash_algo": "sha256",
+      "prefix_match_unit": "None",
+      "skip_page_size_padded": "None",
+      "sliding_window": "128",
+      "user_specified_block_size": "True",
+      "user_specified_mamba_block_size": "False"
+    },
+    "retention_interval_historical": "NA",
+    "full_sequence_admission_historical": "NA",
+    "reset": [
+      {
+        "status": 200,
+        "body": "{\"success\":true}"
+      }
+    ],
+    "recorded_prompt_count": 12
+  },
+  "L3": {
+    "cache_config": {
+      "_block_size_resolved": "True",
+      "block_size": "4",
+      "cache_dtype": "fp8",
+      "calculate_kv_scales": "False",
+      "enable_prefix_caching": "True",
+      "engine": "0",
+      "gpu_memory_utilization": "0.9",
+      "is_attention_free": "False",
+      "kv_cache_dtype_skip_layers": "[]",
+      "kv_cache_max_concurrency": "0.7938124519600307",
+      "kv_cache_memory_bytes": "12884901888",
+      "kv_cache_size_tokens": "65029",
+      "kv_offloading_backend": "native",
+      "kv_offloading_size": "None",
+      "kv_sharing_fast_prefill": "False",
+      "mamba_block_size": "None",
+      "mamba_cache_dtype": "auto",
+      "mamba_cache_mode": "none",
+      "mamba_page_size_padded": "None",
+      "mamba_ssm_cache_dtype": "auto",
+      "num_cpu_blocks": "None",
+      "num_gpu_blocks": "12393",
+      "num_gpu_blocks_override": "None",
+      "prefix_caching_hash_algo": "sha256",
+      "prefix_match_unit": "None",
+      "skip_page_size_padded": "None",
+      "sliding_window": "128",
+      "user_specified_block_size": "True",
+      "user_specified_mamba_block_size": "False"
+    },
+    "retention_interval_historical": "NA",
+    "full_sequence_admission_historical": true,
+    "reset": [
+      {
+        "status": 200,
+        "body": "{\"success\":true}"
+      }
+    ],
+    "recorded_prompt_count": 12
+  },
+  "cache_config_equal": true,
+  "retention_code_reference": {
+    "path": "current-source-reference/v1/core/kv_cache_coordinator.py:125",
+    "status": "current installed source reference only; not an L2 historical effective env snapshot"
+  }
+}

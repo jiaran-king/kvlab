@@ -1,0 +1,643 @@
+{
+  "label": "M2",
+  "e2e_sample_count": 174,
+  "e2e_p50_seconds": 11.356096071191132,
+  "e2e_p95_seconds": 62.28550822376272,
+  "formal_manifest_duration_seconds": 1306.909177,
+  "stage_means": [
+    {
+      "run": "M2",
+      "role": "P",
+      "metric": "vllm:time_to_first_token_seconds",
+      "delta_sum": 189.46508026123047,
+      "delta_count": 174.0,
+      "mean_seconds": 1.088879771616267
+    },
+    {
+      "run": "M2",
+      "role": "P",
+      "metric": "vllm:request_queue_time_seconds",
+      "delta_sum": 40.45425095409155,
+      "delta_count": 174.0,
+      "mean_seconds": 0.23249569513845716
+    },
+    {
+      "run": "M2",
+      "role": "P",
+      "metric": "vllm:request_inference_time_seconds",
+      "delta_sum": 123.91469652205706,
+      "delta_count": 174.0,
+      "mean_seconds": 0.7121534282876842
+    },
+    {
+      "run": "M2",
+      "role": "P",
+      "metric": "vllm:request_prefill_time_seconds",
+      "delta_sum": 123.91469652205706,
+      "delta_count": 174.0,
+      "mean_seconds": 0.7121534282876842
+    },
+    {
+      "run": "M2",
+      "role": "P",
+      "metric": "vllm:request_decode_time_seconds",
+      "delta_sum": 0.0,
+      "delta_count": 174.0,
+      "mean_seconds": 0.0
+    },
+    {
+      "run": "M2",
+      "role": "D",
+      "metric": "vllm:time_to_first_token_seconds",
+      "delta_sum": 249.20583820343018,
+      "delta_count": 174.0,
+      "mean_seconds": 1.432217460939254
+    },
+    {
+      "run": "M2",
+      "role": "D",
+      "metric": "vllm:request_queue_time_seconds",
+      "delta_sum": 191.26018800679594,
+      "delta_count": 174.0,
+      "mean_seconds": 1.099196482797678
+    },
+    {
+      "run": "M2",
+      "role": "D",
+      "metric": "vllm:request_inference_time_seconds",
+      "delta_sum": 2914.4367898423225,
+      "delta_count": 174.0,
+      "mean_seconds": 16.74963672323174
+    },
+    {
+      "run": "M2",
+      "role": "D",
+      "metric": "vllm:request_prefill_time_seconds",
+      "delta_sum": 35.88996797706932,
+      "delta_count": 174.0,
+      "mean_seconds": 0.20626418377626046
+    },
+    {
+      "run": "M2",
+      "role": "D",
+      "metric": "vllm:request_decode_time_seconds",
+      "delta_sum": 2878.546821865253,
+      "delta_count": 174.0,
+      "mean_seconds": 16.54337253945548
+    }
+  ],
+  "log_observations": {
+    "P": {
+      "kv_transfer_error_rank_records": 0,
+      "compile_begin_rank_records": 0,
+      "jit_warning_records": 2,
+      "transfer_summary_records": 105,
+      "transfer_error_nonzero_records": 0,
+      "events": [
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=13.079, P90 xfer time (ms)=26.962, Avg MB per transfer=35.763, Throughput (MB/s)=2734.481, Avg number of descriptors=1649.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=7.7, P90 xfer time (ms)=11.037, Avg MB per transfer=102.945, Throughput (MB/s)=13368.739, Avg number of descriptors=6051.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=10, Avg xfer time (ms)=7.247, P90 xfer time (ms)=10.343, Avg MB per transfer=94.32, Throughput (MB/s)=13015.488, Avg number of descriptors=5459.8, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "jit_warning",
+          "time": "2026-09-20T09:33:26+08:00",
+          "text": "(Worker_TP0 pid=1796914) WARNING 09-20 09:33:26 [jit_monitor.py:135] TileLang JIT compilation during inference: mhc_pre_big_fuse_broadcast_with_norm_tilelang. This causes a latency spike; consider extending warmup to cover this shape/config."
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=8, Avg xfer time (ms)=10.084, P90 xfer time (ms)=17.182, Avg MB per transfer=125.208, Throughput (MB/s)=12416.275, Avg number of descriptors=7466.5, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=8.488, P90 xfer time (ms)=9.259, Avg MB per transfer=123.236, Throughput (MB/s)=14519.58, Avg number of descriptors=7332.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:33:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:33:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=4.512, P90 xfer time (ms)=7.359, Avg MB per transfer=70.275, Throughput (MB/s)=15574.323, Avg number of descriptors=3908.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=8, Avg xfer time (ms)=5.645, P90 xfer time (ms)=7.99, Avg MB per transfer=86.32, Throughput (MB/s)=15290.228, Avg number of descriptors=4950.5, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=9.383, P90 xfer time (ms)=15.256, Avg MB per transfer=110.954, Throughput (MB/s)=11824.843, Avg number of descriptors=6526.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=10.404, P90 xfer time (ms)=11.121, Avg MB per transfer=141.858, Throughput (MB/s)=13635.247, Avg number of descriptors=8531.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=8, Avg xfer time (ms)=9.418, P90 xfer time (ms)=11.91, Avg MB per transfer=127.051, Throughput (MB/s)=13490.421, Avg number of descriptors=7575.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=8.816, P90 xfer time (ms)=11.436, Avg MB per transfer=119.158, Throughput (MB/s)=13515.711, Avg number of descriptors=7104.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:34:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:34:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=9.3, P90 xfer time (ms)=13.374, Avg MB per transfer=130.729, Throughput (MB/s)=14057.097, Avg number of descriptors=7821.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=10.574, P90 xfer time (ms)=14.67, Avg MB per transfer=140.265, Throughput (MB/s)=13265.675, Avg number of descriptors=8427.7, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=13.66, P90 xfer time (ms)=24.857, Avg MB per transfer=158.437, Throughput (MB/s)=11598.79, Avg number of descriptors=9612.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=10.776, P90 xfer time (ms)=15.75, Avg MB per transfer=162.659, Throughput (MB/s)=15094.697, Avg number of descriptors=9895.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=12.469, P90 xfer time (ms)=20.775, Avg MB per transfer=169.61, Throughput (MB/s)=13602.027, Avg number of descriptors=10349.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=8.775, P90 xfer time (ms)=12.836, Avg MB per transfer=125.148, Throughput (MB/s)=14261.602, Avg number of descriptors=7456.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:35:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:35:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=17.387, P90 xfer time (ms)=20.165, Avg MB per transfer=236.04, Throughput (MB/s)=13575.6, Avg number of descriptors=14675.7, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:36:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:36:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=14.256, P90 xfer time (ms)=15.773, Avg MB per transfer=197.328, Throughput (MB/s)=13841.471, Avg number of descriptors=12147.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:36:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:36:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.925, P90 xfer time (ms)=15.964, Avg MB per transfer=199.482, Throughput (MB/s)=12526.26, Avg number of descriptors=12313.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:36:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:36:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=5.04, P90 xfer time (ms)=5.346, Avg MB per transfer=74.029, Throughput (MB/s)=14688.667, Avg number of descriptors=4149.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=13.614, P90 xfer time (ms)=15.069, Avg MB per transfer=201.151, Throughput (MB/s)=14774.823, Avg number of descriptors=12395.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.733, P90 xfer time (ms)=15.831, Avg MB per transfer=209.721, Throughput (MB/s)=13329.584, Avg number of descriptors=12933.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=10.265, P90 xfer time (ms)=10.984, Avg MB per transfer=142.968, Throughput (MB/s)=13927.198, Avg number of descriptors=8634.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=10.378, P90 xfer time (ms)=10.792, Avg MB per transfer=149.779, Throughput (MB/s)=14432.719, Avg number of descriptors=9089.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=7.085, P90 xfer time (ms)=11.221, Avg MB per transfer=101.253, Throughput (MB/s)=14291.386, Avg number of descriptors=5906.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:37:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:37:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=11.318, P90 xfer time (ms)=12.085, Avg MB per transfer=158.107, Throughput (MB/s)=13969.777, Avg number of descriptors=9585.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.454, P90 xfer time (ms)=12.231, Avg MB per transfer=161.007, Throughput (MB/s)=14056.285, Avg number of descriptors=9791.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=6.777, P90 xfer time (ms)=10.522, Avg MB per transfer=105.675, Throughput (MB/s)=15592.263, Avg number of descriptors=6206.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=6.795, P90 xfer time (ms)=10.531, Avg MB per transfer=106.647, Throughput (MB/s)=15694.73, Avg number of descriptors=6278.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=9.968, P90 xfer time (ms)=12.746, Avg MB per transfer=129.911, Throughput (MB/s)=13032.955, Avg number of descriptors=7756.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=6.23, P90 xfer time (ms)=6.649, Avg MB per transfer=94.068, Throughput (MB/s)=15098.32, Avg number of descriptors=5431.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:38:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:38:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=7.055, P90 xfer time (ms)=7.186, Avg MB per transfer=95.979, Throughput (MB/s)=13604.787, Avg number of descriptors=5555.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.416, P90 xfer time (ms)=16.782, Avg MB per transfer=213.577, Throughput (MB/s)=13854.337, Avg number of descriptors=13201.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=6.82, P90 xfer time (ms)=7.253, Avg MB per transfer=97.924, Throughput (MB/s)=14358.645, Avg number of descriptors=5699.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=8.75, P90 xfer time (ms)=10.739, Avg MB per transfer=120.83, Throughput (MB/s)=13809.488, Avg number of descriptors=7167.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=12.887, P90 xfer time (ms)=15.032, Avg MB per transfer=180.602, Throughput (MB/s)=14014.629, Avg number of descriptors=11062.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=9.54, P90 xfer time (ms)=14.611, Avg MB per transfer=139.013, Throughput (MB/s)=14571.66, Avg number of descriptors=8358.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:39:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:39:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=9.513, P90 xfer time (ms)=9.653, Avg MB per transfer=137.574, Throughput (MB/s)=14461.547, Avg number of descriptors=8262.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=8.618, P90 xfer time (ms)=8.981, Avg MB per transfer=126.565, Throughput (MB/s)=14686.755, Avg number of descriptors=7539.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=10.217, P90 xfer time (ms)=10.918, Avg MB per transfer=138.991, Throughput (MB/s)=13603.89, Avg number of descriptors=8345.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=11.983, P90 xfer time (ms)=15.366, Avg MB per transfer=163.38, Throughput (MB/s)=13634.556, Avg number of descriptors=9936.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=12.268, P90 xfer time (ms)=16.271, Avg MB per transfer=165.413, Throughput (MB/s)=13483.642, Avg number of descriptors=10081.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=12.877, P90 xfer time (ms)=16.91, Avg MB per transfer=174.493, Throughput (MB/s)=13550.641, Avg number of descriptors=10670.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:40:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:40:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=12.403, P90 xfer time (ms)=17.305, Avg MB per transfer=177.701, Throughput (MB/s)=14327.775, Avg number of descriptors=10856.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=8.736, P90 xfer time (ms)=9.374, Avg MB per transfer=131.344, Throughput (MB/s)=15035.677, Avg number of descriptors=7849.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=14.547, P90 xfer time (ms)=19.929, Avg MB per transfer=189.649, Throughput (MB/s)=13037.311, Avg number of descriptors=11631.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "jit_warning",
+          "time": "2026-09-20T09:41:17+08:00",
+          "text": "(Worker_TP0 pid=1796914) WARNING 09-20 09:41:17 [jit_monitor.py:135] Triton kernel JIT compilation during inference: _build_prefill_chunk_metadata_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=15.43, P90 xfer time (ms)=21.629, Avg MB per transfer=207.469, Throughput (MB/s)=13445.77, Avg number of descriptors=12809.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.517, P90 xfer time (ms)=9.875, Avg MB per transfer=133.256, Throughput (MB/s)=14002.112, Avg number of descriptors=7973.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.535, P90 xfer time (ms)=10.531, Avg MB per transfer=135.168, Throughput (MB/s)=14176.251, Avg number of descriptors=8097.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:41:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:41:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=16.062, P90 xfer time (ms)=22.31, Avg MB per transfer=215.115, Throughput (MB/s)=13392.614, Avg number of descriptors=13305.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:42:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:42:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=17.657, P90 xfer time (ms)=17.772, Avg MB per transfer=227.881, Throughput (MB/s)=12905.87, Avg number of descriptors=14111.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:42:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:42:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=16.331, P90 xfer time (ms)=18.122, Avg MB per transfer=230.749, Throughput (MB/s)=14129.623, Avg number of descriptors=14297.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:42:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:42:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=15.641, P90 xfer time (ms)=20.437, Avg MB per transfer=219.757, Throughput (MB/s)=14050.32, Avg number of descriptors=13584.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:42:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:42:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.427, P90 xfer time (ms)=9.675, Avg MB per transfer=144.759, Throughput (MB/s)=15355.103, Avg number of descriptors=8737.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:42:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:42:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.896, P90 xfer time (ms)=10.18, Avg MB per transfer=148.549, Throughput (MB/s)=15010.763, Avg number of descriptors=8965.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:43:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:43:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=19.025, P90 xfer time (ms)=20.416, Avg MB per transfer=231.023, Throughput (MB/s)=12143.07, Avg number of descriptors=14359.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:43:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:43:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.199, P90 xfer time (ms)=9.245, Avg MB per transfer=142.847, Throughput (MB/s)=15528.738, Avg number of descriptors=8613.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:43:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:43:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=9.646, P90 xfer time (ms)=9.648, Avg MB per transfer=144.726, Throughput (MB/s)=15003.787, Avg number of descriptors=8717.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:43:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:43:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.361, P90 xfer time (ms)=16.57, Avg MB per transfer=217.642, Throughput (MB/s)=14168.769, Avg number of descriptors=13491.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=18.911, P90 xfer time (ms)=23.174, Avg MB per transfer=255.918, Throughput (MB/s)=13532.723, Avg number of descriptors=15929.7, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=17.241, P90 xfer time (ms)=17.248, Avg MB per transfer=220.235, Throughput (MB/s)=12773.939, Avg number of descriptors=13615.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=16.775, P90 xfer time (ms)=16.818, Avg MB per transfer=221.223, Throughput (MB/s)=13187.713, Avg number of descriptors=13697.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=14.305, P90 xfer time (ms)=14.627, Avg MB per transfer=227.881, Throughput (MB/s)=15930.437, Avg number of descriptors=14111.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=18.25, P90 xfer time (ms)=18.569, Avg MB per transfer=232.66, Throughput (MB/s)=12748.605, Avg number of descriptors=14421.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:44:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:44:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=20.116, P90 xfer time (ms)=21.074, Avg MB per transfer=233.616, Throughput (MB/s)=11613.317, Avg number of descriptors=14483.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.439, P90 xfer time (ms)=15.544, Avg MB per transfer=236.483, Throughput (MB/s)=15317.067, Avg number of descriptors=14669.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.236, P90 xfer time (ms)=12.173, Avg MB per transfer=159.063, Throughput (MB/s)=14156.057, Avg number of descriptors=9647.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.503, P90 xfer time (ms)=11.78, Avg MB per transfer=160.019, Throughput (MB/s)=13910.616, Avg number of descriptors=9709.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.347, P90 xfer time (ms)=12.165, Avg MB per transfer=161.249, Throughput (MB/s)=14210.303, Avg number of descriptors=9833.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=10.676, P90 xfer time (ms)=10.707, Avg MB per transfer=161.963, Throughput (MB/s)=15170.768, Avg number of descriptors=9853.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:45:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:45:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.678, P90 xfer time (ms)=12.8, Avg MB per transfer=163.161, Throughput (MB/s)=13971.386, Avg number of descriptors=9957.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=14.48, P90 xfer time (ms)=16.919, Avg MB per transfer=190.161, Throughput (MB/s)=13132.522, Avg number of descriptors=11699.7, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.469, P90 xfer time (ms)=12.184, Avg MB per transfer=166.028, Throughput (MB/s)=14476.253, Avg number of descriptors=10143.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=12.359, P90 xfer time (ms)=13.189, Avg MB per transfer=169.577, Throughput (MB/s)=13720.855, Avg number of descriptors=10329.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=12.067, P90 xfer time (ms)=13.011, Avg MB per transfer=172.444, Throughput (MB/s)=14291.083, Avg number of descriptors=10515.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=11.323, P90 xfer time (ms)=11.417, Avg MB per transfer=173.4, Throughput (MB/s)=15313.31, Avg number of descriptors=10577.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:46:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:46:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=12.422, P90 xfer time (ms)=13.542, Avg MB per transfer=177.223, Throughput (MB/s)=14266.537, Avg number of descriptors=10825.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:47:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:47:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=3.826, P90 xfer time (ms)=3.944, Avg MB per transfer=50.1, Throughput (MB/s)=13095.362, Avg number of descriptors=2579.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:47:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:47:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=12.248, P90 xfer time (ms)=19.961, Avg MB per transfer=169.76, Throughput (MB/s)=13860.582, Avg number of descriptors=10370.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:47:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:47:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=10.487, P90 xfer time (ms)=18.19, Avg MB per transfer=150.136, Throughput (MB/s)=14316.359, Avg number of descriptors=9099.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:47:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:47:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=12.421, P90 xfer time (ms)=12.683, Avg MB per transfer=156.195, Throughput (MB/s)=12575.05, Avg number of descriptors=9461.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:47:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:47:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=6, Avg xfer time (ms)=16.764, P90 xfer time (ms)=18.34, Avg MB per transfer=241.9, Throughput (MB/s)=14429.755, Avg number of descriptors=15020.3, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:48:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:48:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=19.194, P90 xfer time (ms)=20.861, Avg MB per transfer=257.544, Throughput (MB/s)=13418.258, Avg number of descriptors=16053.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:48:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:48:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=17.69, P90 xfer time (ms)=17.935, Avg MB per transfer=263.246, Throughput (MB/s)=14881.266, Avg number of descriptors=16405.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:48:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:48:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=18.425, P90 xfer time (ms)=19.642, Avg MB per transfer=263.246, Throughput (MB/s)=14287.449, Avg number of descriptors=16405.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:48:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:48:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=21.693, P90 xfer time (ms)=22.601, Avg MB per transfer=263.521, Throughput (MB/s)=12147.574, Avg number of descriptors=16467.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=19.04, P90 xfer time (ms)=20.58, Avg MB per transfer=257.989, Throughput (MB/s)=13550.004, Avg number of descriptors=16064.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=17.663, P90 xfer time (ms)=17.757, Avg MB per transfer=266.388, Throughput (MB/s)=15082.112, Avg number of descriptors=16653.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=18.319, P90 xfer time (ms)=19.89, Avg MB per transfer=257.786, Throughput (MB/s)=14071.792, Avg number of descriptors=16095.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=18.937, P90 xfer time (ms)=20.963, Avg MB per transfer=264.356, Throughput (MB/s)=13959.924, Avg number of descriptors=16508.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:45+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=20.571, P90 xfer time (ms)=21.896, Avg MB per transfer=268.042, Throughput (MB/s)=13029.987, Avg number of descriptors=16725.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:49:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:49:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=20.179, P90 xfer time (ms)=21.64, Avg MB per transfer=275.705, Throughput (MB/s)=13662.965, Avg number of descriptors=17231.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:50:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:50:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=20.707, P90 xfer time (ms)=22.612, Avg MB per transfer=279.495, Throughput (MB/s)=13497.61, Avg number of descriptors=17459.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:50:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:50:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=21.498, P90 xfer time (ms)=23.061, Avg MB per transfer=298.611, Throughput (MB/s)=13890.118, Avg number of descriptors=18699.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:51:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:51:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=18.073, P90 xfer time (ms)=19.702, Avg MB per transfer=265.789, Throughput (MB/s)=14706.193, Avg number of descriptors=16601.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:51:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:51:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=27.57, P90 xfer time (ms)=28.349, Avg MB per transfer=300.556, Throughput (MB/s)=10901.444, Avg number of descriptors=18843.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:52:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:52:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=4, Avg xfer time (ms)=14.264, P90 xfer time (ms)=16.315, Avg MB per transfer=179.272, Throughput (MB/s)=12568.339, Avg number of descriptors=10980.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:52:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:52:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=13.492, P90 xfer time (ms)=14.023, Avg MB per transfer=182.002, Throughput (MB/s)=13490.126, Avg number of descriptors=11135.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:52:55+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:52:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=13.903, P90 xfer time (ms)=13.99, Avg MB per transfer=182.991, Throughput (MB/s)=13161.549, Avg number of descriptors=11217.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:53:05+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:53:05 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=13.867, P90 xfer time (ms)=15.92, Avg MB per transfer=183.947, Throughput (MB/s)=13265.395, Avg number of descriptors=11279.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:53:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:53:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=14.071, P90 xfer time (ms)=14.521, Avg MB per transfer=181.697, Throughput (MB/s)=12912.731, Avg number of descriptors=11216.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:53:25+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:53:25 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=13.0, P90 xfer time (ms)=13.607, Avg MB per transfer=185.826, Throughput (MB/s)=14294.212, Avg number of descriptors=11383.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:53:35+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:53:35 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=16.654, P90 xfer time (ms)=16.932, Avg MB per transfer=187.737, Throughput (MB/s)=11273.023, Avg number of descriptors=11507.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        },
+        {
+          "kind": "transfer_summary",
+          "time": "2026-09-20T09:54:15+08:00",
+          "text": "(APIServer pid=1786627) INFO 09-20 09:54:15 [metrics.py:103] KV Transfer metrics: Num successful transfers=2, Avg xfer time (ms)=15.335, P90 xfer time (ms)=16.495, Avg MB per transfer=189.649, Throughput (MB/s)=12366.738, Avg number of descriptors=11631.0, Num failed transfers=0, Num failed recvs=0, Num KV expired reqs=0"
+        }
+      ]
+    },
+    "D": {
+      "kv_transfer_error_rank_records": 0,
+      "compile_begin_rank_records": 0,
+      "jit_warning_records": 0,
+      "transfer_summary_records": 0,
+      "transfer_error_nonzero_records": null,
+      "events": []
+    }
+  }
+}

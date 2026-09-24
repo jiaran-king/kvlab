@@ -1,0 +1,28 @@
+{
+  "schema": "kvlab-native-conditions/v1",
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "p_domains": 1,
+  "routing": "all-p0",
+  "p_max_num_seqs": 4,
+  "p_max_num_batched_tokens": 8192,
+  "full_sequence_must_fit": true,
+  "client_max_in_flight": 4,
+  "arrival_protocol": "stable-ready-order-no-wall-time",
+  "release_protocol": "transfer-next-step-client-following-step",
+  "transfer_delay_steps": 1,
+  "max_steps": 20000,
+  "event_limit": 20000,
+  "scenario_id": "assumed-history-capacity",
+  "capacity_points": [
+    {
+      "id": "low",
+      "authority": "bytes_per_rank",
+      "bytes_per_rank": 467856017
+    },
+    {
+      "id": "high",
+      "authority": "physical_blocks",
+      "physical_blocks": 1200
+    }
+  ]
+}

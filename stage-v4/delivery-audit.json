@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "label": "L",
+      "job": 3415,
+      "coverage": [
+        425,
+        467
+      ],
+      "event_complete": true,
+      "removed_entries": 249304,
+      "cleanup_passed": true,
+      "core_files_present": 22
+    },
+    {
+      "label": "H",
+      "job": 3425,
+      "coverage": [
+        425,
+        425
+      ],
+      "event_complete": true,
+      "removed_entries": 44984,
+      "cleanup_passed": true,
+      "core_files_present": 22
+    },
+    {
+      "label": "M",
+      "job": 3429,
+      "coverage": [
+        425,
+        425
+      ],
+      "event_complete": true,
+      "removed_entries": 86238,
+      "cleanup_passed": true,
+      "core_files_present": 22
+    }
+  ],
+  "formal_attempts": 3,
+  "comparison": "M/H frozen425;L historical467partial per user amendment",
+  "report_links_exist": true,
+  "four_figures": [
+    "capacity-hit-rate.png",
+    "capacity-local-compute.png",
+    "capacity-ttft.png",
+    "removal-progress.png"
+  ],
+  "remote_delivery_verified": true,
+  "remote_report_bytes": 14094,
+  "completion_scope": "Original benchmark plus explicit user amendment: two comparable425points, historicalpartialL, no Lrerun"
+}

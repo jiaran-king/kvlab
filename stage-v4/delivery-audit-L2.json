@@ -1,0 +1,10 @@
+{
+  "effective_scope": "Three fixed425 comparable capacities: L2/M/H; old L historical only",
+  "formal_attempts": 4,
+  "cpu_analysis_job": 3436,
+  "cpu_analysis_terminal": "COMPLETED 0:0",
+  "core_checks_passed": true,
+  "figures_reviewed": 4,
+  "raw_source": "All raw data preserved at server canonical directories; L2 metrics analyzed there; local partial raw excluded",
+  "remote_publish": "verified"
+}

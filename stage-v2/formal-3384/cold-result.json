@@ -1,0 +1,191 @@
+{
+  "name": "cold",
+  "tokenized_input": 4105,
+  "output_target": 8,
+  "usage": {
+    "prompt_tokens": 4105,
+    "total_tokens": 4113,
+    "completion_tokens": 8,
+    "prompt_tokens_details": {
+      "cached_tokens": 4105,
+      "created_cache_tokens": 0
+    }
+  },
+  "ttft": 1.3453613622114062,
+  "elapsed": 2.0493178740143776,
+  "events": [
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "role": "assistant",
+            "content": ""
+          },
+          "logprobs": null,
+          "finish_reason": null
+        }
+      ],
+      "prompt_token_ids": null,
+      "prompt_text": null
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u770b\u8d77\u6765"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u4f60"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u6b63\u5728\u8fdb\u884c"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u4e00\u4e2a"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "**"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u5bb9\u91cf"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\u6d4b\u8bd5"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "**"
+          },
+          "logprobs": null,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789837270,
+      "model": "dsv4-replay",
+      "choices": [],
+      "usage": {
+        "prompt_tokens": 4105,
+        "total_tokens": 4113,
+        "completion_tokens": 8,
+        "prompt_tokens_details": {
+          "cached_tokens": 4105,
+          "created_cache_tokens": 0
+        }
+      },
+      "system_fingerprint": "vllm-0.26.0-tp2-a30b6501"
+    }
+  ]
+}

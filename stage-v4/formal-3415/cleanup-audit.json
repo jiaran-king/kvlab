@@ -1,0 +1,28 @@
+{
+  "P_remaining": [],
+  "D_remaining": [],
+  "controller_remaining": [],
+  "tracked_pids_remaining": [],
+  "owned_gpu_applications": [],
+  "owned_listeners_remaining": [],
+  "owned_shm_remaining": [],
+  "ipc_unchanged": true,
+  "scheduler_completed_zero": true,
+  "resource_cleanup_passed": true,
+  "host_health_requires_review": [
+    "memory-before.txt",
+    "memory-after.txt",
+    "load-before.txt",
+    "load-after.txt",
+    "storage-before.txt",
+    "storage-after.txt",
+    "processes-before.txt",
+    "processes-after.txt"
+  ],
+  "host_health_review": {
+    "followup_job": 3424,
+    "load1": 4.34,
+    "previous_transient_root_pid": "absent",
+    "explanation": "Additional chauncey job3416 model worker startup seen in process snapshots; load returned to4.34/192 CPUs. Own resources clear. Background activity is a performance limitation."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "L->M2": {
+    "hit_delta_pp": 2.7296421214230926,
+    "compute_saved": 190464.0,
+    "compute_reduction_percent": 26.78841171655457,
+    "continuation_ttft_p50_seconds_improvement_percent": -3.7259585929229138,
+    "continuation_ttft_p95_seconds_improvement_percent": 24.042429195737885,
+    "replay_task_window_seconds_improvement_percent": 2.4546235599426525
+  },
+  "M2->H2": {
+    "hit_delta_pp": 0.0,
+    "compute_saved": 0.0,
+    "compute_reduction_percent": 0.0,
+    "continuation_ttft_p50_seconds_improvement_percent": -1.7456628459814565,
+    "continuation_ttft_p95_seconds_improvement_percent": 0.5800954014902723,
+    "replay_task_window_seconds_improvement_percent": -1.0512066583742343
+  }
+}

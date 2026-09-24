@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "formal_job": 3406,
+  "read_only_cleanup_job": 3407,
+  "both_jobs_completed_exit_zero": true,
+  "new_full_replays": 1,
+  "small_repro": "skipped by documented pre-submission decision",
+  "planned": 174,
+  "success": 174,
+  "failed": 0,
+  "dependency_skipped": 0,
+  "exact_lengths": true,
+  "end_running_waiting_zero": true,
+  "tracked_resources_clean": true,
+  "historical_runs_retained": 4,
+  "M1_root_cause": "unresolved; not reproduced in M2",
+  "report_artifact_links_exist": true
+}

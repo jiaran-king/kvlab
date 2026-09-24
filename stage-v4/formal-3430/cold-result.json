@@ -1,0 +1,191 @@
+{
+  "name": "cold",
+  "tokenized_input": 4105,
+  "output_target": 8,
+  "usage": {
+    "prompt_tokens": 4105,
+    "total_tokens": 4113,
+    "completion_tokens": 8,
+    "prompt_tokens_details": {
+      "cached_tokens": 4105,
+      "created_cache_tokens": 0
+    }
+  },
+  "ttft": 1.2787893172353506,
+  "elapsed": 1.9936484945937991,
+  "events": [
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "role": "assistant",
+            "content": ""
+          },
+          "logprobs": null,
+          "finish_reason": null
+        }
+      ],
+      "prompt_token_ids": null,
+      "prompt_text": null
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Looks"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " like"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " you"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "'re"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " stress"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "-test"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "ing"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " the"
+          },
+          "logprobs": null,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-cold",
+      "object": "chat.completion.chunk",
+      "created": 1789885172,
+      "model": "dsv4-replay",
+      "choices": [],
+      "usage": {
+        "prompt_tokens": 4105,
+        "total_tokens": 4113,
+        "completion_tokens": 8,
+        "prompt_tokens_details": {
+          "cached_tokens": 4105,
+          "created_cache_tokens": 0
+        }
+      },
+      "system_fingerprint": "vllm-0.26.0-tp2-a30b6501"
+    }
+  ]
+}

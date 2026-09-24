@@ -1,0 +1,10 @@
+{
+  "hit_rate_percentage_point_gain": 1.3222063969087872,
+  "compute_reduction_tokens": 181248.0,
+  "compute_reduction_percent": 14.40236479506699,
+  "prefill_reduction_percent": 13.131259918753413,
+  "continuation_p95_reduction_percent": 6.010243852301544,
+  "continuation_p50_change_ms": 0.513850711286068,
+  "e2e_p95_reduction_percent": 0.25427572275086296,
+  "task_window_reduction_percent": 0.8303507380295616
+}

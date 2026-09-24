@@ -1,0 +1,35 @@
+{
+  "children": [
+    {
+      "name": "P",
+      "pid": 1259714,
+      "returncode": 0
+    },
+    {
+      "name": "D",
+      "pid": 1259715,
+      "returncode": 0
+    },
+    {
+      "name": "proxy",
+      "pid": 1380744,
+      "returncode": -15
+    },
+    {
+      "name": "observer",
+      "pid": 1383714,
+      "returncode": 0
+    },
+    {
+      "name": "prompt-check",
+      "pid": 1384070,
+      "returncode": 0
+    },
+    {
+      "name": "warmup",
+      "pid": 1384885,
+      "returncode": 0
+    }
+  ],
+  "remaining": []
+}

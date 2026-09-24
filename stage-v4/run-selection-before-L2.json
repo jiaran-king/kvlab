@@ -1,0 +1,20 @@
+[
+  {
+    "label": "L",
+    "job": 3415,
+    "run": "stage-v4/formal-3415",
+    "series": "historical-467"
+  },
+  {
+    "label": "M",
+    "job": 3429,
+    "run": "stage-v4/formal-3429",
+    "series": "successful-425"
+  },
+  {
+    "label": "H",
+    "job": 3425,
+    "run": "stage-v4/formal-3425",
+    "series": "successful-425"
+  }
+]

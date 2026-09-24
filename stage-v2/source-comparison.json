@@ -1,0 +1,16 @@
+{
+  "replay_commit": "7f304555a8bc504c2c2257db2662e896eeeb5c30",
+  "client_patch_matches_archived": true,
+  "scripts_equal": {
+    "mooncake_connector_proxy.py": true,
+    "pd_controller.py": false,
+    "pd_entrypoint.py": true,
+    "pd_formal_controller.py": true,
+    "pd_formal.slurm": true,
+    "pd_smoke.py": true,
+    "replay_selected.py": true,
+    "pd_transport_probe.py": true,
+    "pd_service.py": true
+  },
+  "unused_smoke_controller_difference": "Remote retains old shutdown code; formal jobs call pd_formal_controller.py (identical), not pd_controller.py."
+}

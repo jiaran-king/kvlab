@@ -1,0 +1,898 @@
+{
+  "schema": "kvlab-native-h20-layout/v1",
+  "source": "stage-v5/formal-3454/query-diagnostic-1271803.jsonl effective_cache_config",
+  "profile": "h20-dsv4-tp2-fp8-5group",
+  "p_max_num_seqs": 2,
+  "p_max_num_batched_tokens": 8192,
+  "client_max_in_flight": 3,
+  "max_model_len": 81920,
+  "full_sequence_must_fit": true,
+  "prefix_caching": true,
+  "max_budget_gib_per_rank": 48,
+  "scheduler_block_size": 256,
+  "hash_block_size": 4,
+  "retention_interval": null,
+  "enable_partial_hash_hits": false,
+  "reference_num_blocks": 12393,
+  "kv_cache_tensors": [
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.2.attn.indexer.k_cache",
+        "model.layers.2.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 0,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.4.attn.indexer.k_cache",
+        "model.layers.4.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 8640,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.6.attn.indexer.k_cache",
+        "model.layers.6.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 17280,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.8.attn.indexer.k_cache",
+        "model.layers.8.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 25920,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.10.attn.indexer.k_cache",
+        "model.layers.10.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 34560,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.12.attn.indexer.k_cache",
+        "model.layers.12.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 43200,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.14.attn.indexer.k_cache",
+        "model.layers.14.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 51840,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.16.attn.indexer.k_cache",
+        "model.layers.16.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 60480,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.18.attn.indexer.k_cache",
+        "model.layers.18.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 69120,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.20.attn.indexer.k_cache",
+        "model.layers.20.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 77760,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.22.attn.indexer.k_cache",
+        "model.layers.22.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 86400,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.24.attn.indexer.k_cache",
+        "model.layers.24.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 95040,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.26.attn.indexer.k_cache",
+        "model.layers.26.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 103680,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.28.attn.indexer.k_cache",
+        "model.layers.28.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 112320,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.30.attn.indexer.k_cache",
+        "model.layers.30.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 120960,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.32.attn.indexer.k_cache",
+        "model.layers.32.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 129600,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.34.attn.indexer.k_cache",
+        "model.layers.34.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 138240,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.36.attn.indexer.k_cache",
+        "model.layers.36.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 146880,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.38.attn.indexer.k_cache",
+        "model.layers.38.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 155520,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.40.attn.indexer.k_cache",
+        "model.layers.40.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 164160,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.42.attn.indexer.k_cache",
+        "model.layers.42.attn.indexer.compressor.state_cache"
+      ],
+      "offset": 172800,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.2.attn",
+        "model.layers.0.attn.swa_cache",
+        "model.layers.1.attn.swa_cache",
+        "model.layers.2.attn.compressor.state_cache",
+        "model.layers.3.attn.compressor.state_cache"
+      ],
+      "offset": 181440,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.4.attn",
+        "model.layers.2.attn.swa_cache",
+        "model.layers.3.attn.swa_cache",
+        "model.layers.4.attn.compressor.state_cache",
+        "model.layers.5.attn.compressor.state_cache"
+      ],
+      "offset": 218880,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.6.attn",
+        "model.layers.4.attn.swa_cache",
+        "model.layers.5.attn.swa_cache",
+        "model.layers.6.attn.compressor.state_cache",
+        "model.layers.7.attn.compressor.state_cache"
+      ],
+      "offset": 256320,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.8.attn",
+        "model.layers.6.attn.swa_cache",
+        "model.layers.7.attn.swa_cache",
+        "model.layers.8.attn.compressor.state_cache",
+        "model.layers.9.attn.compressor.state_cache"
+      ],
+      "offset": 293760,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.10.attn",
+        "model.layers.8.attn.swa_cache",
+        "model.layers.9.attn.swa_cache",
+        "model.layers.10.attn.compressor.state_cache",
+        "model.layers.11.attn.compressor.state_cache"
+      ],
+      "offset": 331200,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.12.attn",
+        "model.layers.10.attn.swa_cache",
+        "model.layers.11.attn.swa_cache",
+        "model.layers.12.attn.compressor.state_cache",
+        "model.layers.13.attn.compressor.state_cache"
+      ],
+      "offset": 368640,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.14.attn",
+        "model.layers.12.attn.swa_cache",
+        "model.layers.13.attn.swa_cache",
+        "model.layers.14.attn.compressor.state_cache",
+        "model.layers.15.attn.compressor.state_cache"
+      ],
+      "offset": 406080,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.16.attn",
+        "model.layers.14.attn.swa_cache",
+        "model.layers.15.attn.swa_cache",
+        "model.layers.16.attn.compressor.state_cache",
+        "model.layers.17.attn.compressor.state_cache"
+      ],
+      "offset": 443520,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.18.attn",
+        "model.layers.16.attn.swa_cache",
+        "model.layers.17.attn.swa_cache",
+        "model.layers.18.attn.compressor.state_cache",
+        "model.layers.19.attn.compressor.state_cache"
+      ],
+      "offset": 480960,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.20.attn",
+        "model.layers.18.attn.swa_cache",
+        "model.layers.19.attn.swa_cache",
+        "model.layers.20.attn.compressor.state_cache",
+        "model.layers.21.attn.compressor.state_cache"
+      ],
+      "offset": 518400,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.22.attn",
+        "model.layers.20.attn.swa_cache",
+        "model.layers.21.attn.swa_cache",
+        "model.layers.22.attn.compressor.state_cache",
+        "model.layers.23.attn.compressor.state_cache"
+      ],
+      "offset": 555840,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.24.attn",
+        "model.layers.22.attn.swa_cache",
+        "model.layers.23.attn.swa_cache",
+        "model.layers.24.attn.compressor.state_cache",
+        "model.layers.25.attn.compressor.state_cache"
+      ],
+      "offset": 593280,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.26.attn",
+        "model.layers.24.attn.swa_cache",
+        "model.layers.25.attn.swa_cache",
+        "model.layers.26.attn.compressor.state_cache",
+        "model.layers.27.attn.compressor.state_cache"
+      ],
+      "offset": 630720,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.28.attn",
+        "model.layers.26.attn.swa_cache",
+        "model.layers.27.attn.swa_cache",
+        "model.layers.28.attn.compressor.state_cache",
+        "model.layers.29.attn.compressor.state_cache"
+      ],
+      "offset": 668160,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.30.attn",
+        "model.layers.28.attn.swa_cache",
+        "model.layers.29.attn.swa_cache",
+        "model.layers.30.attn.compressor.state_cache",
+        "model.layers.31.attn.compressor.state_cache"
+      ],
+      "offset": 705600,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.32.attn",
+        "model.layers.30.attn.swa_cache",
+        "model.layers.31.attn.swa_cache",
+        "model.layers.32.attn.compressor.state_cache",
+        "model.layers.33.attn.compressor.state_cache"
+      ],
+      "offset": 743040,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.34.attn",
+        "model.layers.32.attn.swa_cache",
+        "model.layers.33.attn.swa_cache",
+        "model.layers.34.attn.compressor.state_cache",
+        "model.layers.35.attn.compressor.state_cache"
+      ],
+      "offset": 780480,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.36.attn",
+        "model.layers.34.attn.swa_cache",
+        "model.layers.35.attn.swa_cache",
+        "model.layers.36.attn.compressor.state_cache",
+        "model.layers.37.attn.compressor.state_cache"
+      ],
+      "offset": 817920,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.38.attn",
+        "model.layers.36.attn.swa_cache",
+        "model.layers.37.attn.swa_cache",
+        "model.layers.38.attn.compressor.state_cache",
+        "model.layers.39.attn.compressor.state_cache"
+      ],
+      "offset": 855360,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.40.attn",
+        "model.layers.38.attn.swa_cache",
+        "model.layers.39.attn.swa_cache",
+        "model.layers.40.attn.compressor.state_cache",
+        "model.layers.41.attn.compressor.state_cache"
+      ],
+      "offset": 892800,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.42.attn",
+        "model.layers.40.attn.swa_cache",
+        "model.layers.41.attn.swa_cache",
+        "model.layers.42.attn.compressor.state_cache"
+      ],
+      "offset": 930240,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.42.attn.swa_cache"
+      ],
+      "offset": 967680,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.3.attn"
+      ],
+      "offset": 1005120,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.5.attn"
+      ],
+      "offset": 1006848,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.7.attn"
+      ],
+      "offset": 1008576,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.9.attn"
+      ],
+      "offset": 1010304,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.11.attn"
+      ],
+      "offset": 1012032,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.13.attn"
+      ],
+      "offset": 1013760,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.15.attn"
+      ],
+      "offset": 1015488,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.17.attn"
+      ],
+      "offset": 1017216,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.19.attn"
+      ],
+      "offset": 1018944,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.21.attn"
+      ],
+      "offset": 1020672,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.23.attn"
+      ],
+      "offset": 1022400,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.25.attn"
+      ],
+      "offset": 1024128,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.27.attn"
+      ],
+      "offset": 1025856,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.29.attn"
+      ],
+      "offset": 1027584,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.31.attn"
+      ],
+      "offset": 1029312,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.33.attn"
+      ],
+      "offset": 1031040,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.35.attn"
+      ],
+      "offset": 1032768,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.37.attn"
+      ],
+      "offset": 1034496,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.39.attn"
+      ],
+      "offset": 1036224,
+      "block_stride": 1039680
+    },
+    {
+      "size": 12884754240,
+      "shared_by": [
+        "model.layers.41.attn"
+      ],
+      "offset": 1037952,
+      "block_stride": 1039680
+    }
+  ],
+  "kv_cache_groups": [
+    {
+      "layer_names": [
+        "model.layers.2.attn.indexer.k_cache",
+        "model.layers.2.attn",
+        "model.layers.3.attn",
+        "model.layers.4.attn.indexer.k_cache",
+        "model.layers.4.attn",
+        "model.layers.5.attn",
+        "model.layers.6.attn.indexer.k_cache",
+        "model.layers.6.attn",
+        "model.layers.7.attn",
+        "model.layers.8.attn.indexer.k_cache",
+        "model.layers.8.attn",
+        "model.layers.9.attn",
+        "model.layers.10.attn.indexer.k_cache",
+        "model.layers.10.attn",
+        "model.layers.11.attn",
+        "model.layers.12.attn.indexer.k_cache",
+        "model.layers.12.attn",
+        "model.layers.13.attn",
+        "model.layers.14.attn.indexer.k_cache",
+        "model.layers.14.attn",
+        "model.layers.15.attn",
+        "model.layers.16.attn.indexer.k_cache",
+        "model.layers.16.attn",
+        "model.layers.17.attn",
+        "model.layers.18.attn.indexer.k_cache",
+        "model.layers.18.attn",
+        "model.layers.19.attn",
+        "model.layers.20.attn.indexer.k_cache",
+        "model.layers.20.attn",
+        "model.layers.21.attn",
+        "model.layers.22.attn.indexer.k_cache",
+        "model.layers.22.attn",
+        "model.layers.23.attn",
+        "model.layers.24.attn.indexer.k_cache",
+        "model.layers.24.attn",
+        "model.layers.25.attn",
+        "model.layers.26.attn.indexer.k_cache",
+        "model.layers.26.attn",
+        "model.layers.27.attn",
+        "model.layers.28.attn.indexer.k_cache",
+        "model.layers.28.attn",
+        "model.layers.29.attn",
+        "model.layers.30.attn.indexer.k_cache",
+        "model.layers.30.attn",
+        "model.layers.31.attn",
+        "model.layers.32.attn.indexer.k_cache",
+        "model.layers.32.attn",
+        "model.layers.33.attn",
+        "model.layers.34.attn.indexer.k_cache",
+        "model.layers.34.attn",
+        "model.layers.35.attn",
+        "model.layers.36.attn.indexer.k_cache",
+        "model.layers.36.attn",
+        "model.layers.37.attn",
+        "model.layers.38.attn.indexer.k_cache",
+        "model.layers.38.attn",
+        "model.layers.39.attn",
+        "model.layers.40.attn.indexer.k_cache",
+        "model.layers.40.attn",
+        "model.layers.41.attn",
+        "model.layers.42.attn.indexer.k_cache",
+        "model.layers.42.attn"
+      ],
+      "kv_cache_spec": {
+        "block_size": 256,
+        "num_kv_heads": 1,
+        "head_size": 132,
+        "dtype": "torch.uint8",
+        "kv_quant_mode": 0,
+        "page_size_padded": 8640,
+        "indexes_kv_by_block_stride": false,
+        "head_size_v": 132,
+        "sliding_window": null,
+        "attention_chunk_size": null,
+        "non_causal": false,
+        "cache_dtype_str": null,
+        "alignment": 576,
+        "compress_ratio": 4,
+        "model_version": null
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.0.attn.swa_cache",
+        "model.layers.2.attn.swa_cache",
+        "model.layers.4.attn.swa_cache",
+        "model.layers.6.attn.swa_cache",
+        "model.layers.8.attn.swa_cache",
+        "model.layers.10.attn.swa_cache",
+        "model.layers.12.attn.swa_cache",
+        "model.layers.14.attn.swa_cache",
+        "model.layers.16.attn.swa_cache",
+        "model.layers.18.attn.swa_cache",
+        "model.layers.20.attn.swa_cache",
+        "model.layers.22.attn.swa_cache",
+        "model.layers.24.attn.swa_cache",
+        "model.layers.26.attn.swa_cache",
+        "model.layers.28.attn.swa_cache",
+        "model.layers.30.attn.swa_cache",
+        "model.layers.32.attn.swa_cache",
+        "model.layers.34.attn.swa_cache",
+        "model.layers.36.attn.swa_cache",
+        "model.layers.38.attn.swa_cache",
+        "model.layers.40.attn.swa_cache",
+        "model.layers.42.attn.swa_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 64,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.uint8",
+        "kv_quant_mode": 1,
+        "page_size_padded": 37440,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": "fp8_ds_mla",
+        "alignment": 576,
+        "compress_ratio": 1,
+        "model_version": "deepseek_v4"
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.1.attn.swa_cache",
+        "model.layers.3.attn.swa_cache",
+        "model.layers.5.attn.swa_cache",
+        "model.layers.7.attn.swa_cache",
+        "model.layers.9.attn.swa_cache",
+        "model.layers.11.attn.swa_cache",
+        "model.layers.13.attn.swa_cache",
+        "model.layers.15.attn.swa_cache",
+        "model.layers.17.attn.swa_cache",
+        "model.layers.19.attn.swa_cache",
+        "model.layers.21.attn.swa_cache",
+        "model.layers.23.attn.swa_cache",
+        "model.layers.25.attn.swa_cache",
+        "model.layers.27.attn.swa_cache",
+        "model.layers.29.attn.swa_cache",
+        "model.layers.31.attn.swa_cache",
+        "model.layers.33.attn.swa_cache",
+        "model.layers.35.attn.swa_cache",
+        "model.layers.37.attn.swa_cache",
+        "model.layers.39.attn.swa_cache",
+        "model.layers.41.attn.swa_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 64,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.uint8",
+        "kv_quant_mode": 1,
+        "page_size_padded": 37440,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": "fp8_ds_mla",
+        "alignment": 576,
+        "compress_ratio": 1,
+        "model_version": "deepseek_v4"
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.2.attn.indexer.compressor.state_cache",
+        "model.layers.2.attn.compressor.state_cache",
+        "model.layers.4.attn.indexer.compressor.state_cache",
+        "model.layers.4.attn.compressor.state_cache",
+        "model.layers.6.attn.indexer.compressor.state_cache",
+        "model.layers.6.attn.compressor.state_cache",
+        "model.layers.8.attn.indexer.compressor.state_cache",
+        "model.layers.8.attn.compressor.state_cache",
+        "model.layers.10.attn.indexer.compressor.state_cache",
+        "model.layers.10.attn.compressor.state_cache",
+        "model.layers.12.attn.indexer.compressor.state_cache",
+        "model.layers.12.attn.compressor.state_cache",
+        "model.layers.14.attn.indexer.compressor.state_cache",
+        "model.layers.14.attn.compressor.state_cache",
+        "model.layers.16.attn.indexer.compressor.state_cache",
+        "model.layers.16.attn.compressor.state_cache",
+        "model.layers.18.attn.indexer.compressor.state_cache",
+        "model.layers.18.attn.compressor.state_cache",
+        "model.layers.20.attn.indexer.compressor.state_cache",
+        "model.layers.20.attn.compressor.state_cache",
+        "model.layers.22.attn.indexer.compressor.state_cache",
+        "model.layers.22.attn.compressor.state_cache",
+        "model.layers.24.attn.indexer.compressor.state_cache",
+        "model.layers.24.attn.compressor.state_cache",
+        "model.layers.26.attn.indexer.compressor.state_cache",
+        "model.layers.26.attn.compressor.state_cache",
+        "model.layers.28.attn.indexer.compressor.state_cache",
+        "model.layers.28.attn.compressor.state_cache",
+        "model.layers.30.attn.indexer.compressor.state_cache",
+        "model.layers.30.attn.compressor.state_cache",
+        "model.layers.32.attn.indexer.compressor.state_cache",
+        "model.layers.32.attn.compressor.state_cache",
+        "model.layers.34.attn.indexer.compressor.state_cache",
+        "model.layers.34.attn.compressor.state_cache",
+        "model.layers.36.attn.indexer.compressor.state_cache",
+        "model.layers.36.attn.compressor.state_cache",
+        "model.layers.38.attn.indexer.compressor.state_cache",
+        "model.layers.38.attn.compressor.state_cache",
+        "model.layers.40.attn.indexer.compressor.state_cache",
+        "model.layers.40.attn.compressor.state_cache",
+        "model.layers.42.attn.indexer.compressor.state_cache",
+        "model.layers.42.attn.compressor.state_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 4,
+        "num_kv_heads": 1,
+        "head_size": 512,
+        "dtype": "torch.float32",
+        "kv_quant_mode": 0,
+        "page_size_padded": 8640,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 8,
+        "head_size_v": null,
+        "cache_dtype_str": null,
+        "alignment": 576,
+        "compress_ratio": 1,
+        "model_version": null
+      },
+      "is_eagle_group": false
+    },
+    {
+      "layer_names": [
+        "model.layers.3.attn.compressor.state_cache",
+        "model.layers.5.attn.compressor.state_cache",
+        "model.layers.7.attn.compressor.state_cache",
+        "model.layers.9.attn.compressor.state_cache",
+        "model.layers.11.attn.compressor.state_cache",
+        "model.layers.13.attn.compressor.state_cache",
+        "model.layers.15.attn.compressor.state_cache",
+        "model.layers.17.attn.compressor.state_cache",
+        "model.layers.19.attn.compressor.state_cache",
+        "model.layers.21.attn.compressor.state_cache",
+        "model.layers.23.attn.compressor.state_cache",
+        "model.layers.25.attn.compressor.state_cache",
+        "model.layers.27.attn.compressor.state_cache",
+        "model.layers.29.attn.compressor.state_cache",
+        "model.layers.31.attn.compressor.state_cache",
+        "model.layers.33.attn.compressor.state_cache",
+        "model.layers.35.attn.compressor.state_cache",
+        "model.layers.37.attn.compressor.state_cache",
+        "model.layers.39.attn.compressor.state_cache",
+        "model.layers.41.attn.compressor.state_cache"
+      ],
+      "kv_cache_spec": {
+        "block_size": 8,
+        "num_kv_heads": 1,
+        "head_size": 1024,
+        "dtype": "torch.float32",
+        "kv_quant_mode": 0,
+        "page_size_padded": 37440,
+        "indexes_kv_by_block_stride": false,
+        "sliding_window": 128,
+        "head_size_v": null,
+        "cache_dtype_str": null,
+        "alignment": 576,
+        "compress_ratio": 1,
+        "model_version": null
+      },
+      "is_eagle_group": false
+    }
+  ]
+}

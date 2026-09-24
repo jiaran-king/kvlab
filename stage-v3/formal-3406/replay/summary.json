@@ -1,0 +1,225 @@
+{
+  "schema_version": "1",
+  "run_id": "replay",
+  "tasks": {
+    "completed": 3,
+    "failed": 0,
+    "with_patch": 0,
+    "duration_seconds": {
+      "mean": 1042.7376016620547,
+      "p50": 1118.1173964766786,
+      "p95": 1287.787746429164,
+      "p99": 1302.8695553138293
+    }
+  },
+  "requests": {
+    "requests": 174,
+    "successful_requests": 174,
+    "failed_requests": 0,
+    "input_tokens": 6977618,
+    "output_tokens": 28416,
+    "cache_creation_input_tokens": null,
+    "cached_input_tokens": 6977618,
+    "prefix_cache_hit_rate": null,
+    "latency_seconds": {
+      "mean": 17.982952593349392,
+      "p50": 11.356096071191132,
+      "p95": 62.28550822376272,
+      "p99": 92.44092051493953
+    },
+    "ttft_seconds": {
+      "mean": 1.45212605834307,
+      "p50": 0.7012130874209106,
+      "p95": 5.283091490902006,
+      "p99": 15.252473736293622
+    }
+  },
+  "router": {
+    "applicable": false,
+    "events": {}
+  },
+  "vllm": {
+    "available": true,
+    "reason": null,
+    "counter_reset_detected": false,
+    "lifecycle_verified": true,
+    "latency_breakdown_seconds": {
+      "queue_time": {
+        "count": 174,
+        "sum": 40.45425095409155,
+        "mean": 0.23249569513845716
+      },
+      "prefill_time": {
+        "count": 174,
+        "sum": 123.91469652205706,
+        "mean": 0.7121534282876842
+      },
+      "decode_time": {
+        "count": 174,
+        "sum": 0.0,
+        "mean": 0.0
+      },
+      "inference_time": {
+        "count": 174,
+        "sum": 123.91469652205706,
+        "mean": 0.7121534282876842
+      },
+      "ttft": {
+        "count": 174,
+        "sum": 189.46508026123047,
+        "mean": 1.088879771616267
+      },
+      "e2e_latency": {
+        "count": 174,
+        "sum": 189.46508026123047,
+        "mean": 1.088879771616267
+      }
+    },
+    "counters": {
+      "vllm:prefix_cache_hits_total": 6457088.0,
+      "vllm:prefix_cache_queries_total": 6977618.0,
+      "vllm:prompt_tokens_total": 6977618.0,
+      "vllm:prompt_tokens_cached_total": 6457088.0
+    },
+    "request_finished_by_reason": {
+      "stop": 0,
+      "length": 174,
+      "abort": 0,
+      "error": 0,
+      "repetition": 0
+    },
+    "prefix_cache_hit_rate": 0.9254000433958981,
+    "prompt_token_hit_rate": 0.9254000433958981
+  },
+  "correctness": {
+    "available": false,
+    "reason": "not applicable to Replay",
+    "metadata": {}
+  },
+  "source_health": {
+    "available": 6,
+    "unavailable": 0,
+    "not_applicable": 0,
+    "reasons": [],
+    "sources": {
+      "request_trace": [
+        {
+          "source": "request_trace",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/requests.jsonl",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_source_analysis": [
+        {
+          "source": "replay_source_analysis",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/replay-source-analysis.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_plan": [
+        {
+          "source": "replay_plan",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/replay-plan.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "vllm_start": [
+        {
+          "source": "vllm_start",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/evidence/vllm_metrics_start.prom",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "replay_execution": [
+        {
+          "source": "replay_execution",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/replay-execution.json",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ],
+      "vllm_end": [
+        {
+          "source": "vllm_end",
+          "path": "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/stage-v3/formal-3406/replay/evidence/vllm_metrics_end.prom",
+          "available": true,
+          "reason": null,
+          "metadata": {},
+          "applicable": true
+        }
+      ]
+    }
+  },
+  "lifecycle": {
+    "status": "completed",
+    "error": null,
+    "finalization_errors": [],
+    "proxy_close": null
+  },
+  "run_wall_time_seconds": 1306.909177,
+  "request_throughput_per_second": 0.13313855550346326,
+  "input_token_throughput_per_second": 5339.022881465313,
+  "output_token_throughput_per_second": 21.74290340911731,
+  "execution": {
+    "available": true,
+    "reason": null,
+    "metadata": {
+      "workload_fingerprint": "2d33e98e3acf2350d6ae91b259ae4d2b205a030d9c1f3ed5694cbe5f0847eb22",
+      "planned_tasks": 3,
+      "completed_tasks": 3,
+      "failed_tasks": 0,
+      "planned_requests": 174,
+      "planned_timing_dependency_nodes": 0,
+      "materialized_request_nodes": 174,
+      "attempted_requests": 174,
+      "successful_requests": 174,
+      "failed_requests": 0,
+      "pre_send_failed_requests": 0,
+      "dependency_skipped_requests": 0,
+      "timing_dependency_nodes": 0,
+      "lead_title_requests": 3,
+      "lead_name_requests": 1,
+      "lead_main_requests": 3,
+      "planned_context_modes": {
+        "none": 0,
+        "independent": 13,
+        "append": 158,
+        "trim": 3,
+        "reset": 0
+      },
+      "prompt_calibration_adjustments": {
+        "pad": 171,
+        "trim": 3,
+        "trim_and_pad": 0,
+        "reset": 0,
+        "reset_and_pad": 0
+      },
+      "prompt_calibration_exact_requests": 174,
+      "prompt_calibration_tolerated_requests": 0,
+      "prompt_calibration_repair_attempts": 8,
+      "prompt_calibration_signed_residual_tokens": 0,
+      "prompt_calibration_absolute_residual_tokens": 0,
+      "prompt_calibration_max_absolute_residual_tokens": 0,
+      "prompt_calibration_mean_absolute_residual_tokens": 0.0,
+      "prompt_calibration_requests_over_tolerance": 0,
+      "requested_filler_tokens": 474096,
+      "actual_prompt_token_gain": 473987,
+      "trimmed_filler_tokens": 33
+    }
+  },
+  "cli": null
+}

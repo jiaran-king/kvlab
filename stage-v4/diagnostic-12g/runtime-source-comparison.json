@@ -1,0 +1,7 @@
+{
+  "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/distributed/kv_events.py": true,
+  "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/config/kv_events.py": true,
+  "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/block_pool.py": true,
+  "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/v1/core/kv_cache_metrics.py": true,
+  "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/lib/python3.12/site-packages/vllm/engine/arg_utils.py": true
+}

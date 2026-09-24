@@ -1,0 +1,85 @@
+{
+  "samples": 12,
+  "sessions": 6,
+  "pairs": [
+    {
+      "session_id": "6bd4d2b3-d1e0-5a31-9064-b642ec425966",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "5eab6d72-59d5-57c3-b3ae-0f9b370c212e",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "bc493187-fa0e-5a0b-8e47-b8234cfb2d15",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "740a9ad9-e18c-59bc-bf6e-3d3a1304a8f8",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "4a239782-35cf-5b7f-ba64-1f8d1a760fb9",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "1bbf9792-dd04-5a48-814d-41ceb81df18d",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    }
+  ],
+  "context_reference_kind": "source_key, not runtime request_id"
+}

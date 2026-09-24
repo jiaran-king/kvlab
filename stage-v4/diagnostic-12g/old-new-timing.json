@@ -1,0 +1,55 @@
+{
+  "scope": "matched source IDs grouped by old-run submission order; not fixed server access sequence",
+  "groups": [
+    {
+      "old_success_order": [
+        0,
+        100
+      ],
+      "continuations": 83,
+      "old_ttft_p95": 8.455759293679147,
+      "new_ttft_p95": 7.300419238489119,
+      "old_ttft_mean": 2.01328351474311,
+      "new_ttft_mean": 1.8477173040632204
+    },
+    {
+      "old_success_order": [
+        100,
+        200
+      ],
+      "continuations": 94,
+      "old_ttft_p95": 11.314960089419033,
+      "new_ttft_p95": 13.783373514423145,
+      "old_ttft_mean": 3.8162339731575328,
+      "new_ttft_mean": 6.556046121902368
+    },
+    {
+      "old_success_order": [
+        200,
+        300
+      ],
+      "continuations": 96,
+      "old_ttft_p95": 5.363321494543925,
+      "new_ttft_p95": 20.207306389464065,
+      "old_ttft_mean": 1.5707203769125044,
+      "new_ttft_mean": 10.512847468373366
+    },
+    {
+      "old_success_order": [
+        300,
+        425
+      ],
+      "continuations": 122,
+      "old_ttft_p95": 4.764159825863295,
+      "new_ttft_p95": 6.1392504554707505,
+      "old_ttft_mean": 1.2081858183287817,
+      "new_ttft_mean": 1.328240943675647
+    }
+  ],
+  "old_long_request_start_epoch": 1789874710.9444082,
+  "before_old_long_request": {
+    "n": 390,
+    "old_ttft_p95": 8.573799252370362,
+    "new_same_ids_ttft_p95": 15.977405995037403
+  }
+}

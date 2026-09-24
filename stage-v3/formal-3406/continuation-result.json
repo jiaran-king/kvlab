@@ -1,0 +1,191 @@
+{
+  "name": "continuation",
+  "tokenized_input": 4233,
+  "output_target": 8,
+  "usage": {
+    "prompt_tokens": 4233,
+    "total_tokens": 4241,
+    "completion_tokens": 8,
+    "prompt_tokens_details": {
+      "cached_tokens": 4233,
+      "created_cache_tokens": 0
+    }
+  },
+  "ttft": 0.45824941620230675,
+  "elapsed": 1.1670546419918537,
+  "events": [
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "role": "assistant",
+            "content": ""
+          },
+          "logprobs": null,
+          "finish_reason": null
+        }
+      ],
+      "prompt_token_ids": null,
+      "prompt_text": null
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "It"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " looks"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " like"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " you"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "'re"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " running"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " a"
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " **"
+          },
+          "logprobs": null,
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ]
+    },
+    {
+      "id": "chatcmpl-pd-smoke-continuation",
+      "object": "chat.completion.chunk",
+      "created": 1789867981,
+      "model": "dsv4-replay",
+      "choices": [],
+      "usage": {
+        "prompt_tokens": 4233,
+        "total_tokens": 4241,
+        "completion_tokens": 8,
+        "prompt_tokens_details": {
+          "cached_tokens": 4233,
+          "created_cache_tokens": 0
+        }
+      },
+      "system_fingerprint": "vllm-0.26.0-tp2-a30b6501"
+    }
+  ]
+}

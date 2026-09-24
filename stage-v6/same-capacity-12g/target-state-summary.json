@@ -1,0 +1,330 @@
+{
+  "method": "Reads only target and context_after token segments from captured uint32 P-input files; no model execution.",
+  "runs": [
+    {
+      "context_after": "r00000370-1c7ab7abe2c3cb06",
+      "input_count": 44410,
+      "lcp_target_vs_predecessor": 43434,
+      "lookup_records": [
+        {
+          "kind": "P_request_received",
+          "prompt_token_count": 44410,
+          "request_id": "chatcmpl-cf4efd42-eef4-41cd-a67b-08a57435b8c0-8fd582af",
+          "time": 1789917148.5742857
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 1,
+          "candidate": 44409,
+          "drop_eagle_block": false,
+          "groups": [
+            0
+          ],
+          "kind": "group_lookup",
+          "manager": "FullAttentionManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 2,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            1,
+            2
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 3,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            3
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 4,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            4
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 5,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            1,
+            2
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 6,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            3
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 7,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            4
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 256
+        },
+        {
+          "attempt": 1,
+          "calls": 7,
+          "kind": "joint_lookup",
+          "returned": 256,
+          "shared_prefix_metadata": [
+            0
+          ],
+          "time": 1789917148.5745387
+        },
+        {
+          "allocation": null,
+          "attempt": 1,
+          "hit_tokens": 256,
+          "kind": "lookup",
+          "lookup_seconds": 0.00020657852292060852,
+          "num_computed_tokens": 0,
+          "num_prompt_tokens": 44410,
+          "num_tokens": 44410,
+          "preemptions": 0,
+          "time": 1789917148.5745473
+        },
+        {
+          "adopted_local_cache_tokens": 256,
+          "allocation": "ok",
+          "async_load": false,
+          "attempt": 1,
+          "external_tokens": 0,
+          "hit_tokens": 256,
+          "kind": "lookup_decision",
+          "lookup_seconds": 0.00020657852292060852,
+          "num_computed_tokens": 0,
+          "num_prompt_tokens": 44410,
+          "num_tokens": 44410,
+          "preemptions": 0,
+          "running": 1,
+          "scheduled_tokens": 8192,
+          "time": 1789917148.579233,
+          "waiting": 0
+        }
+      ],
+      "predecessor": {
+        "count": 43434,
+        "request_id": "chatcmpl-64254568-b13b-4fc8-bd66-b6e621cdb49b-9447ea20",
+        "source_key": "r00000370-1c7ab7abe2c3cb06",
+        "time": 1789917051.1995933
+      },
+      "request_id": "chatcmpl-cf4efd42-eef4-41cd-a67b-08a57435b8c0-8fd582af",
+      "run": "F12-A",
+      "semantic_identity": {
+        "cache_salt": null,
+        "lora_request": null,
+        "mm_features": [],
+        "prompt_embeds": null,
+        "skip_reading_prefix_cache": false
+      },
+      "source_key": "r00000372-1c6acbc472187251"
+    },
+    {
+      "context_after": "r00000370-1c7ab7abe2c3cb06",
+      "input_count": 44410,
+      "lcp_target_vs_predecessor": 43434,
+      "lookup_records": [
+        {
+          "kind": "P_request_received",
+          "prompt_token_count": 44410,
+          "request_id": "chatcmpl-098cb288-e1cd-4c1b-8220-a3b27481ec05-98992660",
+          "time": 1789966374.2240965
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 1,
+          "candidate": 44409,
+          "drop_eagle_block": false,
+          "groups": [
+            0
+          ],
+          "kind": "group_lookup",
+          "manager": "FullAttentionManager",
+          "returned": 256
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 2,
+          "candidate": 256,
+          "drop_eagle_block": false,
+          "groups": [
+            1,
+            2
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 3,
+          "candidate": 0,
+          "drop_eagle_block": false,
+          "groups": [
+            3
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 4,
+          "candidate": 0,
+          "drop_eagle_block": false,
+          "groups": [
+            4
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 5,
+          "candidate": 0,
+          "drop_eagle_block": false,
+          "groups": [
+            1,
+            2
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 6,
+          "candidate": 0,
+          "drop_eagle_block": false,
+          "groups": [
+            3
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "alignment_tokens": 256,
+          "attempt": 1,
+          "call": 7,
+          "candidate": 0,
+          "drop_eagle_block": false,
+          "groups": [
+            4
+          ],
+          "kind": "group_lookup",
+          "manager": "SlidingWindowManager",
+          "returned": 0
+        },
+        {
+          "attempt": 1,
+          "calls": 7,
+          "kind": "joint_lookup",
+          "returned": 0,
+          "shared_prefix_metadata": [
+            256
+          ],
+          "time": 1789966374.2243135
+        },
+        {
+          "allocation": null,
+          "attempt": 1,
+          "hit_tokens": 0,
+          "kind": "lookup",
+          "lookup_seconds": 0.00016867462545633316,
+          "num_computed_tokens": 0,
+          "num_prompt_tokens": 44410,
+          "num_tokens": 44410,
+          "preemptions": 0,
+          "time": 1789966374.2243228
+        },
+        {
+          "adopted_local_cache_tokens": 0,
+          "allocation": "ok",
+          "async_load": false,
+          "attempt": 1,
+          "external_tokens": 0,
+          "hit_tokens": 0,
+          "kind": "lookup_decision",
+          "lookup_seconds": 0.00016867462545633316,
+          "num_computed_tokens": 0,
+          "num_prompt_tokens": 44410,
+          "num_tokens": 44410,
+          "preemptions": 0,
+          "running": 1,
+          "scheduled_tokens": 8192,
+          "time": 1789966374.2291415,
+          "waiting": 0
+        }
+      ],
+      "predecessor": {
+        "count": 43434,
+        "request_id": "chatcmpl-8a3308ee-cfb4-4f73-ab94-8bbaf8d42d91-9feead23",
+        "source_key": "r00000370-1c7ab7abe2c3cb06",
+        "time": 1789966268.7316387
+      },
+      "request_id": "chatcmpl-098cb288-e1cd-4c1b-8220-a3b27481ec05-98992660",
+      "run": "F12-B-exact",
+      "semantic_identity": {
+        "cache_salt": null,
+        "lora_request": null,
+        "mm_features": [],
+        "prompt_embeds": null,
+        "skip_reading_prefix_cache": false
+      },
+      "source_key": "r00000372-1c6acbc472187251"
+    }
+  ],
+  "target": "r00000372-1c6acbc472187251"
+}

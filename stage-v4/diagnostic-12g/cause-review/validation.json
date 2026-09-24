@@ -1,0 +1,9 @@
+{
+  "target_pairs": 10,
+  "core_pairs": 22,
+  "request_rows": 44,
+  "matching_cache_config_and_group_specs": true,
+  "event_streams_complete": true,
+  "historical_missing_values_preserved_as_NA": true,
+  "cpu_cleanup_passed": true
+}

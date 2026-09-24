@@ -1,0 +1,60 @@
+{
+  "command": [
+    "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/bin/python",
+    "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/pd_entrypoint.py",
+    "serve",
+    "/home/david_cwq/jinghaoyu/models/DeepSeek-V4-Flash",
+    "--served-model-name",
+    "dsv4-replay",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18401",
+    "--tensor-parallel-size",
+    "2",
+    "--max-model-len",
+    "81920",
+    "--max-num-batched-tokens",
+    "8192",
+    "--max-num-seqs",
+    "2",
+    "--gpu-memory-utilization",
+    "0.90",
+    "--kv-cache-dtype",
+    "fp8",
+    "--block-size",
+    "256",
+    "--tokenizer-mode",
+    "deepseek_v4",
+    "--trust-remote-code",
+    "--generation-config",
+    "vllm",
+    "--enforce-eager",
+    "--enable-prefix-caching",
+    "--enable-prompt-tokens-details",
+    "--enable-request-id-headers",
+    "--kv-transfer-config",
+    "{\"kv_connector\": \"MooncakeConnector\", \"kv_role\": \"kv_producer\"}",
+    "--default-chat-template-kwargs",
+    "{\"thinking\": false}",
+    "--kv-cache-memory-bytes",
+    "25769803776"
+  ],
+  "pid": 1781934,
+  "devices": [
+    {
+      "uuid": "8170be44-b01a-d0f7-fc73-f9b7b280cd6f",
+      "bytes": 150110011392,
+      "name": "NVIDIA H20-3e"
+    },
+    {
+      "uuid": "e679ad4c-7c55-c485-65d8-da9687300b58",
+      "bytes": 150110011392,
+      "name": "NVIDIA H20-3e"
+    }
+  ],
+  "job": "3406",
+  "step": "0",
+  "cuda_visible_devices": "0,1",
+  "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3406/step_0/user/task_0\n"
+}

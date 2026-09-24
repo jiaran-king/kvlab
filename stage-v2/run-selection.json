@@ -1,0 +1,30 @@
+[
+  {
+    "run": "evidence/formal-3353",
+    "job": 3353,
+    "comparison_group": "main",
+    "protocol": "two-request warmup; existing disk compile cache; P prefix reset",
+    "comparison_reason": "No paired TileLang compile interval in formal logs; same measurement procedure"
+  },
+  {
+    "run": "stage-v2/formal-3384",
+    "job": 3384,
+    "comparison_group": "main",
+    "protocol": "two-request warmup; existing disk compile cache; P prefix reset",
+    "comparison_reason": "Targeted H replication; no TileLang compile begin in formal logs; all results retained"
+  },
+  {
+    "run": "evidence/formal-3343",
+    "job": 3343,
+    "comparison_group": "historical",
+    "protocol": "two-request warmup; existing disk compile cache; P prefix reset",
+    "comparison_reason": "42 paired TileLang compile intervals during formal window; cache counts usable; latency shown separately"
+  },
+  {
+    "run": "stage-v2/formal-3391",
+    "job": 3391,
+    "comparison_group": "failed",
+    "protocol": "two-request warmup; existing disk compile cache; P prefix reset",
+    "comparison_reason": "160 success, 1 client ReadTimeout with D KV-ready timeout, 13 dependency-skipped; different realized coverage, not a main cache or latency point"
+  }
+]

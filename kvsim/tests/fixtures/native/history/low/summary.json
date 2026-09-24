@@ -1,0 +1,99 @@
+{
+  "run_id": "native-54c95786ad23f84d4535",
+  "scenario_id": "assumed-history-capacity",
+  "budget_provenance": {
+    "source": "assumed",
+    "authority": "bytes_per_rank",
+    "value": 467856017,
+    "evidence": null,
+    "assumptions": "User-selected KV budget; no AFD memory ledger supplied"
+  },
+  "status": "complete",
+  "failure_reason": null,
+  "failure_type": null,
+  "capacity_gib_per_rank": 0.4357248703017831,
+  "point_id": "low",
+  "physical_blocks": 450,
+  "p_domains": 1,
+  "per_p": {
+    "p0": {
+      "requests_planned": 3,
+      "requests_completed": 3,
+      "actual_input_tokens": 3072,
+      "initial_adopted_cache_tokens": 0,
+      "actual_input_cache_fraction": 0.0,
+      "cumulative_input_processing_tokens": 3072,
+      "prefix_queries": 3072,
+      "prefix_hits": 0,
+      "prefix_query_hit_rate": 0.0,
+      "preempted_queries": 0,
+      "preempted_hits": 0,
+      "native_event_counts": {
+        "BlockStored": 15,
+        "BlockRemoved": 155
+      },
+      "removed_hash_entries_by_group": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 109,
+        "0": 4
+      },
+      "peak_active_blocks": 420,
+      "peak_reusable_cached_blocks": 121,
+      "waiting_request_steps": 3,
+      "waiting_peak": 1,
+      "running_peak": 1,
+      "preemptions": 0,
+      "resumes": 0
+    }
+  },
+  "peak_active_blocks_global": 420,
+  "waiting_request_steps": 3,
+  "preemptions": 0,
+  "resumes": 0,
+  "capacity_budget": {
+    "authority": "bytes_per_rank",
+    "authoritative_value": 467856017,
+    "budget_gib_per_rank": 0.4357248703017831,
+    "budget_bytes_per_rank": 467856017,
+    "bytes_per_physical_block_per_rank": 1039680,
+    "physical_blocks": 450,
+    "effective_kv_bytes_per_rank": 467856000,
+    "unused_budget_bytes_per_rank": 17,
+    "reserved_null_blocks": 1,
+    "rounding": "floor(budget_bytes_per_rank / bytes_per_physical_block_per_rank)",
+    "layout_id": "h20-dsv4-tp2-fp8-5group",
+    "layout_source": "stage-v5/formal-3454/query-diagnostic-1271803.jsonl effective_cache_config"
+  },
+  "requests_planned": 3,
+  "requests_completed": 3,
+  "requests_unfinished": 0,
+  "logical_steps": 7,
+  "actual_input_tokens": 3072,
+  "initial_adopted_cache_tokens": 0,
+  "actual_input_cache_fraction": 0.0,
+  "cumulative_input_processing_tokens": 3072,
+  "prefix_queries": 3072,
+  "prefix_hits": 0,
+  "prefix_query_hit_rate": 0.0,
+  "preempted_queries": 0,
+  "preempted_hits": 0,
+  "native_event_counts": {
+    "BlockStored": 15,
+    "BlockRemoved": 155
+  },
+  "removed_hash_entries_by_group": {
+    "1": 14,
+    "2": 14,
+    "3": 14,
+    "4": 109,
+    "0": 4
+  },
+  "events_written": 170,
+  "events_native_total": 170,
+  "events_coverage": "all",
+  "content_source": "synthetic",
+  "metric_scope": "all requests",
+  "execution_protocol": "transfer-next-step-client-following-step"
+}

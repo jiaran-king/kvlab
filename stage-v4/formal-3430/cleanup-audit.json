@@ -1,0 +1,31 @@
+{
+  "P_remaining": [],
+  "D_remaining": [],
+  "controller_remaining": [],
+  "tracked_pids_remaining": [],
+  "owned_gpu_applications": [],
+  "owned_listeners_remaining": [],
+  "owned_shm_remaining": [],
+  "ipc_unchanged": true,
+  "scheduler_completed_zero": true,
+  "resource_cleanup_passed": true,
+  "host_health_requires_review": [
+    "memory-before.txt",
+    "memory-after.txt",
+    "load-before.txt",
+    "load-after.txt",
+    "storage-before.txt",
+    "storage-after.txt",
+    "processes-before.txt",
+    "processes-after.txt"
+  ],
+  "host_health_review": {
+    "load1_after": 5.16,
+    "cpu_count": 192,
+    "available_memory_MiB_after": 2002477,
+    "storage_free": "4.9T",
+    "baseline_zombie": "root dmesg PID212504",
+    "other_zombie": "1-second root sh PID3538180; parent PID221253 is /usr/bin/aliyun-alinas-mount-watchdog, not an experiment descendant",
+    "conclusion": "No attributable residue or host health regression; scheduler completed and released"
+  }
+}

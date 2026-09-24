@@ -1,0 +1,35 @@
+{
+  "schema": "kvlab-native-routing/v1",
+  "workload_sha256": "1f3e187fa977a31c9b39d2502aa6edaa4d03c834d6004a38b207b521dd6284b1",
+  "domains": [
+    "p0",
+    "p1"
+  ],
+  "source": "policy_generated",
+  "method": "explicit hand fixture: alternating domains",
+  "reference_config": {
+    "purpose": "verify simultaneous P progression and scheduler knobs"
+  },
+  "assignments": [
+    {
+      "order": 0,
+      "request_id": "parallel-0",
+      "assigned_p": "p0"
+    },
+    {
+      "order": 1,
+      "request_id": "parallel-1",
+      "assigned_p": "p1"
+    },
+    {
+      "order": 2,
+      "request_id": "parallel-2",
+      "assigned_p": "p0"
+    },
+    {
+      "order": 3,
+      "request_id": "parallel-3",
+      "assigned_p": "p1"
+    }
+  ]
+}

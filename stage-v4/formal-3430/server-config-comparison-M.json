@@ -1,0 +1,15 @@
+{
+  "P": {
+    "same_devices": true,
+    "command_changes": [
+      [
+        "25769803776",
+        "12884901888"
+      ]
+    ]
+  },
+  "D": {
+    "same_devices": true,
+    "command_changes": []
+  }
+}

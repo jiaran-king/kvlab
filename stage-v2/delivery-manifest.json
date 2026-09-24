@@ -1,0 +1,437 @@
+{
+  "archive": "stage-v2/final-deliverables.tgz",
+  "bytes": 566259,
+  "file_count": 107,
+  "files": [
+    {
+      "path": "NEXT_GOAL.md",
+      "bytes": 17384
+    },
+    {
+      "path": "evidence/capacity-interpretation.md",
+      "bytes": 1285
+    },
+    {
+      "path": "evidence/client-existing.patch",
+      "bytes": 8460
+    },
+    {
+      "path": "evidence/formal-3343/D-config.json",
+      "bytes": 1544
+    },
+    {
+      "path": "evidence/formal-3343/P-config.json",
+      "bytes": 1541
+    },
+    {
+      "path": "evidence/formal-3343/cache-reset.json",
+      "bytes": 47
+    },
+    {
+      "path": "evidence/formal-3343/metric-deltas.json",
+      "bytes": 3298
+    },
+    {
+      "path": "evidence/formal-3343/point-summary.json",
+      "bytes": 1251
+    },
+    {
+      "path": "evidence/formal-3343/replay/manifest.json",
+      "bytes": 3909
+    },
+    {
+      "path": "evidence/formal-3343/replay/replay-execution.json",
+      "bytes": 203490
+    },
+    {
+      "path": "evidence/formal-3343/replay/replay-plan.json",
+      "bytes": 126282
+    },
+    {
+      "path": "evidence/formal-3343/replay/requests.jsonl",
+      "bytes": 105336
+    },
+    {
+      "path": "evidence/formal-3343/replay-config.json",
+      "bytes": 1874
+    },
+    {
+      "path": "evidence/formal-3343/requests-enriched.csv",
+      "bytes": 70446
+    },
+    {
+      "path": "evidence/formal-3343/scheduler-final.txt",
+      "bytes": 1499
+    },
+    {
+      "path": "evidence/formal-3343/warmup-completed.json",
+      "bytes": 15
+    },
+    {
+      "path": "evidence/formal-3353/D-config.json",
+      "bytes": 1544
+    },
+    {
+      "path": "evidence/formal-3353/P-config.json",
+      "bytes": 1541
+    },
+    {
+      "path": "evidence/formal-3353/cache-reset.json",
+      "bytes": 47
+    },
+    {
+      "path": "evidence/formal-3353/metric-deltas.json",
+      "bytes": 3298
+    },
+    {
+      "path": "evidence/formal-3353/point-summary.json",
+      "bytes": 1250
+    },
+    {
+      "path": "evidence/formal-3353/replay/manifest.json",
+      "bytes": 3909
+    },
+    {
+      "path": "evidence/formal-3353/replay/replay-execution.json",
+      "bytes": 203415
+    },
+    {
+      "path": "evidence/formal-3353/replay/replay-plan.json",
+      "bytes": 126282
+    },
+    {
+      "path": "evidence/formal-3353/replay/requests.jsonl",
+      "bytes": 105339
+    },
+    {
+      "path": "evidence/formal-3353/replay-config.json",
+      "bytes": 1874
+    },
+    {
+      "path": "evidence/formal-3353/requests-enriched.csv",
+      "bytes": 70451
+    },
+    {
+      "path": "evidence/formal-3353/scheduler-final.txt",
+      "bytes": 1495
+    },
+    {
+      "path": "evidence/formal-3353/warmup-completed.json",
+      "bytes": 15
+    },
+    {
+      "path": "evidence/hl-comparison.json",
+      "bytes": 342
+    },
+    {
+      "path": "evidence/hl-config-comparison.json",
+      "bytes": 152
+    },
+    {
+      "path": "evidence/model-config.json",
+      "bytes": 1749
+    },
+    {
+      "path": "evidence/selected-trace.jsonl",
+      "bytes": 99280
+    },
+    {
+      "path": "scripts/enrich_requests.py",
+      "bytes": 4087
+    },
+    {
+      "path": "scripts/metric_delta.py",
+      "bytes": 1621
+    },
+    {
+      "path": "scripts/mooncake_connector_proxy.py",
+      "bytes": 11831
+    },
+    {
+      "path": "scripts/pd_entrypoint.py",
+      "bytes": 337
+    },
+    {
+      "path": "scripts/pd_formal.slurm",
+      "bytes": 2495
+    },
+    {
+      "path": "scripts/pd_formal_controller.py",
+      "bytes": 4647
+    },
+    {
+      "path": "scripts/pd_service.py",
+      "bytes": 7099
+    },
+    {
+      "path": "scripts/pd_smoke.py",
+      "bytes": 3721
+    },
+    {
+      "path": "scripts/pd_transport_probe.py",
+      "bytes": 500
+    },
+    {
+      "path": "scripts/replay_selected.py",
+      "bytes": 1653
+    },
+    {
+      "path": "scripts/summarize_point.py",
+      "bytes": 5263
+    },
+    {
+      "path": "stage-v2/DECISION.md",
+      "bytes": 4130
+    },
+    {
+      "path": "stage-v2/EVIDENCE.md",
+      "bytes": 5945
+    },
+    {
+      "path": "stage-v2/H-supplement.json",
+      "bytes": 62546
+    },
+    {
+      "path": "stage-v2/H2-supplement.json",
+      "bytes": 50501
+    },
+    {
+      "path": "stage-v2/L-supplement.json",
+      "bytes": 49177
+    },
+    {
+      "path": "stage-v2/M-ready-capacity.txt",
+      "bytes": 769
+    },
+    {
+      "path": "stage-v2/M-supplement.json",
+      "bytes": 50277
+    },
+    {
+      "path": "stage-v2/REPORT.md",
+      "bytes": 13688
+    },
+    {
+      "path": "stage-v2/STATUS.md",
+      "bytes": 15662
+    },
+    {
+      "path": "stage-v2/attribute_other_shm.py",
+      "bytes": 1212
+    },
+    {
+      "path": "stage-v2/build_results.py",
+      "bytes": 4189
+    },
+    {
+      "path": "stage-v2/cleanup-evidence-job-final.txt",
+      "bytes": 1127
+    },
+    {
+      "path": "stage-v2/compile-intervals.json",
+      "bytes": 10778
+    },
+    {
+      "path": "stage-v2/completion-data-audit.json",
+      "bytes": 2664
+    },
+    {
+      "path": "stage-v2/formal-3384/D-config.json",
+      "bytes": 1544
+    },
+    {
+      "path": "stage-v2/formal-3384/P-config.json",
+      "bytes": 1541
+    },
+    {
+      "path": "stage-v2/formal-3384/cache-reset.json",
+      "bytes": 47
+    },
+    {
+      "path": "stage-v2/formal-3384/cleanup-audit.json",
+      "bytes": 463
+    },
+    {
+      "path": "stage-v2/formal-3384/comparison-to-L.json",
+      "bytes": 427
+    },
+    {
+      "path": "stage-v2/formal-3384/metric-deltas.json",
+      "bytes": 3298
+    },
+    {
+      "path": "stage-v2/formal-3384/point-summary.json",
+      "bytes": 1255
+    },
+    {
+      "path": "stage-v2/formal-3384/replay/manifest.json",
+      "bytes": 3972
+    },
+    {
+      "path": "stage-v2/formal-3384/replay/replay-execution.json",
+      "bytes": 203521
+    },
+    {
+      "path": "stage-v2/formal-3384/replay/replay-plan.json",
+      "bytes": 126282
+    },
+    {
+      "path": "stage-v2/formal-3384/replay/requests.jsonl",
+      "bytes": 105367
+    },
+    {
+      "path": "stage-v2/formal-3384/replay-config.json",
+      "bytes": 1883
+    },
+    {
+      "path": "stage-v2/formal-3384/requests-enriched.csv",
+      "bytes": 70491
+    },
+    {
+      "path": "stage-v2/formal-3384/scheduler-final.txt",
+      "bytes": 1525
+    },
+    {
+      "path": "stage-v2/formal-3384/warmup-completed.json",
+      "bytes": 15
+    },
+    {
+      "path": "stage-v2/formal-3391/D-config.json",
+      "bytes": 1544
+    },
+    {
+      "path": "stage-v2/formal-3391/P-config.json",
+      "bytes": 1541
+    },
+    {
+      "path": "stage-v2/formal-3391/cache-reset.json",
+      "bytes": 47
+    },
+    {
+      "path": "stage-v2/formal-3391/cleanup-audit.json",
+      "bytes": 5973
+    },
+    {
+      "path": "stage-v2/formal-3391/comparison-to-L.json",
+      "bytes": 282
+    },
+    {
+      "path": "stage-v2/formal-3391/metric-deltas.json",
+      "bytes": 3298
+    },
+    {
+      "path": "stage-v2/formal-3391/point-summary.json",
+      "bytes": 1252
+    },
+    {
+      "path": "stage-v2/formal-3391/replay/manifest.json",
+      "bytes": 3972
+    },
+    {
+      "path": "stage-v2/formal-3391/replay/replay-execution.json",
+      "bytes": 195953
+    },
+    {
+      "path": "stage-v2/formal-3391/replay/replay-plan.json",
+      "bytes": 126282
+    },
+    {
+      "path": "stage-v2/formal-3391/replay/requests.jsonl",
+      "bytes": 97377
+    },
+    {
+      "path": "stage-v2/formal-3391/replay-config.json",
+      "bytes": 1883
+    },
+    {
+      "path": "stage-v2/formal-3391/requests-enriched.csv",
+      "bytes": 69941
+    },
+    {
+      "path": "stage-v2/formal-3391/scheduler-final.txt",
+      "bytes": 1525
+    },
+    {
+      "path": "stage-v2/formal-3391/warmup-completed.json",
+      "bytes": 15
+    },
+    {
+      "path": "stage-v2/formal-runs-final.jsonl",
+      "bytes": 773
+    },
+    {
+      "path": "stage-v2/head-before-M.txt",
+      "bytes": 5573
+    },
+    {
+      "path": "stage-v2/head-before.txt",
+      "bytes": 1326
+    },
+    {
+      "path": "stage-v2/jit-transfer-events.json",
+      "bytes": 94827
+    },
+    {
+      "path": "stage-v2/other-jobs-at-M-exit.txt",
+      "bytes": 3521
+    },
+    {
+      "path": "stage-v2/other-resource-attribution.jsonl",
+      "bytes": 15231
+    },
+    {
+      "path": "stage-v2/pd_formal_v2.slurm",
+      "bytes": 2522
+    },
+    {
+      "path": "stage-v2/results/capacity-hit-rate.png",
+      "bytes": 74955
+    },
+    {
+      "path": "stage-v2/results/capacity-ttft.png",
+      "bytes": 81394
+    },
+    {
+      "path": "stage-v2/results/stage-means.csv",
+      "bytes": 3228
+    },
+    {
+      "path": "stage-v2/results/summary.csv",
+      "bytes": 4136
+    },
+    {
+      "path": "stage-v2/review-facts.json",
+      "bytes": 790
+    },
+    {
+      "path": "stage-v2/review-output.txt",
+      "bytes": 827
+    },
+    {
+      "path": "stage-v2/review_existing.py",
+      "bytes": 5567
+    },
+    {
+      "path": "stage-v2/run-selection.json",
+      "bytes": 1238
+    },
+    {
+      "path": "stage-v2/source-comparison.json",
+      "bytes": 571
+    },
+    {
+      "path": "stage-v2/stage-means.csv",
+      "bytes": 1632
+    },
+    {
+      "path": "stage-v2/supplement_run.py",
+      "bytes": 3374
+    },
+    {
+      "path": "stage-v2/tail-pairs.csv",
+      "bytes": 21458
+    }
+  ],
+  "local_archive_bytes_verified": true,
+  "raw_evidence": "Canonical run directories retained; bundle includes replay records and derived data, references full original metrics/logs/health snapshots in those directories."
+}

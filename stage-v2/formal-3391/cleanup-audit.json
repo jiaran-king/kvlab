@@ -1,0 +1,196 @@
+{
+  "cleanup": {
+    "P": {
+      "remaining": [],
+      "returncode": 0
+    },
+    "D": {
+      "remaining": [],
+      "returncode": 0
+    },
+    "controller": {
+      "children": [
+        {
+          "name": "P",
+          "pid": 1885491,
+          "returncode": 0
+        },
+        {
+          "name": "D",
+          "pid": 1885492,
+          "returncode": 0
+        },
+        {
+          "name": "proxy",
+          "pid": 2007979,
+          "returncode": -15
+        },
+        {
+          "name": "warmup",
+          "pid": 2010272,
+          "returncode": 0
+        },
+        {
+          "name": "replay",
+          "pid": 2011076,
+          "returncode": 0
+        }
+      ],
+      "remaining": []
+    }
+  },
+  "tracked_pids_still_present": [],
+  "shm_added": [
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 02:04 psm_684f8874",
+    "-rw-------  1 david_cwq   david_cwq       25165836 Sep 20 02:02 psm_beb14779",
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 02:02 sem.mp-yxci2rbj",
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 02:04 psm_98b7a5bf",
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 02:04 psm_1d45e6b4",
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 02:02 sem.mp-fp0ajufi",
+    "-rw-------  1 david_cwq   david_cwq      167772190 Sep 20 02:04 psm_5c486bd8",
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 02:02 sem.mp-b7dk25nl",
+    "-rw-------  1 david_cwq   david_cwq      251658260 Sep 20 02:04 psm_f489c5c6",
+    "-rw-------  1 david_cwq   david_cwq             32 Sep 20 02:02 sem.mp-_fiaseae",
+    "-rw-------  1 david_cwq   david_cwq      167772190 Sep 20 02:04 psm_ac70547e",
+    "-rw-------  1 david_cwq   david_cwq       25165836 Sep 20 02:02 psm_54013d90"
+  ],
+  "shm_removed_count": 0,
+  "shm_changed": [
+    "hwinfo_cache_memory",
+    "rdma.log",
+    "file_bindroot-a8bd9-842NSXGe",
+    "check_log.runtime",
+    "fh_bindroot-a8bd9-842NSXGe",
+    "check_log.pid",
+    "hwinfo_cache_smartlog",
+    "hwinfo",
+    "gpuinfo.log"
+  ],
+  "ports_unchanged": false,
+  "ipc_unchanged": true,
+  "after_D_Z": [
+    "root      212504  212317 Z    4965947 [dmesg] <defunct>"
+  ],
+  "new_shm_attribution": {
+    "psm_684f8874": [
+      {
+        "pid": 2482654,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486159,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_beb14779": [
+      {
+        "pid": 2486159,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486160,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "sem.mp-yxci2rbj": [
+      {
+        "pid": 2486156,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_98b7a5bf": [
+      {
+        "pid": 2482639,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486155,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_1d45e6b4": [
+      {
+        "pid": 2482654,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486160,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "sem.mp-fp0ajufi": [
+      {
+        "pid": 2486155,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_5c486bd8": [
+      {
+        "pid": 2482654,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486159,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486160,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "sem.mp-b7dk25nl": [
+      {
+        "pid": 2486159,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_f489c5c6": [
+      {
+        "pid": 2482639,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486156,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ],
+    "sem.mp-_fiaseae": [
+      {
+        "pid": 2486160,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3393/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_ac70547e": [
+      {
+        "pid": 2482639,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486155,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486156,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ],
+    "psm_54013d90": [
+      {
+        "pid": 2486155,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      },
+      {
+        "pid": 2486156,
+        "cgroup": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3392/step_batch/user/task_0\n"
+      }
+    ]
+  },
+  "after_listening_processes_attributed_to_other_jobs": [
+    2486155,
+    2486156,
+    2486159,
+    2486160
+  ],
+  "our_service_ports_absent": true,
+  "attribution_evidence": "../other-resource-attribution.jsonl; ../other-jobs-at-M-exit.txt"
+}

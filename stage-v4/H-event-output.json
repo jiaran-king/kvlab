@@ -1,0 +1,89 @@
+{
+  "measurement": "cache removal hash entries; cause unavailable in installed event schema",
+  "formal_start_reset_sequence": 1,
+  "formal_end_sequence": 400,
+  "extra_formal_clears": 0,
+  "stream_complete": true,
+  "gaps": [],
+  "errors": [],
+  "group_specs": {
+    "0": {
+      "block_size": 256,
+      "kv_cache_spec_kind": "mla_attention"
+    },
+    "1": {
+      "block_size": 64,
+      "kv_cache_spec_kind": "sliding_window_mla",
+      "kv_cache_spec_sliding_window": 128
+    },
+    "2": {
+      "block_size": 64,
+      "kv_cache_spec_kind": "sliding_window_mla",
+      "kv_cache_spec_sliding_window": 128
+    },
+    "3": {
+      "block_size": 4,
+      "kv_cache_spec_kind": "sliding_window_mla",
+      "kv_cache_spec_sliding_window": 8
+    },
+    "4": {
+      "block_size": 8,
+      "kv_cache_spec_kind": "sliding_window_mla",
+      "kv_cache_spec_sliding_window": 128
+    }
+  },
+  "groups": [
+    {
+      "engine": 0,
+      "medium": "GPU",
+      "group_idx": 0,
+      "locality": null,
+      "counts": {
+        "BlockStored": 4000,
+        "BlockRemoved": 1013
+      }
+    },
+    {
+      "engine": 0,
+      "medium": "GPU",
+      "group_idx": 1,
+      "locality": null,
+      "counts": {
+        "BlockStored": 8000,
+        "BlockRemoved": 4007
+      }
+    },
+    {
+      "engine": 0,
+      "medium": "GPU",
+      "group_idx": 2,
+      "locality": null,
+      "counts": {
+        "BlockStored": 8000,
+        "BlockRemoved": 4007
+      }
+    },
+    {
+      "engine": 0,
+      "medium": "GPU",
+      "group_idx": 3,
+      "locality": null,
+      "counts": {
+        "BlockStored": 8000,
+        "BlockRemoved": 4007
+      }
+    },
+    {
+      "engine": 0,
+      "medium": "GPU",
+      "group_idx": 4,
+      "locality": null,
+      "counts": {
+        "BlockStored": 64000,
+        "BlockRemoved": 31950
+      }
+    }
+  ],
+  "total_removed_entries": 44984,
+  "interpretation": "not physical blocks, bytes, tokens, miss rate or confirmed capacity evictions"
+}

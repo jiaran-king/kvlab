@@ -1,0 +1,124 @@
+{
+  "P": {
+    "pid": {
+      "H": 150130,
+      "M": 1079543
+    },
+    "cgroup": {
+      "H": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3425/step_0/user/task_0\n",
+      "M": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3429/step_0/user/task_0\n"
+    },
+    "command": {
+      "H": [
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/bin/python",
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/pd_entrypoint.py",
+        "serve",
+        "/home/david_cwq/jinghaoyu/models/DeepSeek-V4-Flash",
+        "--served-model-name",
+        "dsv4-replay",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18401",
+        "--tensor-parallel-size",
+        "2",
+        "--max-model-len",
+        "81920",
+        "--max-num-batched-tokens",
+        "8192",
+        "--max-num-seqs",
+        "2",
+        "--gpu-memory-utilization",
+        "0.90",
+        "--kv-cache-dtype",
+        "fp8",
+        "--block-size",
+        "256",
+        "--tokenizer-mode",
+        "deepseek_v4",
+        "--trust-remote-code",
+        "--generation-config",
+        "vllm",
+        "--enforce-eager",
+        "--enable-prefix-caching",
+        "--enable-prompt-tokens-details",
+        "--enable-request-id-headers",
+        "--kv-transfer-config",
+        "{\"kv_connector\": \"MooncakeConnector\", \"kv_role\": \"kv_producer\"}",
+        "--default-chat-template-kwargs",
+        "{\"thinking\": false}",
+        "--kv-events-config",
+        "{\"enable_kv_cache_events\": true, \"publisher\": \"zmq\", \"endpoint\": \"tcp://127.0.0.1:18557\", \"replay_endpoint\": \"tcp://127.0.0.1:18558\", \"buffer_steps\": 10000}",
+        "--kv-cache-metrics",
+        "--kv-cache-metrics-sample",
+        "0.01",
+        "--kv-cache-memory-bytes",
+        "51539607552"
+      ],
+      "M": [
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/runtime/bin/python",
+        "/home/david_cwq/zhouziheng/agent-replay-20260917/evidence/pd-capacity-20260919/pd_entrypoint.py",
+        "serve",
+        "/home/david_cwq/jinghaoyu/models/DeepSeek-V4-Flash",
+        "--served-model-name",
+        "dsv4-replay",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18401",
+        "--tensor-parallel-size",
+        "2",
+        "--max-model-len",
+        "81920",
+        "--max-num-batched-tokens",
+        "8192",
+        "--max-num-seqs",
+        "2",
+        "--gpu-memory-utilization",
+        "0.90",
+        "--kv-cache-dtype",
+        "fp8",
+        "--block-size",
+        "256",
+        "--tokenizer-mode",
+        "deepseek_v4",
+        "--trust-remote-code",
+        "--generation-config",
+        "vllm",
+        "--enforce-eager",
+        "--enable-prefix-caching",
+        "--enable-prompt-tokens-details",
+        "--enable-request-id-headers",
+        "--kv-transfer-config",
+        "{\"kv_connector\": \"MooncakeConnector\", \"kv_role\": \"kv_producer\"}",
+        "--default-chat-template-kwargs",
+        "{\"thinking\": false}",
+        "--kv-events-config",
+        "{\"enable_kv_cache_events\": true, \"publisher\": \"zmq\", \"endpoint\": \"tcp://127.0.0.1:18557\", \"replay_endpoint\": \"tcp://127.0.0.1:18558\", \"buffer_steps\": 10000}",
+        "--kv-cache-metrics",
+        "--kv-cache-metrics-sample",
+        "0.01",
+        "--kv-cache-memory-bytes",
+        "25769803776"
+      ]
+    },
+    "job": {
+      "H": "3425",
+      "M": "3429"
+    }
+  },
+  "D": {
+    "pid": {
+      "H": 150139,
+      "M": 1079541
+    },
+    "cgroup": {
+      "H": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3425/step_1/user/task_0\n",
+      "M": "2:name=cgp:/\n0::/system.slice/slurmstepd.scope/job_3429/step_1/user/task_0\n"
+    },
+    "job": {
+      "H": "3425",
+      "M": "3429"
+    }
+  }
+}

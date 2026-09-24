@@ -1,0 +1,1481 @@
+{
+  "time": 1789902705.9894316,
+  "known_residues": [
+    {
+      "pid": 849853,
+      "ppid": "1",
+      "args": [
+        "codex",
+        "app-server",
+        "proxy"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "849853 (codex) D 1 849853 849853 0 -1 4194304 3367 4778 64 3 29 462 1 0 20 0 1 0 171093536 258478080 1414 18446744073709551615 140712839270400 140713039778294 140732399634320 0 0 0 0 4096 1088 0 0 0 17 1 0 0 557336 0 0 140713085066592 140713090368976 93825016442880 140732399638618 140732399638641 140732399638641 140732399640535 0\n",
+      "parent_args": "/usr/lib/systemd/systemd --switched-root --system --deserialize 17 ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 850038,
+      "ppid": "1",
+      "args": [
+        "codex",
+        "app-server",
+        "proxy"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "850038 (codex) D 1 850038 850038 0 -1 4194304 3376 4809 13 0 26 439 1 0 20 0 1 0 171093861 258478080 1301 18446744073709551615 139974186684416 139974387192310 140722505652640 0 0 0 0 4096 1088 0 0 0 17 1 0 0 516066 0 0 139974432480608 139974437782992 93825004855296 140722505660506 140722505660529 140722505660529 140722505662423 0\n",
+      "parent_args": "/usr/lib/systemd/systemd --switched-root --system --deserialize 17 ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 850833,
+      "ppid": "850792",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "850833 (codex) D 850792 850792 850792 0 -1 1078198272 1480 0 45 0 24 391 0 0 20 0 1 0 171098761 258478080 1305 18446744073709551615 139871076012032 139871276519926 140720904631520 0 0 0 0 4096 1088 0 0 0 17 1 0 0 577018 0 0 139871321808224 139871327110608 93824998510592 140720904632718 140720904632734 140720904632734 140720904634327 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\262\\066\\275\\346\\024\\312\\117\\330'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 850954,
+      "ppid": "850913",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "850954 (codex) D 850913 850913 850913 0 -1 4194304 1499 0 11 0 21 424 0 0 20 0 1 0 171099425 258478080 1305 18446744073709551615 139828491243520 139828691751414 140726011843568 0 0 0 0 4096 1088 0 0 0 17 1 0 0 564104 0 0 139828737039712 139828742342096 93824996159488 140726011845006 140726011845022 140726011845022 140726011846615 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\226\\141\\257\\024\\133\\321\\147\\071'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 852125,
+      "ppid": "852084",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "852125 (codex) D 852084 852084 852084 0 -1 4194304 1495 0 27 0 27 365 0 0 20 0 1 0 171107084 258478080 1305 18446744073709551615 140035673083904 140035873591798 140726684370608 0 0 0 0 4096 1088 0 0 0 17 0 0 0 407529 0 0 140035918880096 140035924182480 93825000120320 140726684375438 140726684375454 140726684375454 140726684377047 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\106\\051\\261\\152\\176\\202\\063\\163'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 852320,
+      "ppid": "852279",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "852320 (codex) D 852279 852279 852279 0 -1 4194304 1503 0 9 0 27 382 0 0 20 0 1 0 171107720 258478080 1305 18446744073709551615 139993715363840 139993915871734 140724767312064 0 0 0 0 4096 1088 0 0 0 17 0 0 0 443913 0 0 139993961160032 139993966462416 93824994619392 140724767320462 140724767320478 140724767320478 140724767322071 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\232\\210\\273\\217\\350\\022\\171\\170'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 853121,
+      "ppid": "853080",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "853121 (codex) D 853080 853080 853080 0 -1 4194304 1476 0 29 0 29 353 0 0 20 0 1 0 171115312 258478080 1307 18446744073709551615 140363971743744 140364172251638 140734283300960 0 0 0 0 4096 1088 0 0 0 17 0 0 0 419709 0 0 140364217539936 140364222842320 93825020211200 140734283307406 140734283307422 140734283307422 140734283309015 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\073\\277\\140\\166\\276\\306\\235\\162'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 853359,
+      "ppid": "853318",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "853359 (codex) D 853318 853318 853318 0 -1 4194304 1496 0 8 0 25 344 0 0 20 0 1 0 171116425 258478080 1306 18446744073709551615 140569983373312 140570183881206 140724710655344 0 0 0 0 4096 1088 0 0 0 17 1 0 0 479424 0 0 140570229169504 140570234471888 93825023139840 140724710660494 140724710660510 140724710660510 140724710662103 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\261\\360\\066\\122\\002\\141\\307\\063'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 853696,
+      "ppid": "853655",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "853696 (codex) D 853655 853655 853655 0 -1 4194304 1483 0 22 0 22 241 0 0 20 0 1 0 171123715 258478080 1306 18446744073709551615 140341467205632 140341667713526 140729593062832 0 0 0 0 4096 1088 0 0 0 17 0 0 0 400144 0 0 140341713001824 140341718304208 93825014448128 140729593067918 140729593067934 140729593067934 140729593069527 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\022\\301\\314\\350\\154\\243\\377\\350'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 853878,
+      "ppid": "853837",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "853878 (codex) D 853837 853837 853837 0 -1 4194304 1488 0 14 0 25 236 0 0 20 0 1 0 171124815 258478080 1307 18446744073709551615 139976835387392 139977035895286 140734452989568 0 0 0 0 4096 1088 0 0 0 17 0 0 0 427003 0 0 139977081183584 139977086485968 93825002749952 140734452996494 140734452996510 140734452996510 140734452998103 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\143\\024\\125\\021\\315\\032\\066\\332'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 854307,
+      "ppid": "854266",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "854307 (codex) D 854266 854266 854266 0 -1 4194304 1470 0 34 0 26 222 0 0 20 0 1 0 171132097 258478080 1306 18446744073709551615 139915002957824 139915203465718 140721841115712 0 0 0 0 4096 1088 0 0 0 17 1 0 0 418206 0 0 139915248754016 139915254056400 93824996458496 140721841117582 140721841117598 140721841117598 140721841119191 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\371\\304\\205\\331\\253\\313\\311\\135'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 854449,
+      "ppid": "854408",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "854449 (codex) D 854408 854408 854408 0 -1 4194304 1486 0 20 0 25 221 0 0 20 0 1 0 171133542 258478080 1306 18446744073709551615 140683617554432 140683818062326 140722925510464 0 0 0 0 4096 1088 0 0 0 17 0 0 0 451856 0 0 140683863350624 140683868653008 93825013354496 140722925513102 140722925513118 140722925513118 140722925514711 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\013\\324\\070\\141\\215\\314\\155\\054'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 854731,
+      "ppid": "854690",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "854731 (codex) D 854690 854690 854690 0 -1 4194304 1486 0 20 0 21 179 0 0 20 0 1 0 171140476 258478080 1307 18446744073709551615 139932640006144 139932840514038 140733854777760 0 0 0 0 4096 1088 0 0 0 17 0 0 0 431096 0 0 139932885802336 139932891104720 93824996769792 140733854783886 140733854783902 140733854783902 140733854785495 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\361\\206\\135\\107\\126\\224\\256\\137'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 854890,
+      "ppid": "854849",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "854890 (codex) D 854849 854849 854849 0 -1 4194304 1483 0 18 0 19 174 0 0 20 0 1 0 171141886 258478080 1305 18446744073709551615 140409142300672 140409342808566 140730421319632 0 0 0 0 4096 1088 0 0 0 17 0 0 0 433477 0 0 140409388096864 140409393399248 93825018400768 140730421324174 140730421324190 140730421324190 140730421325783 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\107\\120\\314\\236\\206\\311\\263\\007'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 855191,
+      "ppid": "855150",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "855191 (codex) D 855150 855150 855150 0 -1 4194304 1489 0 14 0 16 150 0 0 20 0 1 0 171148790 258478080 1305 18446744073709551615 140002783449088 140002983956982 140725802222704 0 0 0 0 4096 1088 0 0 0 17 1 0 0 453334 0 0 140003029245280 140003034547664 93825021730816 140725802224014 140725802224030 140725802224030 140725802225623 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\015\\147\\371\\323\\224\\035\\207\\036'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 855329,
+      "ppid": "855288",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "855329 (codex) D 855288 855288 855288 0 -1 4194304 1502 0 1 0 17 156 0 0 20 0 1 0 171150544 258478080 1305 18446744073709551615 140032657379328 140032857887222 140726958246816 0 0 0 0 4096 1088 0 0 0 17 1 0 0 433854 0 0 140032903175520 140032908477904 93824999436288 140726958250382 140726958250398 140726958250398 140726958251991 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\056\\354\\215\\246\\106\\032\\352\\000'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 855647,
+      "ppid": "855606",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "855647 (codex) D 855606 855606 855606 0 -1 4194304 1481 0 21 0 14 85 0 0 20 0 1 0 171157202 258478080 1305 18446744073709551615 140043233316864 140043433824758 140728496839680 0 0 0 0 4096 1088 0 0 0 17 1 0 0 338531 0 0 140043479113056 140043484415440 93825005477888 140728496847246 140728496847262 140728496847262 140728496848855 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\207\\370\\305\\241\\055\\201\\276\\367'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 855813,
+      "ppid": "855772",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "855813 (codex) D 855772 855772 855772 0 -1 4194304 1484 0 16 0 14 77 0 0 20 0 1 0 171159085 258478080 1305 18446744073709551615 140260322103296 140260522611190 140731907378240 0 0 0 0 4096 1088 0 0 0 17 0 0 0 397013 0 0 140260567899488 140260573201872 93825003696128 140731907385742 140731907385758 140731907385758 140731907387351 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\232\\106\\147\\232\\157\\202\\254\\111'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 856134,
+      "ppid": "856093",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "856134 (codex) D 856093 856093 856093 0 -1 4194304 1474 0 27 0 16 70 0 0 20 0 1 0 171165550 258478080 1305 18446744073709551615 139882505490432 139882705998326 140725613746000 0 0 0 0 4096 1088 0 0 0 17 1 0 0 389985 0 0 139882751286624 139882756589008 93824998162432 140725613754766 140725613754782 140725613754782 140725613756375 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\331\\317\\174\\261\\360\\010\\064\\265'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 856334,
+      "ppid": "856293",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "856334 (codex) D 856293 856293 856293 0 -1 4194304 1471 0 31 0 13 71 0 0 20 0 1 0 171167218 258478080 1305 18446744073709551615 139851668967424 139851869475318 140726123136800 0 0 0 0 4096 1088 0 0 0 17 0 0 0 381071 0 0 139851914763616 139851920066000 93824994299904 140726123141518 140726123141534 140726123141534 140726123143127 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\007\\036\\101\\171\\274\\211\\067\\056'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 856639,
+      "ppid": "856598",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "856639 (codex) D 856598 856598 856598 0 -1 4194304 1471 0 29 0 14 75 0 0 20 0 1 0 171174038 258478080 1305 18446744073709551615 140235034644480 140235235152374 140722689108800 0 0 0 0 4096 1088 0 0 0 17 0 0 0 347432 0 0 140235280440672 140235285743056 93825009807360 140722689112462 140722689112478 140722689112478 140722689114071 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\266\\213\\156\\347\\062\\117\\150\\254'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 856790,
+      "ppid": "856749",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "856790 (codex) D 856749 856749 856749 0 -1 4194304 1501 0 0 0 12 72 0 0 20 0 1 0 171175914 258478080 1305 18446744073709551615 140654519570432 140654720078326 140723314580048 0 0 0 0 4096 1088 0 0 0 17 0 0 0 371692 0 0 140654765366624 140654770669008 93825000357888 140723314583950 140723314583966 140723314583966 140723314585559 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\133\\260\\022\\202\\127\\174\\142\\075'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 857088,
+      "ppid": "857047",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "857088 (codex) D 857047 857047 857047 0 -1 4194304 1502 0 0 0 13 72 0 0 20 0 1 0 171182243 258478080 1307 18446744073709551615 140085792919552 140085993427446 140730746412640 0 0 0 0 4096 1088 0 0 0 17 1 0 0 392479 0 0 140086038715744 140086044018128 93825001369600 140730746419598 140730746419614 140730746419614 140730746421207 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\114\\120\\023\\324\\345\\015\\027\\357'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 857239,
+      "ppid": "857198",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "857239 (codex) D 857198 857198 857198 0 -1 4194304 1499 0 1 0 12 73 0 0 20 0 1 0 171184144 258478080 1305 18446744073709551615 140199253037056 140199453544950 140722187545088 0 0 0 0 4096 1088 0 0 0 17 0 0 0 328818 0 0 140199498833248 140199504135632 93825000243200 140722187549070 140722187549086 140722187549086 140722187550679 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\235\\026\\254\\322\\212\\052\\053\\131'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 857531,
+      "ppid": "857490",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "857531 (codex) D 857490 857490 857490 0 -1 4194304 1485 0 16 0 14 71 0 0 20 0 1 0 171190673 258478080 1306 18446744073709551615 140008802275328 140009002783222 140734579598320 0 0 0 0 4096 1088 0 0 0 17 1 0 0 323453 0 0 140009048071520 140009053373904 93825002205184 140734579603854 140734579603870 140734579603870 140734579605463 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\076\\127\\243\\115\\353\\175\\167\\034'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 857676,
+      "ppid": "857635",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "857676 (codex) D 857635 857635 857635 0 -1 4194304 1491 0 7 0 13 77 0 0 20 0 1 0 171192564 258478080 1305 18446744073709551615 140305930964992 140306131472886 140732232948560 0 0 0 0 4096 1088 0 0 0 17 1 0 0 388647 0 0 140306176761184 140306182063568 93825014415360 140732232956302 140732232956318 140732232956318 140732232957911 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\017\\361\\145\\230\\121\\166\\114\\375'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 857975,
+      "ppid": "857934",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "857975 (codex) D 857934 857934 857934 0 -1 4194304 1489 0 10 0 14 69 0 0 20 0 1 0 171199008 258478080 1305 18446744073709551615 140241810542592 140242011050486 140730630245280 0 0 0 0 4096 1088 0 0 0 17 0 0 0 291863 0 0 140242056338784 140242061641168 93825020506112 140730630252942 140730630252958 140730630252958 140730630254551 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\144\\163\\240\\355\\066\\112\\210\\063'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 858134,
+      "ppid": "858093",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "858134 (codex) D 858093 858093 858093 0 -1 4194304 1497 0 2 0 12 72 0 0 20 0 1 0 171200831 258478080 1305 18446744073709551615 139636331302912 139636531810806 140733485505056 0 0 0 0 4096 1088 0 0 0 17 1 0 0 338747 0 0 139636577099104 139636582401488 93824998293504 140733485513102 140733485513118 140733485513118 140733485514711 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\127\\273\\111\\301\\075\\356\\240\\371'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 858401,
+      "ppid": "858360",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "858401 (codex) D 858360 858360 858360 0 -1 4194304 1470 0 33 0 12 76 0 0 20 0 1 0 171207448 258478080 1306 18446744073709551615 140699696418816 140699896926710 140735095374528 0 0 0 0 4096 1088 0 0 0 17 0 0 0 393844 0 0 140699942215008 140699947517392 93824996691968 140735095376270 140735095376286 140735095376286 140735095377879 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\223\\347\\346\\163\\154\\346\\025\\016'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 858587,
+      "ppid": "858546",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "858587 (codex) D 858546 858546 858546 0 -1 4194304 1495 0 4 0 12 70 0 0 20 0 1 0 171209777 258478080 1305 18446744073709551615 139817804156928 139818004664822 140734517925552 0 0 0 0 4096 1088 0 0 0 17 0 0 0 318126 0 0 139818049953120 139818055255504 93825017516032 140734517930382 140734517930398 140734517930398 140734517931991 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\015\\002\\066\\074\\213\\303\\271\\370'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 858849,
+      "ppid": "858808",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "858849 (codex) D 858808 858808 858808 0 -1 4194304 1496 0 8 0 14 71 0 0 20 0 1 0 171215791 258478080 1305 18446744073709551615 139899467255808 139899667763702 140720556899120 0 0 0 0 4096 1088 0 0 0 17 0 0 0 380256 0 0 139899713052000 139899718354384 93825000353792 140720556906894 140720556906910 140720556906910 140720556908503 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\163\\261\\151\\177\\201\\371\\115\\360'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 859010,
+      "ppid": "858969",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "859010 (codex) D 858969 858969 858969 0 -1 4194304 1494 0 6 0 15 72 0 0 20 0 1 0 171218311 258478080 1306 18446744073709551615 139947353624576 139947554132470 140728023188864 0 0 0 0 4096 1088 0 0 0 17 0 0 0 357881 0 0 139947599420768 139947604723152 93825021526016 140728023193998 140728023194014 140728023194014 140728023195607 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\132\\233\\163\\125\\055\\053\\326\\154'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 859372,
+      "ppid": "859331",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "859372 (codex) D 859331 859331 859331 0 -1 4194304 1474 0 38 0 14 73 0 0 20 0 1 0 171224075 258478080 1305 18446744073709551615 139931830505472 139932031013366 140726444505488 0 0 0 0 4096 1088 0 0 0 17 1 0 0 356760 0 0 139932076301664 139932081604048 93825018011648 140726444513678 140726444513694 140726444513694 140726444515287 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\303\\351\\215\\230\\335\\314\\203\\277'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 859584,
+      "ppid": "859543",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "859584 (codex) D 859543 859543 859543 0 -1 4194304 1470 0 68 0 14 73 0 0 20 0 1 0 171227172 258478080 1306 18446744073709551615 140164970893312 140165171401206 140722419368704 0 0 0 0 4096 1088 0 0 0 17 0 0 0 319638 0 0 140165216689504 140165221991888 93825010434048 140722419370382 140722419370398 140722419370398 140722419371991 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\377\\225\\020\\342\\315\\113\\176\\221'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 859972,
+      "ppid": "859931",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "859972 (codex) D 859931 859931 859931 0 -1 4194304 1459 0 42 0 13 69 0 0 20 0 1 0 171232524 258478080 1306 18446744073709551615 140334129270784 140334329778678 140729687187952 0 0 0 0 4096 1088 0 0 0 17 1 0 0 344281 0 0 140334375066976 140334380369360 93825017143296 140729687189902 140729687189918 140729687189918 140729687191511 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\213\\042\\142\\004\\156\\036\\375\\333'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 860218,
+      "ppid": "860177",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "860218 (codex) D 860177 860177 860177 0 -1 4194304 1468 0 27 0 13 73 0 0 20 0 1 0 171235705 258478080 1305 18446744073709551615 139649639829504 139649840337398 140735845775856 0 0 0 0 4096 1088 0 0 0 17 1 0 0 266381 0 0 139649885625696 139649890928080 93825021849600 140735845779854 140735845779870 140735845779870 140735845781463 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\054\\210\\046\\115\\254\\027\\176\\136'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 860462,
+      "ppid": "860421",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "860462 (codex) D 860421 860421 860421 0 -1 4194304 1500 0 0 0 12 71 0 0 20 0 1 0 171240879 258478080 1305 18446744073709551615 139994602459136 139994802967030 140724878935392 0 0 0 0 4096 1088 0 0 0 17 0 0 0 370058 0 0 139994848255328 139994853557712 93825009549312 140724878936462 140724878936478 140724878936478 140724878938071 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\036\\145\\367\\044\\114\\077\\153\\366'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 860652,
+      "ppid": "860611",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "860652 (codex) D 860611 860611 860611 0 -1 4194304 1491 0 4 0 13 70 0 0 20 0 1 0 171244662 258478080 1305 18446744073709551615 140125009661952 140125210169846 140721510849552 0 0 0 0 4096 1088 0 0 0 17 1 0 0 361331 0 0 140125255458144 140125260760528 93825024618496 140721510853006 140721510853022 140721510853022 140721510854615 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\062\\376\\147\\370\\243\\231\\263\\126'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 860905,
+      "ppid": "860864",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "860905 (codex) D 860864 860864 860864 0 -1 4194304 1466 0 32 0 13 72 0 0 20 0 1 0 171249319 258478080 1307 18446744073709551615 139992303980544 139992504488438 140737467510192 0 0 0 0 4096 1088 0 0 0 17 0 0 0 344093 0 0 139992549776736 139992555079120 93825010094080 140737467517326 140737467517342 140737467517342 140737467518935 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\101\\366\\115\\116\\111\\340\\124\\063'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 861132,
+      "ppid": "861091",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "861132 (codex) D 861091 861091 861091 0 -1 4194304 1479 0 18 0 12 74 0 0 20 0 1 0 171253222 258478080 1305 18446744073709551615 139825083371520 139825283879414 140734615096608 0 0 0 0 4096 1088 0 0 0 17 0 0 0 304603 0 0 139825329167712 139825334470096 93824996868096 140734615103886 140734615103902 140734615103902 140734615105495 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\301\\323\\173\\335\\015\\100\\355\\071'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 861435,
+      "ppid": "861394",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "861435 (codex) D 861394 861394 861394 0 -1 4194304 1466 0 29 0 16 70 0 0 20 0 1 0 171257850 258478080 1305 18446744073709551615 139699264737280 139699465245174 140735826110384 0 0 0 0 4096 1088 0 0 0 17 0 0 0 321500 0 0 139699510533472 139699515835856 93825006759936 140735826114958 140735826114974 140735826114974 140735826116567 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\067\\003\\234\\244\\313\\226\\127\\206'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 861680,
+      "ppid": "861639",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "861680 (codex) D 861639 861639 861639 0 -1 4194304 1497 0 0 0 13 71 0 0 20 0 1 0 171261856 258478080 1305 18446744073709551615 140353907511296 140354108019190 140725290425376 0 0 0 0 4096 1088 0 0 0 17 1 0 0 331733 0 0 140354153307488 140354158609872 93824998223872 140725290432910 140725290432926 140725290432926 140725290434519 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\032\\107\\011\\167\\112\\362\\346\\353'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 861894,
+      "ppid": "861853",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "861894 (codex) D 861853 861853 861853 0 -1 4194304 1470 0 26 0 13 72 0 0 20 0 1 0 171266061 258478080 1306 18446744073709551615 140645094969344 140645295477238 140725056009168 0 0 0 0 4096 1088 0 0 0 17 1 0 0 334620 0 0 140645340765536 140645346067920 93825006469120 140725056014734 140725056014750 140725056014750 140725056016343 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\343\\206\\023\\301\\024\\051\\306\\001'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 862113,
+      "ppid": "862072",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "862113 (codex) D 862072 862072 862072 0 -1 4194304 1486 0 11 0 16 70 0 0 20 0 1 0 171270195 258478080 1306 18446744073709551615 140271271333888 140271471841782 140724292056048 0 0 0 0 4096 1088 0 0 0 17 0 0 0 328829 0 0 140271517130080 140271522432464 93825024393216 140724292061582 140724292061598 140724292061598 140724292063191 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\222\\151\\270\\047\\020\\267\\366\\001'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 862315,
+      "ppid": "862274",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "862315 (codex) D 862274 862274 862274 0 -1 4194304 1485 0 13 0 13 68 0 0 20 0 1 0 171274597 258478080 1305 18446744073709551615 139697750593536 139697951101430 140728245931104 0 0 0 0 4096 1088 0 0 0 17 1 0 0 353660 0 0 139697996389728 139698001692112 93825024729088 140728245938574 140728245938590 140728245938590 140728245940183 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\165\\015\\163\\111\\073\\330\\261\\145'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 862568,
+      "ppid": "862527",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "862568 (codex) D 862527 862527 862527 0 -1 4194304 1510 0 9 0 14 73 0 0 20 0 1 0 171278540 258478080 1118 18446744073709551615 140077857296384 140078057804278 140722284449552 0 0 0 0 4096 1088 0 0 0 17 1 0 0 297150 0 0 140078103092576 140078108394960 93825011798016 140722284452238 140722284452254 140722284452254 140722284453847 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\230\\130\\354\\244\\251\\354\\331\\126'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 862842,
+      "ppid": "862801",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "862842 (codex) D 862801 862801 862801 0 -1 4194304 1409 0 137 0 15 69 0 0 20 0 1 0 171282934 258478080 1306 18446744073709551615 140120192503808 140120393011702 140732167423472 0 0 0 0 4096 1088 0 0 0 17 1 0 0 315856 0 0 140120438300000 140120443602384 93825004269568 140732167428494 140732167428510 140732167428510 140732167430103 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\247\\065\\205\\121\\063\\376\\050\\310'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 863192,
+      "ppid": "863151",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "863192 (codex) D 863151 863151 863151 0 -1 4194304 1419 0 130 0 13 70 0 0 20 0 1 0 171291256 258478080 3282 18446744073709551615 140267603415040 140267803922934 140721631039760 0 0 0 0 4096 1088 0 0 0 17 1 0 0 379033 0 0 140267849211232 140267854513616 93825013735424 140721631041934 140721631041950 140721631041950 140721631043543 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\011\\054\\372\\205\\265\\077\\206\\155'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 863529,
+      "ppid": "863488",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "863529 (codex) D 863488 863488 863488 0 -1 4194304 1459 0 28 0 15 68 0 0 20 0 1 0 171299574 258478080 3318 18446744073709551615 140074862563328 140075063071222 140737460902288 0 0 0 0 4096 1088 0 0 0 17 1 0 0 337794 0 0 140075108359520 140075113661904 93825019461632 140737460906382 140737460906398 140737460906398 140737460907991 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\260\\370\\142\\223\\362\\166\\176\\124'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 863861,
+      "ppid": "863820",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "863861 (codex) D 863820 863820 863820 0 -1 4194304 1478 0 11 0 12 67 0 0 20 0 1 0 171307967 258478080 3365 18446744073709551615 140067218444288 140067418952182 140736020916768 0 0 0 0 4096 1088 0 0 0 17 1 0 0 386149 0 0 140067464240480 140067469542864 93825023471616 140736020920718 140736020920734 140736020920734 140736020922327 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\331\\011\\260\\331\\375\\073\\167\\307'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 864264,
+      "ppid": "864223",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "864264 (codex) D 864223 864223 864223 0 -1 4194304 1484 0 8 0 16 62 0 0 20 0 1 0 171316399 258478080 3366 18446744073709551615 139774164520960 139774365028854 140733116265280 0 0 0 0 4096 1088 0 0 0 17 0 0 0 321976 0 0 139774410317152 139774415619536 93825005432832 140733116266894 140733116266910 140733116266910 140733116268503 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\314\\141\\320\\154\\102\\102\\322\\274'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 864589,
+      "ppid": "864548",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "864589 (codex) D 864548 864548 864548 0 -1 4194304 1486 0 4 0 12 65 0 0 20 0 1 0 171324789 258478080 3367 18446744073709551615 140481621970944 140481822478838 140735582257552 0 0 0 0 4096 1088 0 0 0 17 0 0 0 295112 0 0 140481867767136 140481873069520 93824994246656 140735582263694 140735582263710 140735582263710 140735582265303 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\157\\120\\377\\112\\136\\274\\124\\267'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 864978,
+      "ppid": "864937",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "864978 (codex) D 864937 864937 864937 0 -1 4194304 1477 0 14 0 14 61 0 0 20 0 1 0 171333114 258478080 3366 18446744073709551615 140451731263488 140451931771382 140721594879856 0 0 0 0 4096 1088 0 0 0 17 0 0 0 263994 0 0 140451977059680 140451982362064 93825002278912 140721594882446 140721594882462 140721594882462 140721594884055 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\373\\345\\170\\117\\134\\272\\013\\227'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 865433,
+      "ppid": "865392",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "865433 (codex) D 865392 865392 865392 0 -1 4194304 1478 0 12 0 13 61 0 0 20 0 1 0 171341570 258478080 3382 18446744073709551615 140145159098368 140145359606262 140730600947664 0 0 0 0 4096 1088 0 0 0 17 1 0 0 250378 0 0 140145404894560 140145410196944 93825022377984 140730600950158 140730600950174 140730600950174 140730600951767 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\107\\024\\105\\376\\070\\313\\245\\004'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 865856,
+      "ppid": "865815",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "865856 (codex) D 865815 865815 865815 0 -1 4194304 1483 0 5 0 13 59 0 0 20 0 1 0 171349827 258478080 3381 18446744073709551615 140430807977984 140431008485878 140730924308960 0 0 0 0 4096 1088 0 0 0 17 0 0 0 307777 0 0 140431053774176 140431059076560 93824992915456 140730924317070 140730924317086 140730924317086 140730924318679 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\004\\341\\212\\314\\172\\342\\100\\157'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 866332,
+      "ppid": "866291",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "866332 (codex) D 866291 866291 866291 0 -1 4194304 1486 0 2 0 14 60 0 0 20 0 1 0 171358184 258478080 3390 18446744073709551615 139627227566080 139627428073974 140731385420576 0 0 0 0 4096 1088 0 0 0 17 0 0 0 233981 0 0 139627473362272 139627478664656 93825016995840 140731385424270 140731385424286 140731385424286 140731385425879 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\226\\173\\137\\056\\076\\264\\324\\035'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 866728,
+      "ppid": "866687",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "866728 (codex) D 866687 866687 866687 0 -1 4194304 1486 0 1 0 13 57 0 0 20 0 1 0 171366677 258478080 3381 18446744073709551615 140173537759232 140173738267126 140724502002400 0 0 0 0 4096 1088 0 0 0 17 1 0 0 245180 0 0 140173783555424 140173788857808 93825011482624 140724502006158 140724502006174 140724502006174 140724502007767 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\215\\250\\335\\361\\362\\341\\217\\242'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 867058,
+      "ppid": "867017",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "867058 (codex) D 867017 867017 867017 0 -1 4194304 1490 0 2 0 13 55 0 0 20 0 1 0 171374866 258478080 3397 18446744073709551615 140179676123136 140179876631030 140737361329584 0 0 0 0 4096 1088 0 0 0 17 0 0 0 288365 0 0 140179921919328 140179927221712 93825001295872 140737361332622 140737361332638 140737361332638 140737361334231 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\263\\202\\263\\123\\120\\224\\075\\151'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 867633,
+      "ppid": "867592",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "867633 (codex) D 867592 867592 867592 0 -1 4194304 1483 0 2 0 13 56 0 0 20 0 1 0 171383357 258478080 3477 18446744073709551615 140208662958080 140208863465974 140727369193616 0 0 0 0 4096 1088 0 0 0 17 1 0 0 229091 0 0 140208908754272 140208914056656 93824998834176 140727369202062 140727369202078 140727369202078 140727369203671 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\102\\233\\045\\100\\032\\002\\356\\003'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 868004,
+      "ppid": "867963",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "868004 (codex) D 867963 867963 867963 0 -1 4194304 1486 0 1 0 15 52 0 0 20 0 1 0 171391727 258478080 3478 18446744073709551615 140427727261696 140427927769590 140728911900400 0 0 0 0 4096 1088 0 0 0 17 1 0 0 208886 0 0 140427973057888 140427978360272 93825018613760 140728911903118 140728911903134 140728911903134 140728911904727 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\274\\223\\113\\314\\253\\024\\042\\033'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 868311,
+      "ppid": "868270",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "868311 (codex) D 868270 868270 868270 0 -1 4194304 1485 0 1 0 15 52 0 0 20 0 1 0 171400158 258478080 3478 18446744073709551615 139923674681344 139923875189238 140724361461968 0 0 0 0 4096 1088 0 0 0 17 1 0 0 213006 0 0 139923920477536 139923925779920 93824997797888 140724361464206 140724361464222 140724361464222 140724361465815 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\341\\107\\235\\317\\016\\354\\064\\303'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 868636,
+      "ppid": "868595",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "868636 (codex) D 868595 868595 868595 0 -1 4194304 1487 0 1 0 14 54 0 0 20 0 1 0 171408534 258478080 3477 18446744073709551615 139642440306688 139642640814582 140725059972208 0 0 0 0 4096 1088 0 0 0 17 1 0 0 199649 0 0 139642686102880 139642691405264 93824995401728 140725059979662 140725059979678 140725059979678 140725059981271 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\150\\113\\024\\141\\235\\042\\301\\266'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 868999,
+      "ppid": "868958",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "868999 (codex) D 868958 868958 868958 0 -1 4194304 1488 0 0 0 15 62 0 0 20 0 1 0 171417023 258478080 3477 18446744073709551615 139903686725632 139903887233526 140730344384576 0 0 0 0 4096 1088 0 0 0 17 1 0 0 228955 0 0 139903932521824 139903937824208 93825021128704 140730344389006 140730344389022 140730344389022 140730344390615 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\062\\121\\151\\274\\376\\252\\312\\130'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 869341,
+      "ppid": "869300",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "869341 (codex) D 869300 869300 869300 0 -1 4194304 1462 0 25 0 14 56 0 0 20 0 1 0 171425345 258478080 3479 18446744073709551615 140247292497920 140247493005814 140735112180048 0 0 0 0 4096 1088 0 0 0 17 0 0 0 222152 0 0 140247538294112 140247543596496 93825020981248 140735112186254 140735112186270 140735112186270 140735112187863 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\065\\307\\346\\212\\301\\027\\074\\165'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 869711,
+      "ppid": "869670",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "869711 (codex) D 869670 869670 869670 0 -1 4194304 1467 0 20 0 14 53 0 0 20 0 1 0 171433801 258478080 3477 18446744073709551615 140480426594304 140480627102198 140728310725104 0 0 0 0 4096 1088 0 0 0 17 1 0 0 216208 0 0 140480672390496 140480677692880 93824998850560 140728310729102 140728310729118 140728310729118 140728310730711 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\153\\256\\172\\342\\106\\073\\035\\335'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 870064,
+      "ppid": "870023",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "870064 (codex) D 870023 870023 870023 0 -1 4194304 1459 0 27 0 13 55 0 0 20 0 1 0 171442092 258478080 3477 18446744073709551615 140578571210752 140578771718646 140721492518688 0 0 0 0 4096 1088 0 0 0 17 1 0 0 213167 0 0 140578817006944 140578822309328 93825023774720 140721492523406 140721492523422 140721492523422 140721492525015 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\036\\105\\333\\247\\146\\325\\312\\276'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 870383,
+      "ppid": "870342",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "870383 (codex) D 870342 870342 870342 0 -1 4194304 1445 0 41 0 13 57 0 0 20 0 1 0 171450353 258478080 3477 18446744073709551615 140186202460160 140186402968054 140725767886704 0 0 0 0 4096 1088 0 0 0 17 1 0 0 260430 0 0 140186448256352 140186453558736 93825000689664 140725767895438 140725767895454 140725767895454 140725767897047 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\216\\342\\340\\251\\041\\155\\247\\105'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 870694,
+      "ppid": "870653",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "870694 (codex) D 870653 870653 870653 0 -1 4194304 1465 0 21 0 14 56 0 0 20 0 1 0 171458741 258478080 3477 18446744073709551615 140655587020800 140655787528694 140729064081440 0 0 0 0 4096 1088 0 0 0 17 1 0 0 229640 0 0 140655832816992 140655838119376 93825005346816 140729064089998 140729064090014 140729064090014 140729064091607 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\113\\312\\176\\055\\270\\015\\233\\223'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 871029,
+      "ppid": "870988",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "871029 (codex) D 870988 870988 870988 0 -1 4194304 1487 0 0 0 13 58 0 0 20 0 1 0 171467102 258478080 3477 18446744073709551615 140599347695616 140599548203510 140730360195936 0 0 0 0 4096 1088 0 0 0 17 0 0 0 234559 0 0 140599593491808 140599598794192 93824994287616 140730360199566 140730360199582 140730360199582 140730360201175 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\124\\243\\313\\374\\373\\376\\143\\372'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 871363,
+      "ppid": "871322",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "871363 (codex) D 871322 871322 871322 0 -1 4194304 1449 0 38 0 13 53 0 0 20 0 1 0 171475591 258478080 3476 18446744073709551615 140206028935168 140206229443062 140723492550384 0 0 0 0 4096 1088 0 0 0 17 1 0 0 192208 0 0 140206274731360 140206280033744 93825024581632 140723492551054 140723492551070 140723492551070 140723492552663 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\146\\216\\006\\312\\321\\322\\267\\212'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 871662,
+      "ppid": "871621",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "871662 (codex) D 871621 871621 871621 0 -1 4194304 1473 0 14 0 12 54 0 0 20 0 1 0 171483918 258478080 3491 18446744073709551615 140707889991680 140708090499574 140726891554512 0 0 0 0 4096 1088 0 0 0 17 1 0 0 171691 0 0 140708135787872 140708141090256 93825001259008 140726891555214 140726891555230 140726891555230 140726891556823 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\063\\211\\223\\262\\301\\133\\154\\012'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 871970,
+      "ppid": "871929",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "871970 (codex) D 871929 871929 871929 0 -1 4194304 1489 0 0 0 13 53 0 0 20 0 1 0 171492378 258478080 3494 18446744073709551615 139989258915840 139989459423734 140730706403824 0 0 0 0 4096 1088 0 0 0 17 0 0 0 171524 0 0 139989504712032 139989510014416 93824999047168 140730706409870 140730706409886 140730706409886 140730706411479 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\240\\103\\210\\205\\156\\356\\236\\363'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 872339,
+      "ppid": "872298",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "872339 (codex) D 872298 872298 872298 0 -1 4194304 1475 0 11 0 13 50 0 0 20 0 1 0 171500675 258478080 3521 18446744073709551615 139756680564736 139756881072630 140734808454064 0 0 0 0 4096 1088 0 0 0 17 1 0 0 147899 0 0 139756926360928 139756931663312 93825023168512 140734808455566 140734808455582 140734808455582 140734808457175 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\163\\172\\130\\171\\370\\104\\215\\213'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 872639,
+      "ppid": "872598",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "872639 (codex) D 872598 872598 872598 0 -1 4194304 1485 0 0 0 15 51 0 0 20 0 1 0 171509086 258478080 3521 18446744073709551615 140623680950272 140623881458166 140720732968896 0 0 0 0 4096 1088 0 0 0 17 0 0 0 136716 0 0 140623926746464 140623932048848 93824994975744 140720732977550 140720732977566 140720732977566 140720732979159 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\011\\054\\360\\357\\266\\302\\363\\340'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 872976,
+      "ppid": "872935",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "872976 (codex) D 872935 872935 872935 0 -1 4194304 1486 0 1 0 12 51 0 0 20 0 1 0 171517389 258478080 3522 18446744073709551615 140622686900224 140622887408118 140725802176416 0 0 0 0 4096 1088 0 0 0 17 0 0 0 168942 0 0 140622932696416 140622937998800 93825010716672 140725802178958 140725802178974 140725802178974 140725802180567 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\340\\120\\004\\254\\123\\354\\000\\226'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 873311,
+      "ppid": "873270",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "873311 (codex) D 873270 873270 873270 0 -1 4194304 1487 0 1 0 12 51 0 0 20 0 1 0 171525877 258478080 3537 18446744073709551615 140502411038720 140502611546614 140726548603264 0 0 0 0 4096 1088 0 0 0 17 1 0 0 173882 0 0 140502656834912 140502662137296 93825023877120 140726548605326 140726548605342 140726548605342 140726548606935 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\312\\312\\247\\040\\126\\366\\220\\077'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 873612,
+      "ppid": "873571",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "873612 (codex) D 873571 873571 873571 0 -1 4194304 1470 0 15 0 10 49 0 0 20 0 1 0 171534272 258478080 3536 18446744073709551615 140665489772544 140665690280438 140737186999152 0 0 0 0 4096 1088 0 0 0 17 1 0 0 149962 0 0 140665735568736 140665740871120 93825018707968 140737187002766 140737187002782 140737187002782 140737187004375 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\146\\067\\271\\305\\073\\337\\076\\032'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 873953,
+      "ppid": "873912",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "873953 (codex) D 873912 873912 873912 0 -1 4194304 1472 0 15 0 0 3 0 0 20 0 1 0 171542937 258478080 3537 18446744073709551615 140626887495680 140627088003574 140726984106272 0 0 0 0 4096 1088 0 0 0 17 0 0 0 76177 0 0 140627133291872 140627138594256 93825019117568 140726984108430 140726984108446 140726984108446 140726984110039 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\324\\201\\345\\351\\172\\347\\177\\154'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 874280,
+      "ppid": "874239",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "874280 (codex) D 874239 874239 874239 0 -1 4194304 1486 0 0 0 0 2 0 0 20 0 1 0 171550922 258478080 3537 18446744073709551615 140209478750208 140209679258102 140732174507584 0 0 0 0 4096 1088 0 0 0 17 1 0 0 49817 0 0 140209724546400 140209729848784 93825023963136 140732174510478 140732174510494 140732174510494 140732174512087 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\326\\130\\040\\340\\366\\326\\234\\270'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 874616,
+      "ppid": "874575",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "874616 (codex) D 874575 874575 874575 0 -1 4194304 1487 0 0 0 0 2 0 0 20 0 1 0 171559335 258478080 3537 18446744073709551615 139848705691648 139848906199542 140728674185424 0 0 0 0 4096 1088 0 0 0 17 1 0 0 60600 0 0 139848951487840 139848956790224 93825007878144 140728674187662 140728674187678 140728674187678 140728674189271 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\330\\067\\247\\252\\301\\243\\020\\244'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 874915,
+      "ppid": "874874",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "874915 (codex) D 874874 874874 874874 0 -1 4194304 1488 0 0 0 0 1 0 0 20 0 1 0 171567612 258478080 3537 18446744073709551615 139969591824384 139969792332278 140725720485488 0 0 0 0 4096 1088 0 0 0 17 0 0 0 45397 0 0 139969837620576 139969842922960 93825005166592 140725720488334 140725720488350 140725720488350 140725720489943 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\020\\077\\317\\163\\016\\002\\274\\243'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 875259,
+      "ppid": "875218",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "875259 (codex) D 875218 875218 875218 0 -1 4194304 1489 0 0 0 0 1 0 0 20 0 1 0 171575961 258478080 3538 18446744073709551615 139795396087808 139795596595702 140730310393856 0 0 0 0 4096 1088 0 0 0 17 0 0 0 46175 0 0 139795641884000 139795647186384 93824998293504 140730310400398 140730310400414 140730310400414 140730310402007 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\064\\164\\223\\070\\367\\307\\205\\115'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 875599,
+      "ppid": "875558",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "875599 (codex) D 875558 875558 875558 0 -1 4194304 1485 0 0 0 0 1 0 0 20 0 1 0 171584422 258478080 3536 18446744073709551615 140343188967424 140343389475318 140726270163472 0 0 0 0 4096 1088 0 0 0 17 0 0 0 52111 0 0 140343434763616 140343440066000 93824997974016 140726270167438 140726270167454 140726270167454 140726270169047 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\262\\216\\322\\002\\255\\310\\163\\246'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 875902,
+      "ppid": "875861",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "875902 (codex) D 875861 875861 875861 0 -1 4194304 1485 0 0 0 0 1 0 0 20 0 1 0 171592778 258478080 3536 18446744073709551615 139817992900608 139818193408502 140721897650208 0 0 0 0 4096 1088 0 0 0 17 1 0 0 45263 0 0 139818238696800 139818243999184 93824999604224 140721897654670 140721897654686 140721897654686 140721897656279 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\211\\375\\056\\047\\063\\343\\127\\260'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 876335,
+      "ppid": "876294",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "876335 (codex) D 876294 876294 876294 0 -1 4194304 1482 0 2 0 0 1 0 0 20 0 1 0 171601047 258478080 3536 18446744073709551615 139971175174144 139971375682038 140732716984896 0 0 0 0 4096 1088 0 0 0 17 1 0 0 45913 0 0 139971420970336 139971426272720 93825014411264 140732716988814 140732716988830 140732716988830 140732716990423 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\366\\230\\054\\173\\243\\336\\201\\153'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 876767,
+      "ppid": "876726",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "876767 (codex) D 876726 876726 876726 0 -1 4194304 1486 0 0 0 0 1 0 0 20 0 1 0 171609271 258478080 3536 18446744073709551615 140674236993536 140674437501430 140724319935344 0 0 0 0 4096 1088 0 0 0 17 0 0 0 17463 0 0 140674482789728 140674488092112 93825018523648 140724319938958 140724319938974 140724319938974 140724319940567 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\051\\002\\117\\236\\111\\037\\045\\072'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 877116,
+      "ppid": "877075",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "877116 (codex) D 877075 877075 877075 0 -1 4194304 1488 0 0 0 0 1 0 0 20 0 1 0 171618049 258478080 3538 18446744073709551615 139848730857472 139848931365366 140733365391952 0 0 0 0 4096 1088 0 0 0 17 1 0 0 17467 0 0 139848976653664 139848981956048 93825011019776 140733365397902 140733365397918 140733365397918 140733365399511 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\155\\167\\243\\267\\310\\023\\206\\203'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 877451,
+      "ppid": "877410",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "877451 (codex) D 877410 877410 877410 0 -1 4194304 1485 0 0 0 0 1 0 0 20 0 1 0 171626209 258478080 3536 18446744073709551615 140576966889472 140577167397366 140726780545040 0 0 0 0 4096 1088 0 0 0 17 0 0 0 17466 0 0 140577212685664 140577217988048 93825024933888 140726780549518 140726780549534 140726780549534 140726780551127 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\362\\332\\155\\267\\176\\254\\267\\032'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 877786,
+      "ppid": "877745",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "877786 (codex) D 877745 877745 877745 0 -1 4194304 1486 0 2 0 0 1 0 0 20 0 1 0 171634516 258478080 3537 18446744073709551615 140455262867456 140455463375350 140730482949600 0 0 0 0 4096 1088 0 0 0 17 0 0 0 16684 0 0 140455508663648 140455513966032 93825019699200 140730482952590 140730482952606 140730482952606 140730482954199 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\340\\062\\223\\227\\163\\356\\365\\177'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 878086,
+      "ppid": "878045",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "878086 (codex) D 878045 878045 878045 0 -1 4194304 1486 0 2 0 0 1 0 0 20 0 1 0 171642839 258478080 3537 18446744073709551615 139728736014336 139728936522230 140721803596400 0 0 0 0 4096 1088 0 0 0 17 0 0 0 16672 0 0 139728981810528 139728987112912 93825025331200 140721803598222 140721803598238 140721803598238 140721803599831 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\150\\377\\031\\001\\140\\221\\145\\316'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 878483,
+      "ppid": "878442",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "878483 (codex) D 878442 878442 878442 0 -1 4194304 1477 0 9 0 0 1 0 0 20 0 1 0 171651180 258478080 3536 18446744073709551615 140442732384256 140442932892150 140734904170880 0 0 0 0 4096 1088 0 0 0 17 0 0 0 16683 0 0 140442978180448 140442983482832 93825018310656 140734904174990 140734904175006 140734904175006 140734904176599 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\011\\074\\134\\250\\163\\122\\067\\106'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 878815,
+      "ppid": "878774",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "878815 (codex) D 878774 878774 878774 0 -1 4194304 1483 0 2 0 0 1 0 0 20 0 1 0 171659651 258478080 3536 18446744073709551615 139869861761024 139870062268918 140733146563856 0 0 0 0 4096 1088 0 0 0 17 0 0 0 16682 0 0 139870107557216 139870112859600 93825024978944 140733146565006 140733146565022 140733146565022 140733146566615 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\040\\035\\034\\245\\124\\164\\246\\305'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 879156,
+      "ppid": "879115",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "879156 (codex) D 879115 879115 879115 0 -1 4194304 1485 0 0 0 0 1 0 0 20 0 1 0 171667947 258478080 3536 18446744073709551615 139834480709632 139834681217526 140724255210448 0 0 0 0 4096 1088 0 0 0 17 0 0 0 11205 0 0 139834726505824 139834731808208 93824998846464 140724255218062 140724255218078 140724255218078 140724255219671 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\276\\016\\302\\144\\304\\153\\345\\075'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 879456,
+      "ppid": "879415",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "879456 (codex) D 879415 879415 879415 0 -1 4194304 1478 0 7 0 0 1 0 0 20 0 1 0 171676274 258478080 3536 18446744073709551615 140105143341056 140105343848950 140733797472864 0 0 0 0 4096 1088 0 0 0 17 0 0 0 11204 0 0 140105389137248 140105394439632 93825009733632 140733797480846 140733797480862 140733797480862 140733797482455 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\041\\334\\004\\325\\223\\143\\371\\020'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 879790,
+      "ppid": "879749",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "879790 (codex) D 879749 879749 879749 0 -1 4194304 1479 0 6 0 0 1 0 0 20 0 1 0 171684637 258478080 3536 18446744073709551615 139904307482624 139904507990518 140733154344256 0 0 0 0 4096 1088 0 0 0 17 0 0 0 11206 0 0 139904553278816 139904558581200 93825022676992 140733154351502 140733154351518 140733154351518 140733154353111 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\331\\160\\021\\013\\007\\104\\146\\200'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 880129,
+      "ppid": "880088",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "880129 (codex) D 880088 880088 880088 0 -1 4194304 1485 0 1 0 0 1 0 0 20 0 1 0 171693285 258478080 3537 18446744073709551615 140023289401344 140023489909238 140728313807536 0 0 0 0 4096 1088 0 0 0 17 0 0 0 11205 0 0 140023535197536 140023540499920 93825014362112 140728313809294 140728313809310 140728313809310 140728313810903 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\051\\104\\356\\355\\213\\177\\302\\116'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 880434,
+      "ppid": "880393",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "880434 (codex) D 880393 880393 880393 0 -1 4194304 1486 0 1 0 0 1 0 0 20 0 1 0 171701369 258478080 3536 18446744073709551615 139904544460800 139904744968694 140724685912080 0 0 0 0 4096 1088 0 0 0 17 0 0 0 9597 0 0 139904790256992 139904795559376 93825003454464 140724685920654 140724685920670 140724685920670 140724685922263 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\320\\345\\155\\075\\377\\315\\242\\133'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 880770,
+      "ppid": "880729",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "880770 (codex) D 880729 880729 880729 0 -1 4194304 1485 0 1 0 0 1 0 0 20 0 1 0 171709871 258478080 3536 18446744073709551615 139957063438336 139957263946230 140726622299088 0 0 0 0 4096 1088 0 0 0 17 0 0 0 9597 0 0 139957309234528 139957314536912 93825006370816 140726622300558 140726622300574 140726622300574 140726622302167 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\162\\314\\164\\231\\213\\273\\051\\103'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 881099,
+      "ppid": "881058",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "881099 (codex) D 881058 881058 881058 0 -1 4194304 1485 0 0 0 0 1 0 0 20 0 1 0 171718146 258478080 3536 18446744073709551615 140075116318720 140075316826614 140727720290816 0 0 0 0 4096 1088 0 0 0 17 0 0 0 9597 0 0 140075362114912 140075367417296 93825003290624 140727720294798 140727720294814 140727720294814 140727720296407 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\217\\323\\064\\175\\350\\043\\026\\315'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 881406,
+      "ppid": "881365",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "881406 (codex) D 881365 881365 881365 0 -1 4194304 1485 0 2 0 0 1 0 0 20 0 1 0 171726632 258478080 3536 18446744073709551615 140090805112832 140091005620726 140725433951632 0 0 0 0 4096 1088 0 0 0 17 0 0 0 9598 0 0 140091050909024 140091056211408 93824998289408 140725433952654 140725433952670 140725433952670 140725433954263 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\132\\000\\022\\000\\130\\057\\141\\222'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 881739,
+      "ppid": "881698",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "881739 (codex) D 881698 881698 881698 0 -1 4194304 1484 0 1 0 0 1 0 0 20 0 1 0 171734913 258478080 3536 18446744073709551615 139817766408192 139817966916086 140733308783104 0 0 0 0 4096 1088 0 0 0 17 1 0 0 8617 0 0 139818012204384 139818017506768 93825018351616 140733308791182 140733308791198 140733308791198 140733308792791 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\053\\240\\341\\115\\347\\006\\305\\264'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 882079,
+      "ppid": "882038",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "882079 (codex) D 882038 882038 882038 0 -1 4194304 1484 0 0 0 0 1 0 0 20 0 1 0 171743274 258478080 3536 18446744073709551615 140560225325056 140560425832950 140733589505888 0 0 0 0 4096 1088 0 0 0 17 0 0 0 8617 0 0 140560471121248 140560476423632 93825001754624 140733589510542 140733589510558 140733589510558 140733589512151 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\146\\242\\154\\010\\062\\324\\226\\121'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 882381,
+      "ppid": "882340",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "882381 (codex) D 882340 882340 882340 0 -1 4194304 1485 0 1 0 0 0 0 0 20 0 1 0 171751657 258478080 3536 18446744073709551615 140360723255296 140360923763190 140732927145280 0 0 0 0 4096 1088 0 0 0 17 0 0 0 8617 0 0 140360969051488 140360974353872 93825025032192 140732927146382 140732927146398 140732927146398 140732927147991 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\135\\225\\104\\157\\175\\033\\150\\042'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 882711,
+      "ppid": "882670",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "882711 (codex) D 882670 882670 882670 0 -1 4194304 1477 0 7 0 0 1 0 0 20 0 1 0 171759929 258478080 3536 18446744073709551615 140202652520448 140202853028342 140725323221008 0 0 0 0 4096 1088 0 0 0 17 0 0 0 8617 0 0 140202898316640 140202903619024 93825003491328 140725323225486 140725323225502 140725323225502 140725323227095 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\347\\266\\026\\306\\235\\013\\315\\064'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 883052,
+      "ppid": "883011",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "883052 (codex) D 883011 883011 883011 0 -1 4194304 1473 0 8 0 0 1 0 0 20 0 1 0 171768396 258478080 3567 18446744073709551615 139824074641408 139824275149302 140736961161488 0 0 0 0 4096 1088 0 0 0 17 1 0 0 5926 0 0 139824320437600 139824325739984 93824994717696 140736961165710 140736961165726 140736961165726 140736961167319 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\234\\045\\277\\314\\265\\254\\201\\275'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 883389,
+      "ppid": "883348",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "883389 (codex) D 883348 883348 883348 0 -1 4194304 1482 0 1 0 0 1 0 0 20 0 1 0 171776831 258478080 3568 18446744073709551615 140385662586880 140385863094774 140736765493984 0 0 0 0 4096 1088 0 0 0 17 0 0 0 5926 0 0 140385908383072 140385913685456 93825000345600 140736765495694 140736765495710 140736765495710 140736765497303 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\004\\111\\216\\117\\200\\342\\057\\324'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 883699,
+      "ppid": "883658",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "883699 (codex) D 883658 883658 883658 0 -1 4194304 1483 0 1 0 0 0 0 0 20 0 1 0 171785045 258478080 3568 18446744073709551615 139897741299712 139897941807606 140732540482496 0 0 0 0 4096 1088 0 0 0 17 0 0 0 5927 0 0 139897987095904 139897992398288 93825024196608 140732540488078 140732540488094 140732540488094 140732540489687 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\111\\302\\302\\060\\324\\273\\027\\161'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 884033,
+      "ppid": "883992",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "884033 (codex) D 883992 883992 883992 0 -1 4194304 1481 0 3 0 0 0 0 0 20 0 1 0 171793444 258478080 3567 18446744073709551615 140041673035776 140041873543670 140730800256976 0 0 0 0 4096 1088 0 0 0 17 0 0 0 5927 0 0 140041918831968 140041924134352 93825021640704 140730800261518 140730800261534 140730800261534 140730800263127 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\013\\165\\244\\071\\173\\157\\376\\263'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 884369,
+      "ppid": "884328",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "884369 (codex) D 884328 884328 884328 0 -1 4194304 1477 0 7 0 0 0 0 0 20 0 1 0 171801973 258478080 3567 18446744073709551615 139878160191488 139878360699382 140730500627648 0 0 0 0 4096 1088 0 0 0 17 0 0 0 5926 0 0 139878405987680 139878411290064 93824992444416 140730500635022 140730500635038 140730500635038 140730500636631 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\166\\100\\363\\122\\127\\273\\211\\214'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 884668,
+      "ppid": "884627",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "884668 (codex) R 884627 884627 884627 0 -1 1078198272 1484 0 1 0 0 0 0 0 20 0 1 0 171810199 258469888 3568 18446744073709551615 139780535668736 139780736176630 140724455350256 0 0 0 0 4096 1088 0 0 0 17 1 0 0 0 0 0 139780781464928 139780786767312 93825012862976 140724455352718 140724455352734 140724455352734 140724455354327 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\145\\216\\101\\031\\033\\215\\366\\023'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 885004,
+      "ppid": "884963",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "885004 (codex) D 884963 884963 884963 0 -1 4194304 1480 0 1 0 0 0 0 0 20 0 1 0 171818721 258469888 3597 18446744073709551615 140216615358464 140216815866358 140733073848256 0 0 0 0 4096 1088 0 0 0 17 1 0 0 0 0 0 140216861154656 140216866457040 93825011994624 140733073852814 140733073852830 140733073852830 140733073854423 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\311\\176\\162\\245\\125\\203\\342\\232'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 885347,
+      "ppid": "885306",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "885347 (codex) D 885306 885306 885306 0 -1 4194304 1470 0 12 0 0 0 0 0 20 0 1 0 171827166 258469888 3612 18446744073709551615 140040114851840 140040315359734 140735221822880 0 0 0 0 4096 1088 0 0 0 17 1 0 0 0 0 0 140040360648032 140040365950416 93825017405440 140735221823886 140735221823902 140735221823902 140735221825495 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\157\\141\\366\\246\\336\\036\\210\\076'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    },
+    {
+      "pid": 885685,
+      "ppid": "885644",
+      "args": [
+        "codex",
+        "--version"
+      ],
+      "exe": "/home/david_cwq/.codex/packages/standalone/releases/0.149.1-x86_64-unknown-linux-musl/bin/codex",
+      "cwd": "/home/david_cwq",
+      "stat": "885685 (codex) D 885644 885644 885644 0 -1 4194304 1471 0 12 0 0 0 0 0 20 0 1 0 171835493 258469888 3630 18446744073709551615 139818703835136 139818904343030 140722653626512 0 0 0 0 4096 1088 0 0 0 17 0 0 0 0 0 0 139818949631328 139818954933712 93825016164352 140722653628814 140722653628830 140722653628830 140722653630423 0\n",
+      "parent_args": "/bin/sh -c printf '%b' '\\051\\115\\330\\374\\030\\217\\062\\210'; PATH=\"${CODEX_INSTALL_DIR:-$HOME/.local/bin}:$PATH\"; export PATH; codex --version ",
+      "action": "one bounded SIGTERM to exact known Codex reconnect residue; not claimed reaped"
+    }
+  ],
+  "scheduler": "PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST\nh20*         up   infinite      1    mix vllm-h20-02\nh20*         up   infinite      1   idle vllm-h20-01\n",
+  "jobs": "             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)\n              3445       h20 ai-candi david_cw  R    1:59:35      1 vllm-h20-02\n              3444       h20 ai-candi david_cw  R    1:59:40      1 vllm-h20-02\n              3443       h20 ai-candi david_cw  R    2:02:40      1 vllm-h20-02\n",
+  "memory": "              total        used        free      shared  buff/cache   available\nMem:           3563        1645        1920           1         414        1918\nSwap:          4095         320        3775\n",
+  "load": " 19:11:46 up 19 days, 21:20,  4 users,  load average: 112.55, 109.73, 102.18\n",
+  "storage": "Filesystem                Size  Used Avail Use% Mounted on\nvllm-h20-01:/cpfs01/home   10T  5.2T  4.9T  52% /home\n"
+}

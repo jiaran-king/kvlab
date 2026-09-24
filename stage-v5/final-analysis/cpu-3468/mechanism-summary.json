@@ -1,0 +1,631 @@
+{
+  "counts": {
+    "net_adopted_gain": 1313280,
+    "zero": 384,
+    "positive": 41,
+    "positive_full_predecessor": 41,
+    "group0_only_return_difference": 36
+  },
+  "additional_group_contraction_examples": [
+    {
+      "source_key": "r00000241-97576803a5c4cdd0",
+      "delta_A": 22784,
+      "F12": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 23996,
+          "returned": 256
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 0
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        }
+      ],
+      "F24": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 23996,
+          "returned": 22784
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 22784,
+          "returned": 22784
+        }
+      ]
+    },
+    {
+      "source_key": "r00000244-34c796a727dc8f87",
+      "delta_A": 23808,
+      "F12": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 24134,
+          "returned": 256
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 0
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        }
+      ],
+      "F24": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 24134,
+          "returned": 23808
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 23808,
+          "returned": 23808
+        }
+      ]
+    },
+    {
+      "source_key": "r00000183-d01c855532666b44",
+      "delta_A": 41472,
+      "F12": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 41868,
+          "returned": 41472
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 41472,
+          "returned": 0
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        }
+      ],
+      "F24": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 41868,
+          "returned": 41472
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 41472,
+          "returned": 41472
+        }
+      ]
+    },
+    {
+      "source_key": "r00000126-ed030dbd74468d67",
+      "delta_A": 256,
+      "F12": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 37260,
+          "returned": 256
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 0
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        }
+      ],
+      "F24": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 37260,
+          "returned": 256
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 256
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 256,
+          "returned": 256
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 256,
+          "returned": 256
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 256
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 256,
+          "returned": 256
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 256,
+          "returned": 256
+        }
+      ]
+    },
+    {
+      "source_key": "r00000416-b7e350388e4ac24f",
+      "delta_A": 48640,
+      "F12": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 49565,
+          "returned": 256
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 256,
+          "returned": 0
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 0,
+          "returned": 0
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 0,
+          "returned": 0
+        }
+      ],
+      "F24": [
+        {
+          "call": 1,
+          "groups": [
+            0
+          ],
+          "candidate": 49565,
+          "returned": 48640
+        },
+        {
+          "call": 2,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        },
+        {
+          "call": 3,
+          "groups": [
+            3
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        },
+        {
+          "call": 4,
+          "groups": [
+            4
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        },
+        {
+          "call": 5,
+          "groups": [
+            1,
+            2
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        },
+        {
+          "call": 6,
+          "groups": [
+            3
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        },
+        {
+          "call": 7,
+          "groups": [
+            4
+          ],
+          "candidate": 48640,
+          "returned": 48640
+        }
+      ]
+    }
+  ]
+}

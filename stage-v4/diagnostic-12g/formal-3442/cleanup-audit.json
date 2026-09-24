@@ -1,0 +1,22 @@
+{
+  "P_remaining": [],
+  "D_remaining": [],
+  "controller_remaining": [],
+  "tracked_pids_remaining": [],
+  "owned_gpu_applications": [],
+  "owned_listeners_remaining": [],
+  "owned_shm_remaining": [],
+  "ipc_unchanged": true,
+  "scheduler_completed_zero": false,
+  "resource_cleanup_passed": true,
+  "host_health_requires_review": [
+    "memory-before.txt",
+    "memory-after.txt",
+    "load-before.txt",
+    "load-after.txt",
+    "storage-before.txt",
+    "storage-after.txt",
+    "processes-before.txt",
+    "processes-after.txt"
+  ]
+}

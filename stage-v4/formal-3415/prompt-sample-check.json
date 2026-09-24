@@ -1,0 +1,85 @@
+{
+  "samples": 12,
+  "sessions": 6,
+  "pairs": [
+    {
+      "session_id": "489696e4-57f1-5051-b73f-a8f26f14c576",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "d7016596-1529-5ebf-af14-7081ae197330",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "693ea535-3660-5757-a79d-f72998e3519c",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "25f6d533-6485-5127-9744-b06368a40d8b",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "ea44b20b-d67c-5e4c-8e8a-8583aa0b358f",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    },
+    {
+      "session_id": "f9fba6ff-0066-5b12-a827-a81c75767e3b",
+      "sample_actors": [
+        "lead",
+        "lead"
+      ],
+      "same_actor": true,
+      "direct_context_link": true,
+      "first_message_count": 1,
+      "shared_leading_messages": 1,
+      "system_equal": true,
+      "tools_equal": true
+    }
+  ],
+  "limitation": "Actual dispatched message-structure sample; preflight token-prefix check separately uses declared placeholder response."
+}
